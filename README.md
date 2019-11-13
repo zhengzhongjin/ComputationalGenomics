@@ -8,7 +8,7 @@ The ip address in PSI is hard-coded in PSI/src/mains/psi_demo.cpp . We need to c
 
 So we need to fix the missing files first.
 
-2. git clone https://github.com/encryptogroup/PSI
+2. git --recursive clone https://github.com/encryptogroup/PSI
 
 cd to the PSI project folder, and rollback to the old version of PSI (at 2015)
 
