@@ -1,0 +1,1 @@
+bash ./script.sh test/1.conf test/1.result
