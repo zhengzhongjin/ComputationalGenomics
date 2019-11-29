@@ -6,7 +6,7 @@
 package KBanded;
 
 import static Accuracy.OriginalEditdistance.sortByValue;
-import static KBanded.KbandedAlignment.kbandSize;
+//import static KBanded.KbandedAlignment.kbandSize;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -28,6 +28,7 @@ public class KbandedAfterPSI {
      * @param args the command line arguments
      */
     static int t = 500;
+    static int kbandSize = 10;
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
         int index = 0, indexQ = 0;

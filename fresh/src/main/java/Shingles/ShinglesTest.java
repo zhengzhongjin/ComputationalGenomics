@@ -49,7 +49,7 @@ public class ShinglesTest {
      * @param args the command line arguments
      */
 //    public final static int stringSize = 2000;
-    public final static int gramSize = 10;
+    public static int gramSize = 10;
 
     public static List<String> makeNGrams(String input) {
         List<String> ret = new ArrayList<String>();
@@ -78,9 +78,16 @@ public class ShinglesTest {
         return res;
     }
 
+    //
+    // args[0] : db file
+    // args[1] : query file
+    // args[2] : gram size
+    // args[3] : output file
+    //
     public static void main(String[] args) throws FileNotFoundException, IOException {
+        gramSize = Integer.parseInt(args[2]);
         System.out.println("gram size "+gramSize);
-        File fl = new File("syntheticDB.fa");//syntheticDB
+        File fl = new File(args[0]);//syntheticDB
         Scanner sc = new Scanner(fl);
         int index = 0;
 //        Map<Integer, String> data = new HashMap<>();
@@ -119,8 +126,8 @@ public class ShinglesTest {
         }
         //sc.close();
         System.out.println("data shingles size " + shingleMap.size());
-        writeShingles(shingleMap, "shingles//dataShingles_" +  gramSize + ".txt");
-        fl = new File("query_500.fa");
+        writeShingles(shingleMap, "dataShingles_" +  gramSize + ".txt");
+        fl = new File(args[1]);
         sc = new Scanner(fl);
         String query = "";
         List<String> queryShingles = new ArrayList<>();
@@ -170,9 +177,10 @@ public class ShinglesTest {
                 }
                 scores = sortByValueRev(scores);
                 int ind = 0, tmp = 99999;
-                new File("query_results\\" + gramSize+"_1" ).mkdir();
-                System.out.println("writen query_results\\" + gramSize  + "_1\\" + index + ".txt");
-                PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("query_results\\" + gramSize  + "_1\\results_" + index + ".txt", false)));
+                //new File("query_results\\" + gramSize+"_1" ).mkdir();
+                //System.out.println("writen query_results\\" + gramSize  + "_1\\" + index + ".txt");
+                System.out.println("writen " + args[3]);
+                PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(args[3], false)));
 
                 for (Map.Entry<Integer, Integer> entrySet : scores.entrySet()) {
                     if (tmp != entrySet.getValue()) {
@@ -185,8 +193,8 @@ public class ShinglesTest {
                 }
                 pw.flush();
                 pw.close();
-                if(index==5550) break;
-                index = 0;
+                //if(index==5550) break;
+                //index = 0;
                //s break;
             }
         }

@@ -92,6 +92,7 @@ public class EditDistance {
                 costs[j] = cj;
             }
         }
+        System.out.println(a.length() + " " + b.length() + " " + kband + " " + costs[b.length()]);
         return costs[b.length()];
     }
 

@@ -51,39 +51,26 @@ public class ErrorCalcStat {
     }
     final static NumberFormat formatter = new DecimalFormat("#0.000");
 
+    //
+    // args[0] : approx rank file
+    //
     public static void main(String[] args) throws FileNotFoundException {
         Map<Integer, StatMeasures> TPR = new TreeMap<>();
-        TPR.put(1, new StatMeasures());
-        TPR.put(5, new StatMeasures());
-        TPR.put(10, new StatMeasures());
-        TPR.put(15, new StatMeasures());
-        TPR.put(20, new StatMeasures());
-        TPR.put(25, new StatMeasures());
-        TPR.put(30, new StatMeasures());
-        TPR.put(35, new StatMeasures());
-        TPR.put(40, new StatMeasures());
+        int[] k_value = {1, 5, 10, 15, 20, 25};
 
-//        Map<Integer, Double> errorMapFalse = new TreeMap<>();
-//        errorMapFalse.put(1, 0.0);
-//        errorMapFalse.put(5, 0.0);
-//        errorMapFalse.put(10, 0.0);
-//        errorMapFalse.put(15, 0.0);
-//        errorMapFalse.put(20, 0.0);
-//        errorMapFalse.put(25, 0.0);
-//        errorMapFalse.put(30, 0.0);
-//        errorMapFalse.put(35, 0.0);
-//        errorMapFalse.put(40, 0.0);
-        int totalQueries = 1, datasetsize = 500;
-        for (int t = 82; t < 82+ totalQueries; t++) {
+        for (int i = 0;i < k_value.length;i++) {
+            TPR.put(k_value[i], new StatMeasures());
+        }
 
+        int totalQueries = 10, datasetsize = 40;
+        for (int t = 0; t < totalQueries; t++) {
             Map<Integer, List<Integer>> originalRank = getranks(
-                    new File("query_results\\original_results\\" + (t < 10 ? "0" + t : t) + ".txt"));//" + (t < 10 ? "0" + t : t) + "
+                    new File("original_results_" + t));
 
-            Map<Integer, List<Integer>> approxRank = getranks(new File("query_results\\kbanded_joined_20\\" + (t < 10 ? "0" + t : t) + ".txt"));//" + (t < 10 ? "0" + t : t) + "
-//            System.out.println("T " + t);
-//            System.out.println("Top K\t Error Percentage");
-            //try {
-            for (int i = 1; i <= 40; i += 5) {
+            Map<Integer, List<Integer>> approxRank = getranks(new File(args[0] + "_" + t));
+
+            for (int iter_k = 0; iter_k < k_value.length; iter_k++) {
+                int i = k_value[iter_k];
                 int error = 0;
                 int true_positives = 0, true_negetives = 0, false_positives = 0, false_negetives = 0, totalPostitives = 0;
                 List<Integer> approxRanks = new ArrayList<>();
@@ -96,6 +83,7 @@ public class ErrorCalcStat {
                     }
                     approxRanks = union(approxRank.get(j), approxRanks);
                 }
+                //System.out.println("len = " + originalRank.size() + " i = " + i);
                 for (int j = 1; j <= i; j++) {
                     originalRanks = union(originalRanks, originalRank.get(j));
                 }
@@ -127,52 +115,7 @@ public class ErrorCalcStat {
                 statMeasuresOld.TPR += statMeasures.TPR;
 
                 TPR.put(i, statMeasuresOld);
-
-                //            System.out.println("sum " + (int) (true_negetives + true_positives + false_negetives + false_positives));
-                //            System.out.print("acc " + (double) ((int) (true_positives + true_negetives) / ((int) true_negetives + true_positives + false_negetives + false_positives)));
-                //            System.out.println(", TPR " + (double) true_positives / totalPostitives);
-                //                    if (res != null) {
-                //                        boolean found = false;
-                //                        for (Integer approx_item : res) {
-                //                            List<Integer> originalrank_in_k = new ArrayList<>();
-                //                            for (int k = 1; k <= i; k++) {
-                //                                for (int i1 : originalRank.get(k)) {
-                //                                    originalrank_in_k.add(i1);
-                //                                }
-                //
-                //                                if (originalRank.get(k).contains(approx_item)) {
-                //                                    found = true;
-                //                                    break;
-                //                                }
-                //                            }
-                //
-                //                            if (!originalrank_in_k.contains(approx_item) && j == i) {
-                //                                false_positives++;
-                //                            }
-                //                        }
-                //                        if (!found) {
-                //                            error++;
-                //                        }
-                //                    }
-                //                }
-                //                for (int j = 1; j <= i; j++) {
-                //                    if (originalRank.containsKey(j)) {
-                //                        totalPostitives += originalRank.get(j).size();
-                //                    }
-                //                }
-                //            TPR.put(i, TPR.get(i) + ((double) error / totalPostitives));
-                ////                errorMap.put(i, errorMap.get(i) + ((double) error));
-                //            errorMapFalse.put(i, errorMapFalse.get(i) + ((double) false_positives / (false_positives + 3000 - totalPostitives)));
-                    /*if (i == 1 && error == 0) {
-                 System.out.println(i + "\t" + formatter.format((double) error / i) + "\t" + formatter.format((double) false_positives / total) + "\t" + t);
-                 }*/
-                if (i == 1) {
-                    i = 0;
-                }
             }
-            /*} catch (Exception ex) {
-             System.out.println(ex.getMessage());
-             }*/
         }
         System.out.println("Top-K\tAcc \t MCC \t F1 \t Preci \t TPR \t TNR \t FPR");
         for (Map.Entry<Integer, StatMeasures> entrySet : TPR.entrySet()) {

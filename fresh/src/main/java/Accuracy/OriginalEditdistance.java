@@ -42,7 +42,7 @@ public class OriginalEditdistance {
         sc2.nextLine();
         String query = sc2.nextLine();
         sc2.close();
-        System.out.println("querylength " + query.length() + ", calculating top-" + args[2] + " results");
+        //System.out.println("querylength " + query.length() + ", calculating top-" + args[2] + " results");
         int rand = ThreadLocalRandom.current().nextInt(0, query.length());
         while (sc.hasNext()) {
             String next = sc.nextLine();
@@ -77,13 +77,14 @@ public class OriginalEditdistance {
                 break;
             }
 //            System.out.println("dist " + entrySet.getValue() + " index " + entrySet.getKey() + " ind " + ind);//+" refdist "+refDistanceMap.get(entrySet.getKey())+
-            System.out.println(ind + ":" + entrySet.getKey() + " cost " + entrySet.getValue());
+            //System.out.println(ind + ":" + entrySet.getKey() + " cost " + entrySet.getValue());
             pw.println(ind + ":" + entrySet.getKey());
             tmp = entrySet.getValue();
+            //System.out.println("tmp Value = " + tmp);
         }
         pw.flush();
         pw.close();
-        System.out.println("original_results has the real edit distance results.");
+        //System.out.println("original_results has the real edit distance results.");
     }
 
     public static <K, V extends Comparable<? super V>> Map<K, V>

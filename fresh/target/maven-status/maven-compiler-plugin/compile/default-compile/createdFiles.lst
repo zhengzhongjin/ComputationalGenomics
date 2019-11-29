@@ -16,6 +16,7 @@ Shingles/ShinglesTest$1.class
 cs/umanitoba/idash2/server/ServerDataOwner.class
 Shingles/SpaceTest.class
 oram/TrivialPrivateOram.class
+util/Split.class
 oram/PlainBlock.class
 gc/halfANDs/GCEva.class
 flexsc/Comparator.class
@@ -46,6 +47,7 @@ util/WorkerListenerEvaluator.class
 rand/ISAACEngine.class
 cs/umanitoba/idashtask2/DataOwner.class
 cs/umanitoba/idashtask2/Researcher$1.class
+util/Merge.class
 oram/CircuitOramLib.class
 gc/offline/TestGarbler.class
 gc/GCCompEnv.class

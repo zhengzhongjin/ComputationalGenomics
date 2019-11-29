@@ -41,6 +41,7 @@
 /home/hector/ComputationalGenomics/fresh/src/main/java/ot/Cipher.java
 /home/hector/ComputationalGenomics/fresh/src/main/java/cs/umanitoba/idashtask2/PSI/ResearcherPSI.java
 /home/hector/ComputationalGenomics/fresh/src/main/java/circuits/arithmetic/FloatLib.java
+/home/hector/ComputationalGenomics/fresh/src/main/java/util/Merge.java
 /home/hector/ComputationalGenomics/fresh/src/main/java/util/WorkerListenerEvaluator.java
 /home/hector/ComputationalGenomics/fresh/src/main/java/circuits/arithmetic/DenseMatrixLib.java
 /home/hector/ComputationalGenomics/fresh/src/main/java/Accuracy/ErrorCalcStat.java
@@ -51,6 +52,7 @@
 /home/hector/ComputationalGenomics/fresh/src/main/java/util/EvaRunnable.java
 /home/hector/ComputationalGenomics/fresh/src/main/java/ot/OTPreprocessReceiver.java
 /home/hector/ComputationalGenomics/fresh/src/main/java/util/Constants.java
+/home/hector/ComputationalGenomics/fresh/src/main/java/util/Split.java
 /home/hector/ComputationalGenomics/fresh/src/main/java/KBanded/KbandedAlignment.java
 /home/hector/ComputationalGenomics/fresh/src/main/java/flexsc/Party.java
 /home/hector/ComputationalGenomics/fresh/src/main/java/cs/umanitoba/idashtask2/DataOwner.java
