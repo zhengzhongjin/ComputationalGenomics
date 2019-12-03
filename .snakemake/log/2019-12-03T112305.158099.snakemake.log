@@ -1,0 +1,41 @@
+Building DAG of jobs...
+Using shell: /usr/local/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	targets
+	2	test
+	3
+
+[Tue Dec  3 11:23:05 2019]
+rule test:
+    input: test/2.conf
+    output: test/2.result
+    jobid: 2
+    wildcards: param=2
+
+[Tue Dec  3 11:23:20 2019]
+Finished job 2.
+1 of 3 steps (33%) done
+
+[Tue Dec  3 11:23:20 2019]
+rule test:
+    input: test/1.conf
+    output: test/1.result
+    jobid: 1
+    wildcards: param=1
+
+[Tue Dec  3 11:23:35 2019]
+Finished job 1.
+2 of 3 steps (67%) done
+
+[Tue Dec  3 11:23:35 2019]
+localrule targets:
+    input: test/1.result, test/2.result
+    jobid: 0
+
+[Tue Dec  3 11:23:35 2019]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: /home/zzjin/ComputationalGenomics/.snakemake/log/2019-12-03T112305.158099.snakemake.log
