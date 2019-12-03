@@ -1,0 +1,131 @@
+Building DAG of jobs...
+Using shell: /usr/local/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	targets
+	657	test
+	658
+
+[Tue Dec  3 17:04:17 2019]
+rule test:
+    input: test/shingles_16_10.params
+    output: test/shingles_16_10.result
+    jobid: 594
+    wildcards: param=shingles_16_10
+
+
+[Tue Dec  3 17:04:17 2019]
+rule test:
+    input: test/kbanded_18_11.params
+    output: test/kbanded_18_11.result
+    jobid: 266
+    wildcards: param=kbanded_18_11
+
+[Tue Dec  3 17:04:32 2019]
+Finished job 594.
+1 of 658 steps (0.15%) done
+
+[Tue Dec  3 17:04:32 2019]
+rule test:
+    input: test/kbanded_16_14.params
+    output: test/kbanded_16_14.result
+    jobid: 239
+    wildcards: param=kbanded_16_14
+
+[Tue Dec  3 17:04:33 2019]
+Finished job 266.
+2 of 658 steps (0.30%) done
+
+[Tue Dec  3 17:04:33 2019]
+rule test:
+    input: test/kbanded_17_14.params
+    output: test/kbanded_17_14.result
+    jobid: 254
+    wildcards: param=kbanded_17_14
+
+[Tue Dec  3 17:04:48 2019]
+Finished job 239.
+3 of 658 steps (0.46%) done
+
+[Tue Dec  3 17:04:48 2019]
+rule test:
+    input: test/shingles_16_11.params
+    output: test/shingles_16_11.result
+    jobid: 595
+    wildcards: param=shingles_16_11
+
+[Tue Dec  3 17:04:48 2019]
+Finished job 254.
+4 of 658 steps (0.61%) done
+
+[Tue Dec  3 17:04:48 2019]
+rule test:
+    input: test/shingles_10_11.params
+    output: test/shingles_10_11.result
+    jobid: 481
+    wildcards: param=shingles_10_11
+
+[Tue Dec  3 17:05:04 2019]
+Finished job 595.
+5 of 658 steps (0.76%) done
+
+[Tue Dec  3 17:05:04 2019]
+rule test:
+    input: test/shingles_20_11.params
+    output: test/shingles_20_11.result
+    jobid: 671
+    wildcards: param=shingles_20_11
+
+[Tue Dec  3 17:05:04 2019]
+Finished job 481.
+6 of 658 steps (0.91%) done
+
+[Tue Dec  3 17:05:04 2019]
+rule test:
+    input: test/shingles_18_12.params
+    output: test/shingles_18_12.result
+    jobid: 634
+    wildcards: param=shingles_18_12
+
+[Tue Dec  3 17:05:19 2019]
+Finished job 671.
+7 of 658 steps (1%) done
+
+[Tue Dec  3 17:05:19 2019]
+rule test:
+    input: test/kbanded_15_12.params
+    output: test/kbanded_15_12.result
+    jobid: 222
+    wildcards: param=kbanded_15_12
+
+[Tue Dec  3 17:05:19 2019]
+Finished job 634.
+8 of 658 steps (1%) done
+
+[Tue Dec  3 17:05:19 2019]
+rule test:
+    input: test/kbanded_10_14.params
+    output: test/kbanded_10_14.result
+    jobid: 149
+    wildcards: param=kbanded_10_14
+
+Terminating processes on user request, this might take some time.
+[Tue Dec  3 17:05:26 2019]
+Error in rule test:
+    jobid: 222
+    output: test/kbanded_15_12.result
+    shell:
+        bash ./script.sh test/kbanded_15_12.params test/kbanded_15_12.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Dec  3 17:05:26 2019]
+Error in rule test:
+    jobid: 149
+    output: test/kbanded_10_14.result
+    shell:
+        bash ./script.sh test/kbanded_10_14.params test/kbanded_10_14.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: /users/zzjin/course_project/ComputationalGenomics/.snakemake/log/2019-12-03T170415.877441.snakemake.log

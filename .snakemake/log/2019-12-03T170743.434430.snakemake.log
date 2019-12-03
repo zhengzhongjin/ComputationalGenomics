@@ -1,0 +1,921 @@
+Building DAG of jobs...
+Using shell: /usr/local/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	targets
+	649	test
+	650
+
+[Tue Dec  3 17:07:44 2019]
+rule test:
+    input: test/shingles_13_16.params
+    output: test/shingles_13_16.result
+    jobid: 543
+    wildcards: param=shingles_13_16
+
+
+[Tue Dec  3 17:07:44 2019]
+rule test:
+    input: test/shingles_14_19.params
+    output: test/shingles_14_19.result
+    jobid: 565
+    wildcards: param=shingles_14_19
+
+
+[Tue Dec  3 17:07:44 2019]
+rule test:
+    input: test/shingles_16_13.params
+    output: test/shingles_16_13.result
+    jobid: 597
+    wildcards: param=shingles_16_13
+
+
+[Tue Dec  3 17:07:44 2019]
+rule test:
+    input: test/shingles_15_12.params
+    output: test/shingles_15_12.result
+    jobid: 577
+    wildcards: param=shingles_15_12
+
+
+[Tue Dec  3 17:07:44 2019]
+rule test:
+    input: test/shingles_12_13.params
+    output: test/shingles_12_13.result
+    jobid: 521
+    wildcards: param=shingles_12_13
+
+
+[Tue Dec  3 17:07:44 2019]
+rule test:
+    input: test/shingles_10_16.params
+    output: test/shingles_10_16.result
+    jobid: 486
+    wildcards: param=shingles_10_16
+
+
+[Tue Dec  3 17:07:45 2019]
+rule test:
+    input: test/kbanded_20_12.params
+    output: test/kbanded_20_12.result
+    jobid: 297
+    wildcards: param=kbanded_20_12
+
+
+[Tue Dec  3 17:07:45 2019]
+rule test:
+    input: test/shingles_10_19.params
+    output: test/shingles_10_19.result
+    jobid: 489
+    wildcards: param=shingles_10_19
+
+
+[Tue Dec  3 17:07:45 2019]
+rule test:
+    input: test/shingles_15_14.params
+    output: test/shingles_15_14.result
+    jobid: 579
+    wildcards: param=shingles_15_14
+
+
+[Tue Dec  3 17:07:45 2019]
+rule test:
+    input: test/shingles_11_13.params
+    output: test/shingles_11_13.result
+    jobid: 502
+    wildcards: param=shingles_11_13
+
+
+[Tue Dec  3 17:07:45 2019]
+rule test:
+    input: test/kbanded_16_13.params
+    output: test/kbanded_16_13.result
+    jobid: 238
+    wildcards: param=kbanded_16_13
+
+
+[Tue Dec  3 17:07:45 2019]
+rule test:
+    input: test/kbanded_20_10.params
+    output: test/kbanded_20_10.result
+    jobid: 295
+    wildcards: param=kbanded_20_10
+
+
+[Tue Dec  3 17:07:45 2019]
+rule test:
+    input: test/shingles_15_17.params
+    output: test/shingles_15_17.result
+    jobid: 582
+    wildcards: param=shingles_15_17
+
+
+[Tue Dec  3 17:07:45 2019]
+rule test:
+    input: test/kbanded_16_11.params
+    output: test/kbanded_16_11.result
+    jobid: 236
+    wildcards: param=kbanded_16_11
+
+
+[Tue Dec  3 17:07:45 2019]
+rule test:
+    input: test/shingles_18_14.params
+    output: test/shingles_18_14.result
+    jobid: 636
+    wildcards: param=shingles_18_14
+
+
+[Tue Dec  3 17:07:46 2019]
+rule test:
+    input: test/shingles_18_16.params
+    output: test/shingles_18_16.result
+    jobid: 638
+    wildcards: param=shingles_18_16
+
+
+[Tue Dec  3 17:07:46 2019]
+rule test:
+    input: test/shingles_13_20.params
+    output: test/shingles_13_20.result
+    jobid: 547
+    wildcards: param=shingles_13_20
+
+
+[Tue Dec  3 17:07:46 2019]
+rule test:
+    input: test/shingles_13_19.params
+    output: test/shingles_13_19.result
+    jobid: 546
+    wildcards: param=shingles_13_19
+
+
+[Tue Dec  3 17:07:46 2019]
+rule test:
+    input: test/shingles_13_18.params
+    output: test/shingles_13_18.result
+    jobid: 545
+    wildcards: param=shingles_13_18
+
+
+[Tue Dec  3 17:07:46 2019]
+rule test:
+    input: test/shingles_20_10.params
+    output: test/shingles_20_10.result
+    jobid: 670
+    wildcards: param=shingles_20_10
+
+
+[Tue Dec  3 17:07:46 2019]
+rule test:
+    input: test/shingles_15_16.params
+    output: test/shingles_15_16.result
+    jobid: 581
+    wildcards: param=shingles_15_16
+
+
+[Tue Dec  3 17:07:46 2019]
+rule test:
+    input: test/kbanded_11_13.params
+    output: test/kbanded_11_13.result
+    jobid: 163
+    wildcards: param=kbanded_11_13
+
+
+[Tue Dec  3 17:07:46 2019]
+rule test:
+    input: test/shingles_12_12.params
+    output: test/shingles_12_12.result
+    jobid: 520
+    wildcards: param=shingles_12_12
+
+
+[Tue Dec  3 17:07:47 2019]
+rule test:
+    input: test/shingles_14_17.params
+    output: test/shingles_14_17.result
+    jobid: 563
+    wildcards: param=shingles_14_17
+
+
+[Tue Dec  3 17:07:47 2019]
+rule test:
+    input: test/shingles_18_20.params
+    output: test/shingles_18_20.result
+    jobid: 642
+    wildcards: param=shingles_18_20
+
+
+[Tue Dec  3 17:07:47 2019]
+rule test:
+    input: test/shingles_14_20.params
+    output: test/shingles_14_20.result
+    jobid: 566
+    wildcards: param=shingles_14_20
+
+
+[Tue Dec  3 17:07:47 2019]
+rule test:
+    input: test/shingles_14_11.params
+    output: test/shingles_14_11.result
+    jobid: 557
+    wildcards: param=shingles_14_11
+
+
+[Tue Dec  3 17:07:47 2019]
+rule test:
+    input: test/shingles_18_10.params
+    output: test/shingles_18_10.result
+    jobid: 632
+    wildcards: param=shingles_18_10
+
+
+[Tue Dec  3 17:07:47 2019]
+rule test:
+    input: test/kbanded_13_10.params
+    output: test/kbanded_13_10.result
+    jobid: 190
+    wildcards: param=kbanded_13_10
+
+
+[Tue Dec  3 17:07:47 2019]
+rule test:
+    input: test/shingles_16_18.params
+    output: test/shingles_16_18.result
+    jobid: 602
+    wildcards: param=shingles_16_18
+
+
+[Tue Dec  3 17:07:47 2019]
+rule test:
+    input: test/shingles_19_13.params
+    output: test/shingles_19_13.result
+    jobid: 654
+    wildcards: param=shingles_19_13
+
+
+[Tue Dec  3 17:07:47 2019]
+rule test:
+    input: test/shingles_17_20.params
+    output: test/shingles_17_20.result
+    jobid: 623
+    wildcards: param=shingles_17_20
+
+
+[Tue Dec  3 17:07:48 2019]
+rule test:
+    input: test/shingles_16_17.params
+    output: test/shingles_16_17.result
+    jobid: 601
+    wildcards: param=shingles_16_17
+
+
+[Tue Dec  3 17:07:48 2019]
+rule test:
+    input: test/kbanded_17_15.params
+    output: test/kbanded_17_15.result
+    jobid: 255
+    wildcards: param=kbanded_17_15
+
+
+[Tue Dec  3 17:07:48 2019]
+rule test:
+    input: test/shingles_15_18.params
+    output: test/shingles_15_18.result
+    jobid: 583
+    wildcards: param=shingles_15_18
+
+
+[Tue Dec  3 17:07:48 2019]
+rule test:
+    input: test/kbanded_10_14.params
+    output: test/kbanded_10_14.result
+    jobid: 149
+    wildcards: param=kbanded_10_14
+
+
+[Tue Dec  3 17:07:48 2019]
+rule test:
+    input: test/shingles_12_20.params
+    output: test/shingles_12_20.result
+    jobid: 528
+    wildcards: param=shingles_12_20
+
+
+[Tue Dec  3 17:07:48 2019]
+rule test:
+    input: test/kbanded_13_11.params
+    output: test/kbanded_13_11.result
+    jobid: 191
+    wildcards: param=kbanded_13_11
+
+
+[Tue Dec  3 17:07:48 2019]
+rule test:
+    input: test/kbanded_16_15.params
+    output: test/kbanded_16_15.result
+    jobid: 240
+    wildcards: param=kbanded_16_15
+
+
+[Tue Dec  3 17:07:48 2019]
+rule test:
+    input: test/shingles_12_16.params
+    output: test/shingles_12_16.result
+    jobid: 524
+    wildcards: param=shingles_12_16
+
+
+[Tue Dec  3 17:07:48 2019]
+rule test:
+    input: test/shingles_18_18.params
+    output: test/shingles_18_18.result
+    jobid: 640
+    wildcards: param=shingles_18_18
+
+
+[Tue Dec  3 17:07:49 2019]
+rule test:
+    input: test/kbanded_15_13.params
+    output: test/kbanded_15_13.result
+    jobid: 223
+    wildcards: param=kbanded_15_13
+
+
+[Tue Dec  3 17:07:49 2019]
+rule test:
+    input: test/shingles_16_15.params
+    output: test/shingles_16_15.result
+    jobid: 599
+    wildcards: param=shingles_16_15
+
+
+[Tue Dec  3 17:07:49 2019]
+rule test:
+    input: test/kbanded_16_12.params
+    output: test/kbanded_16_12.result
+    jobid: 237
+    wildcards: param=kbanded_16_12
+
+
+[Tue Dec  3 17:07:49 2019]
+rule test:
+    input: test/kbanded_18_15.params
+    output: test/kbanded_18_15.result
+    jobid: 270
+    wildcards: param=kbanded_18_15
+
+
+[Tue Dec  3 17:07:49 2019]
+rule test:
+    input: test/shingles_17_14.params
+    output: test/shingles_17_14.result
+    jobid: 617
+    wildcards: param=shingles_17_14
+
+
+[Tue Dec  3 17:07:49 2019]
+rule test:
+    input: test/shingles_20_12.params
+    output: test/shingles_20_12.result
+    jobid: 672
+    wildcards: param=shingles_20_12
+
+
+[Tue Dec  3 17:07:49 2019]
+rule test:
+    input: test/shingles_20_19.params
+    output: test/shingles_20_19.result
+    jobid: 679
+    wildcards: param=shingles_20_19
+
+
+[Tue Dec  3 17:07:49 2019]
+rule test:
+    input: test/kbanded_15_15.params
+    output: test/kbanded_15_15.result
+    jobid: 225
+    wildcards: param=kbanded_15_15
+
+
+[Tue Dec  3 17:07:49 2019]
+rule test:
+    input: test/kbanded_11_15.params
+    output: test/kbanded_11_15.result
+    jobid: 165
+    wildcards: param=kbanded_11_15
+
+
+[Tue Dec  3 17:07:50 2019]
+rule test:
+    input: test/shingles_10_12.params
+    output: test/shingles_10_12.result
+    jobid: 482
+    wildcards: param=shingles_10_12
+
+
+[Tue Dec  3 17:07:50 2019]
+rule test:
+    input: test/shingles_20_14.params
+    output: test/shingles_20_14.result
+    jobid: 674
+    wildcards: param=shingles_20_14
+
+
+[Tue Dec  3 17:07:50 2019]
+rule test:
+    input: test/kbanded_14_12.params
+    output: test/kbanded_14_12.result
+    jobid: 207
+    wildcards: param=kbanded_14_12
+
+
+[Tue Dec  3 17:07:50 2019]
+rule test:
+    input: test/shingles_17_11.params
+    output: test/shingles_17_11.result
+    jobid: 614
+    wildcards: param=shingles_17_11
+
+
+[Tue Dec  3 17:07:50 2019]
+rule test:
+    input: test/shingles_13_13.params
+    output: test/shingles_13_13.result
+    jobid: 540
+    wildcards: param=shingles_13_13
+
+
+[Tue Dec  3 17:07:50 2019]
+rule test:
+    input: test/shingles_13_11.params
+    output: test/shingles_13_11.result
+    jobid: 538
+    wildcards: param=shingles_13_11
+
+
+[Tue Dec  3 17:07:50 2019]
+rule test:
+    input: test/kbanded_17_10.params
+    output: test/kbanded_17_10.result
+    jobid: 250
+    wildcards: param=kbanded_17_10
+
+
+[Tue Dec  3 17:07:50 2019]
+rule test:
+    input: test/shingles_10_13.params
+    output: test/shingles_10_13.result
+    jobid: 483
+    wildcards: param=shingles_10_13
+
+
+[Tue Dec  3 17:07:50 2019]
+rule test:
+    input: test/shingles_11_20.params
+    output: test/shingles_11_20.result
+    jobid: 509
+    wildcards: param=shingles_11_20
+
+
+[Tue Dec  3 17:07:51 2019]
+rule test:
+    input: test/shingles_19_20.params
+    output: test/shingles_19_20.result
+    jobid: 661
+    wildcards: param=shingles_19_20
+
+
+[Tue Dec  3 17:07:51 2019]
+rule test:
+    input: test/shingles_19_12.params
+    output: test/shingles_19_12.result
+    jobid: 653
+    wildcards: param=shingles_19_12
+
+
+[Tue Dec  3 17:07:51 2019]
+rule test:
+    input: test/shingles_16_12.params
+    output: test/shingles_16_12.result
+    jobid: 596
+    wildcards: param=shingles_16_12
+
+
+[Tue Dec  3 17:07:51 2019]
+rule test:
+    input: test/kbanded_20_11.params
+    output: test/kbanded_20_11.result
+    jobid: 296
+    wildcards: param=kbanded_20_11
+
+
+[Tue Dec  3 17:07:51 2019]
+rule test:
+    input: test/shingles_18_11.params
+    output: test/shingles_18_11.result
+    jobid: 633
+    wildcards: param=shingles_18_11
+
+
+[Tue Dec  3 17:07:51 2019]
+rule test:
+    input: test/kbanded_11_14.params
+    output: test/kbanded_11_14.result
+    jobid: 164
+    wildcards: param=kbanded_11_14
+
+
+[Tue Dec  3 17:07:51 2019]
+rule test:
+    input: test/shingles_18_13.params
+    output: test/shingles_18_13.result
+    jobid: 635
+    wildcards: param=shingles_18_13
+
+
+[Tue Dec  3 17:07:51 2019]
+rule test:
+    input: test/kbanded_12_15.params
+    output: test/kbanded_12_15.result
+    jobid: 180
+    wildcards: param=kbanded_12_15
+
+
+[Tue Dec  3 17:07:51 2019]
+rule test:
+    input: test/shingles_19_18.params
+    output: test/shingles_19_18.result
+    jobid: 659
+    wildcards: param=shingles_19_18
+
+
+[Tue Dec  3 17:07:52 2019]
+rule test:
+    input: test/shingles_12_14.params
+    output: test/shingles_12_14.result
+    jobid: 522
+    wildcards: param=shingles_12_14
+
+
+[Tue Dec  3 17:07:52 2019]
+rule test:
+    input: test/kbanded_15_10.params
+    output: test/kbanded_15_10.result
+    jobid: 220
+    wildcards: param=kbanded_15_10
+
+
+[Tue Dec  3 17:07:52 2019]
+rule test:
+    input: test/shingles_11_15.params
+    output: test/shingles_11_15.result
+    jobid: 504
+    wildcards: param=shingles_11_15
+
+
+[Tue Dec  3 17:07:52 2019]
+rule test:
+    input: test/shingles_15_11.params
+    output: test/shingles_15_11.result
+    jobid: 576
+    wildcards: param=shingles_15_11
+
+
+[Tue Dec  3 17:07:52 2019]
+rule test:
+    input: test/shingles_18_17.params
+    output: test/shingles_18_17.result
+    jobid: 639
+    wildcards: param=shingles_18_17
+
+
+[Tue Dec  3 17:07:52 2019]
+rule test:
+    input: test/shingles_19_10.params
+    output: test/shingles_19_10.result
+    jobid: 651
+    wildcards: param=shingles_19_10
+
+
+[Tue Dec  3 17:07:52 2019]
+rule test:
+    input: test/kbanded_20_15.params
+    output: test/kbanded_20_15.result
+    jobid: 300
+    wildcards: param=kbanded_20_15
+
+
+[Tue Dec  3 17:07:52 2019]
+rule test:
+    input: test/shingles_18_15.params
+    output: test/shingles_18_15.result
+    jobid: 637
+    wildcards: param=shingles_18_15
+
+
+[Tue Dec  3 17:07:52 2019]
+rule test:
+    input: test/shingles_13_14.params
+    output: test/shingles_13_14.result
+    jobid: 541
+    wildcards: param=shingles_13_14
+
+
+[Tue Dec  3 17:07:53 2019]
+rule test:
+    input: test/kbanded_13_14.params
+    output: test/kbanded_13_14.result
+    jobid: 194
+    wildcards: param=kbanded_13_14
+
+
+[Tue Dec  3 17:07:53 2019]
+rule test:
+    input: test/kbanded_20_13.params
+    output: test/kbanded_20_13.result
+    jobid: 298
+    wildcards: param=kbanded_20_13
+
+
+[Tue Dec  3 17:07:53 2019]
+rule test:
+    input: test/shingles_14_15.params
+    output: test/shingles_14_15.result
+    jobid: 561
+    wildcards: param=shingles_14_15
+
+
+[Tue Dec  3 17:07:53 2019]
+rule test:
+    input: test/shingles_17_13.params
+    output: test/shingles_17_13.result
+    jobid: 616
+    wildcards: param=shingles_17_13
+
+
+[Tue Dec  3 17:07:53 2019]
+rule test:
+    input: test/kbanded_13_13.params
+    output: test/kbanded_13_13.result
+    jobid: 193
+    wildcards: param=kbanded_13_13
+
+
+[Tue Dec  3 17:07:53 2019]
+rule test:
+    input: test/shingles_12_17.params
+    output: test/shingles_12_17.result
+    jobid: 525
+    wildcards: param=shingles_12_17
+
+
+[Tue Dec  3 17:07:53 2019]
+rule test:
+    input: test/shingles_11_19.params
+    output: test/shingles_11_19.result
+    jobid: 508
+    wildcards: param=shingles_11_19
+
+
+[Tue Dec  3 17:07:53 2019]
+rule test:
+    input: test/kbanded_19_12.params
+    output: test/kbanded_19_12.result
+    jobid: 282
+    wildcards: param=kbanded_19_12
+
+
+[Tue Dec  3 17:07:53 2019]
+rule test:
+    input: test/kbanded_20_14.params
+    output: test/kbanded_20_14.result
+    jobid: 299
+    wildcards: param=kbanded_20_14
+
+
+[Tue Dec  3 17:07:54 2019]
+rule test:
+    input: test/kbanded_10_15.params
+    output: test/kbanded_10_15.result
+    jobid: 150
+    wildcards: param=kbanded_10_15
+
+
+[Tue Dec  3 17:07:54 2019]
+rule test:
+    input: test/shingles_17_10.params
+    output: test/shingles_17_10.result
+    jobid: 613
+    wildcards: param=shingles_17_10
+
+
+[Tue Dec  3 17:07:54 2019]
+rule test:
+    input: test/kbanded_17_13.params
+    output: test/kbanded_17_13.result
+    jobid: 253
+    wildcards: param=kbanded_17_13
+
+
+[Tue Dec  3 17:07:54 2019]
+rule test:
+    input: test/shingles_15_10.params
+    output: test/shingles_15_10.result
+    jobid: 575
+    wildcards: param=shingles_15_10
+
+
+[Tue Dec  3 17:07:54 2019]
+rule test:
+    input: test/kbanded_11_12.params
+    output: test/kbanded_11_12.result
+    jobid: 162
+    wildcards: param=kbanded_11_12
+
+
+[Tue Dec  3 17:07:54 2019]
+rule test:
+    input: test/shingles_11_10.params
+    output: test/shingles_11_10.result
+    jobid: 499
+    wildcards: param=shingles_11_10
+
+
+[Tue Dec  3 17:07:55 2019]
+rule test:
+    input: test/kbanded_18_14.params
+    output: test/kbanded_18_14.result
+    jobid: 269
+    wildcards: param=kbanded_18_14
+
+
+[Tue Dec  3 17:07:55 2019]
+rule test:
+    input: test/shingles_12_15.params
+    output: test/shingles_12_15.result
+    jobid: 523
+    wildcards: param=shingles_12_15
+
+
+[Tue Dec  3 17:07:55 2019]
+rule test:
+    input: test/kbanded_16_10.params
+    output: test/kbanded_16_10.result
+    jobid: 235
+    wildcards: param=kbanded_16_10
+
+
+[Tue Dec  3 17:07:55 2019]
+rule test:
+    input: test/shingles_15_20.params
+    output: test/shingles_15_20.result
+    jobid: 585
+    wildcards: param=shingles_15_20
+
+
+[Tue Dec  3 17:07:55 2019]
+rule test:
+    input: test/shingles_16_19.params
+    output: test/shingles_16_19.result
+    jobid: 603
+    wildcards: param=shingles_16_19
+
+
+[Tue Dec  3 17:07:55 2019]
+rule test:
+    input: test/kbanded_14_14.params
+    output: test/kbanded_14_14.result
+    jobid: 209
+    wildcards: param=kbanded_14_14
+
+
+[Tue Dec  3 17:07:55 2019]
+rule test:
+    input: test/kbanded_13_12.params
+    output: test/kbanded_13_12.result
+    jobid: 192
+    wildcards: param=kbanded_13_12
+
+
+[Tue Dec  3 17:07:55 2019]
+rule test:
+    input: test/shingles_19_17.params
+    output: test/shingles_19_17.result
+    jobid: 658
+    wildcards: param=shingles_19_17
+
+[Tue Dec  3 17:11:58 2019]
+[Tue Dec  3 17:11:58 2019]
+[Tue Dec  3 17:11:58 2019]
+[Tue Dec  3 17:11:58 2019]
+[Tue Dec  3 17:11:58 2019]
+[Tue Dec  3 17:11:58 2019]
+[Tue Dec  3 17:11:58 2019]
+[Tue Dec  3 17:11:58 2019]
+[Tue Dec  3 17:11:58 2019]
+Error in rule test:
+Error in rule test:
+Error in rule test:
+Error in rule test:
+[Tue Dec  3 17:11:58 2019]
+Error in rule test:
+[Tue Dec  3 17:11:58 2019]
+[Tue Dec  3 17:11:58 2019]
+Error in rule test:
+[Tue Dec  3 17:11:58 2019]
+[Tue Dec  3 17:11:58 2019]
+Error in rule test:
+Error in rule test:
+Error in rule test:
+    jobid: 523
+    jobid: 269
+    jobid: 192
+    jobid: 525
+Error in rule test:
+    jobid: 613
+Error in rule test:
+Error in rule test:
+    jobid: 299
+Error in rule test:
+Error in rule test:
+    jobid: 300
+    jobid: 150
+    jobid: 576
+    output: test/shingles_12_15.result
+    output: test/kbanded_18_14.result
+    output: test/kbanded_13_12.result
+    output: test/shingles_12_17.result
+    jobid: 561
+    output: test/shingles_17_10.result
+    jobid: 585
+    jobid: 499
+    output: test/kbanded_20_14.result
+    jobid: 482
+    jobid: 651
+    output: test/kbanded_20_15.result
+    output: test/kbanded_10_15.result
+    output: test/shingles_15_11.result
+    shell:
+        bash ./script.sh test/shingles_12_15.params test/shingles_12_15.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        bash ./script.sh test/kbanded_18_14.params test/kbanded_18_14.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        bash ./script.sh test/kbanded_13_12.params test/kbanded_13_12.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        bash ./script.sh test/shingles_12_17.params test/shingles_12_17.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    output: test/shingles_14_15.result
+    shell:
+        bash ./script.sh test/shingles_17_10.params test/shingles_17_10.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    output: test/shingles_15_20.result
+    output: test/shingles_11_10.result
+    shell:
+        bash ./script.sh test/kbanded_20_14.params test/kbanded_20_14.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    output: test/shingles_10_12.result
+    output: test/shingles_19_10.result
+    shell:
+        bash ./script.sh test/kbanded_20_15.params test/kbanded_20_15.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        bash ./script.sh test/kbanded_10_15.params test/kbanded_10_15.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        bash ./script.sh test/shingles_15_11.params test/shingles_15_11.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+
+
+    shell:
+        bash ./script.sh test/shingles_14_15.params test/shingles_14_15.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+    shell:
+        bash ./script.sh test/shingles_15_20.params test/shingles_15_20.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        bash ./script.sh test/shingles_11_10.params test/shingles_11_10.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+    shell:
+        bash ./script.sh test/shingles_10_12.params test/shingles_10_12.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        bash ./script.sh test/shingles_19_10.params test/shingles_19_10.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+
+
+
+
+
+
