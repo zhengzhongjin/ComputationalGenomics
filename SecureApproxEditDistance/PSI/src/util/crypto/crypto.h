@@ -39,10 +39,23 @@ const uint8_t const_seed[] = {0x00, 0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77, 0x
 
 enum bc_mode {ECB, CBC};
 
+//Check for the OpenSSL version number, since the EVP_CIPHER_CTX has become opaque from >= 1.1.0
+#if OPENSSL_VERSION_NUMBER >= 0x10100000L
+	#define OPENSSL_OPAQUE_EVP_CIPHER_CTX
+#endif
+
+
+#ifdef OPENSSL_OPAQUE_EVP_CIPHER_CTX
+typedef EVP_CIPHER_CTX* AES_KEY_CTX;
+#else
 typedef EVP_CIPHER_CTX AES_KEY_CTX;
+#endif
 
 struct prf_state_ctx {
 	AES_KEY_CTX aes_key;
+#ifdef AES256_HASH
+	ROUND_KEYS aes_pipe_key;
+#endif
 	uint64_t* ctr;
 };
 
@@ -58,6 +71,10 @@ public:
 
 	//Randomness generation routines
 	void gen_rnd(uint8_t* resbuf, uint32_t numbytes);
+#ifdef AES256_HASH
+	void gen_rnd_pipelined(uint8_t* resbuf, uint32_t numbytes);
+#endif
+
 	//void gen_rnd(prf_state_ctx* prf_state, uint8_t* resbuf, uint32_t nbytes);
 	void gen_rnd_uniform(uint8_t* resbuf, uint64_t mod);
 	void gen_rnd_perm(uint32_t* perm, uint32_t neles);
@@ -69,7 +86,7 @@ public:
 	//Hash routines
 	void hash(uint8_t* resbuf, uint32_t noutbytes, uint8_t* inbuf, uint32_t ninbytes);
 	void hash(uint8_t* resbuf, uint32_t noutbytes, uint8_t* inbuf, uint32_t ninbytes, uint8_t* tmpbuf);
-	void hash_ctr(uint8_t* resbuf, uint32_t noutbytes, uint8_t* inbuf, uint32_t ninbytes, uint32_t ctr);
+	void hash_ctr(uint8_t* resbuf, uint32_t noutbytes, uint8_t* inbuf, uint32_t ninbytes, uint64_t ctr);
 	void fixed_key_aes_hash(AES_KEY_CTX* aes_key, uint8_t* resbuf, uint32_t noutbytes, uint8_t* inbuf, uint32_t ninbytes);
 	void fixed_key_aes_hash_ctr(uint8_t* resbuf, uint32_t noutbytes, uint8_t* inbuf, uint32_t ninbytes);
 
@@ -84,6 +101,7 @@ public:
 	//External encryption routines
 	void init_aes_key(AES_KEY_CTX* aes_key, uint8_t* seed, bc_mode mode=ECB, const uint8_t* iv=ZERO_IV);
 	void init_aes_key(AES_KEY_CTX* aes_key, uint32_t symbits, uint8_t* seed, bc_mode mode=ECB, const uint8_t* iv=ZERO_IV);
+	void clean_aes_key(AES_KEY_CTX* aeskey);
 	uint32_t get_aes_key_bytes();
 	void encrypt(AES_KEY_CTX* enc_key, uint8_t* resbuf, uint8_t* inbuf, uint32_t ninbytes);
 	void decrypt(AES_KEY_CTX* dec_key, uint8_t* resbuf, uint8_t* inbuf, uint32_t ninbytes);
@@ -127,10 +145,13 @@ void sha256_hash(uint8_t* resbuf, uint32_t noutbytes, uint8_t* inbuf, uint32_t n
 void sha512_hash(uint8_t* resbuf, uint32_t noutbytes, uint8_t* inbuf, uint32_t ninbytes, uint8_t* hash_buf);
 void gen_secure_random(uint8_t* dest, uint32_t nbytes);
 void gen_rnd_bytes(prf_state_ctx* prf_state, uint8_t* resbuf, uint32_t nbytes);
+#ifdef AES256_HASH
+void gen_rnd_bytes_pipelined(prf_state_ctx* prf_state, uint8_t* resbuf, uint32_t nbytes);
+#endif
 
 seclvl get_sec_lvl(uint32_t symsecbits);
 
-static const uint32_t m_nCodeWordBits = 256;
+static const uint32_t m_nCodeWordBits = 512;
 static const uint32_t m_nCodeWordBytes = m_nCodeWordBits/8;
 
 static void InitAndReadCodeWord(REGISTER_SIZE*** codewords) {

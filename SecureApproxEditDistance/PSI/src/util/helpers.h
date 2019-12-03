@@ -12,6 +12,7 @@
 #include "typedefs.h"
 #include "crypto/crypto.h"
 #include "thread.h"
+#include <glib.h>
 
 struct element_ctx {
 	uint32_t nelements;
@@ -180,7 +181,7 @@ static void *sym_encrypt(void* context) {
 	return 0;
 }
 
-static void *hash(void* context) {
+static void *psi_hashing_function(void* context) {
 #ifdef DEBUG
 	cout << "Hashing thread started" << endl;
 #endif

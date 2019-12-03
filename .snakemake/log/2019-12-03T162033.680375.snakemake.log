@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /usr/local/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	targets
+	680	test
+	681
+
+[Tue Dec  3 16:20:34 2019]
+rule test:
+    input: test/shingles_10_17.params
+    output: test/shingles_10_17.result
+    jobid: 487
+    wildcards: param=shingles_10_17
+
+Terminating processes on user request, this might take some time.
+Cancelling snakemake on user request.

@@ -93,9 +93,6 @@ uint32_t compute_intersection(uint32_t nclients, uint32_t* neles, uint8_t** cset
     	tmpval[1] = i;
 	    g_hash_table_insert(map,(void*) &((uint64_t*)csets[0])[2*i], tmpval);//&(((uint64_t*)csets[0])[2*i+1]));
     }
-#ifdef DEBUG
-    g_hash_table_foreach( map, printKeyValue, NULL );
-#endif
     gettimeofday(&end, NULL);
 #ifdef TIMING
     cout << "Insertion took " << getMillies(begin, end) << " ms" << endl;
@@ -206,7 +203,7 @@ uint32_t client_routine(uint32_t neles, task_ctx ectx, uint32_t* matches,
 	ectx.sctx.symcrypt = crypt_env;
 	ectx.sctx.keydata = (uint8_t*) const_seed;
 
-	run_task(ntasks, ectx, hash);
+	run_task(ntasks, ectx, psi_hashing_function);
 
 	socket->Send(masks, maskbytelen * neles);
 

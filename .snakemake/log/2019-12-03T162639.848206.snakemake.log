@@ -1,0 +1,22 @@
+Building DAG of jobs...
+Using shell: /usr/local/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	targets
+	680	test
+	681
+
+[Tue Dec  3 16:26:40 2019]
+rule test:
+    input: test/kbanded_12_10.params
+    output: test/kbanded_12_10.result
+    jobid: 175
+    wildcards: param=kbanded_12_10
+
+Terminating processes on user request, this might take some time.
+[Tue Dec  3 16:29:59 2019]
+Finished job 175.
+1 of 681 steps (0.15%) done
+Complete log: /users/zzjin/course_project/ComputationalGenomics/.snakemake/log/2019-12-03T162639.848206.snakemake.log
