@@ -1,8 +1,8 @@
 # $1 - configure file
 # $2 - result
 
-rm -rf SecureApproxEditDistance
-cp -r fresh SecureApproxEditDistance
+#rm -rf SecureApproxEditDistance
+#cp -r fresh SecureApproxEditDistance
 
 #cp $1 SecureApproxEditDistance/Config.conf
 cd SecureApproxEditDistance 
