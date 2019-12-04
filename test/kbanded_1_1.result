@@ -1,0 +1,10 @@
+db1.fa 2
+./run_server.sh: line 6: ${<"$1"}: bad substitution
+
+query.fa 2 127.0.0.1 10
+Connecting to 127.0.0.1 on port 54575
+Server not found, please wait
+Connecting to 127.0.0.1 on port 54575
+Server not found, please wait
+Connecting to 127.0.0.1 on port 54575
+Server not found, please wait

@@ -5,7 +5,6 @@
  */
 package cs.umanitoba.idashtask2.PSI;
 
-import util.ConfigParser;
 import static Utilities.Helpers.makeNGrams;
 import java.io.File;
 import java.io.FileNotFoundException;

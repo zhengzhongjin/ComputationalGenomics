@@ -5,12 +5,12 @@
 
 #echo $1 $2 $3
 line=($(<"$2"))
-method=line[0]
-param_k=line[1]
-port=line[3]
+method=${line[0]}
+param_k=${line[1]}
+port=${line[3]}
 
 if [ "$method" == "0" ]; then
-	gramSize=line[2]
+	gramSize=${line[2]}
 	SECONDS=0
 	mvn exec:java -q  -Dexec.mainClass="cs.umanitoba.idashtask2.PSI.ResearcherPSI" -Dexec.args="$1 $param_k $3 $gramSize $port 0"
 	duration=$SECONDS
@@ -18,7 +18,7 @@ if [ "$method" == "0" ]; then
 else 
 	#KBanded alignment in Garbled Circuit
 	#Preprocess the data for data owner and researcher
-    param_b=line[2]
+    param_b=${line[2]}
 	SECONDS=0
 	sleep 5
 	mvn exec:java -q -Dexec.mainClass="cs.umanitoba.idashtask2.PreProcessResearcher" -Dexec.args="$3 $port"
