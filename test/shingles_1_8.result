@@ -1,0 +1,45 @@
+../test/shingles_1_8.params
+0 1 39629
+Connecting to 127.0.0.1 on port 39629
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39629
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39629
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39629
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39629
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39629
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39629
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39629
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39629
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39629
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39629
+Server not found, please wait
+data shingles size 7114
+Connecting to 127.0.0.1 on port 39629
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39629
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39629
+Just connected to /127.0.0.1:39629
+Waiting for client on port 39629...
+Just connected to /127.0.0.1:48848
+sent to se{rver" {"ttypye":p0,"limiet":"5,":0o,ff"setl":0i,"mmsg"i:"t"}"
+:5.,/demo".exoe ff-rs 0e -p t0 -f" 8on:lyQ0uery.txt
+,"msg":""}
+./demo.exe -r 1 -p 0 -f 8onlyShingles.txt
+1: 119
+2: 131
+3: 19
+4: 22
+5: 251
+time Diff 0.562 s
+PSI preprocessing duration: 31 s
+PSI researcher duration : 31 s

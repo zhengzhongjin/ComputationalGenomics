@@ -1,0 +1,31 @@
+../test/shingles_1_5.params
+0 1 39623
+Connecting to 127.0.0.1 on port 39623
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39623
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39623
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39623
+Server not found, please wait
+data shingles size 971
+Connecting to 127.0.0.1 on port 39623
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39623
+Server not found, please wait
+Waiting for client on port 39623...
+Connecting to 127.0.0.1 on port 39623
+Just connected to /127.0.0.1:39623
+Just connected to /127.0.0.1:57306
+sent to ser{ver {"t"ype":t0,"liymit":p5,"oeffset"":0,":msg":0""}
+,./"demo.lexe -ir 0m -p 0i -f 5tonlyQ"uery.:txt
+5,"offset":0,"msg":""}
+./demo.exe -r 1 -p 0 -f 5onlyShingles.txt
+1: 564
+2: 1079
+3: 97
+4: 131
+5: 201
+time Diff 0.373 s
+PSI preprocessing duration: 16 s
+PSI researcher duration : 16 s
