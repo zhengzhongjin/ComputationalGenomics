@@ -1,0 +1,1 @@
+./script.sh test/shingles_10_14.params test/shingles_10_14.result

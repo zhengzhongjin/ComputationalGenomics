@@ -12,7 +12,7 @@ port=${line[3]}
 if [ "$method" == "0" ]; then
 	gramSize=${line[2]}
 	SECONDS=0
-	mvn exec:java -q  -Dexec.mainClass="cs.umanitoba.idashtask2.PSI.ResearcherPSI" -Dexec.args="$1 $param_k $3 $gramSize $port 0"
+	mvn exec:java -q -Dexec.mainClass="cs.umanitoba.idashtask2.PSI.ResearcherPSI" -Dexec.args="$1 $param_k $3 $gramSize $port 0"
 	duration=$SECONDS
 	echo "PSI researcher duration : $duration s"
 else 

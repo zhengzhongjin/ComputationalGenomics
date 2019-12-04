@@ -7,6 +7,8 @@ package Accuracy;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.ArrayList;
@@ -53,16 +55,23 @@ public class ErrorCalcStat {
 
     //
     // args[0] : approx rank file
+    // args[1] : database size
+    // args[2] : query size
+    // args[3] : output file
     //
     public static void main(String[] args) throws FileNotFoundException {
         Map<Integer, StatMeasures> TPR = new TreeMap<>();
-        int[] k_value = {1, 5, 10, 15, 20, 25};
+        int[] k_value = new int[20];
+
+        for (int i = 1;i <= 20;i++) {
+            k_value[i-1]=i;
+        }
 
         for (int i = 0;i < k_value.length;i++) {
             TPR.put(k_value[i], new StatMeasures());
         }
 
-        int totalQueries = 10, datasetsize = 40;
+        int totalQueries = Integer.parseInt(args[2]), datasetsize = Integer.parseInt(args[1]);
         for (int t = 0; t < totalQueries; t++) {
             Map<Integer, List<Integer>> originalRank = getranks(
                     new File("original_results_" + t));
@@ -71,7 +80,7 @@ public class ErrorCalcStat {
 
             for (int iter_k = 0; iter_k < k_value.length; iter_k++) {
                 int i = k_value[iter_k];
-                int error = 0;
+                //int error = 0;
                 int true_positives = 0, true_negetives = 0, false_positives = 0, false_negetives = 0, totalPostitives = 0;
                 List<Integer> approxRanks = new ArrayList<>();
                 List<Integer> originalRanks = new ArrayList<>();
@@ -117,6 +126,9 @@ public class ErrorCalcStat {
                 TPR.put(i, statMeasuresOld);
             }
         }
+
+        PrintWriter pw = new PrintWriter(new File(args[3]));
+
         System.out.println("Top-K\tAcc \t MCC \t F1 \t Preci \t TPR \t TNR \t FPR");
         for (Map.Entry<Integer, StatMeasures> entrySet : TPR.entrySet()) {
             Integer key = entrySet.getKey();
@@ -127,12 +139,14 @@ public class ErrorCalcStat {
                     + formatter.format(entrySet.getValue().TPR / totalQueries) + "\t"
                     + formatter.format(entrySet.getValue().TNR / totalQueries) + "\t"
                     + formatter.format(entrySet.getValue().FPR / totalQueries));
+            pw.println(formatter.format(entrySet.getValue().Acc / totalQueries));
 //            Double value = entrySet.getValue();
 //            System.out.println(key + "\t" + formatter.format(100 * (1 - (double) value / totalQueries))
 //                    + "\t" + formatter.format(100 * (errorMapFalse.get(key) / totalQueries)));
 //            System.out.println(key + "\t" + formatter.format(100 * (1 - (double) value / totalQueries))
 //                    + "\t" + formatter.format(100 * (errorMapFalse.get(key) / totalQueries)));
         }
+        pw.close();
     }
 
     public static <T> List<T> union(List<T> list1, List<T> list2) {
