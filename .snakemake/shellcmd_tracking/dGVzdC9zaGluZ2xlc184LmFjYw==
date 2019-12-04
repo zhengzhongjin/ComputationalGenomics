@@ -1,0 +1,1 @@
+./accuracy_wrapper.sh test/shingles_8.acc.params test/shingles_8.acc

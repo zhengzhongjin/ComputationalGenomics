@@ -7,10 +7,6 @@
 line=($(<"$3"))
 method=${line[0]}
 
-rm -rf query_set
-mkdir query_set
-
-mvn exec:java -q -Dexec.mainClass="util.Split" -Dexec.args="$2 query_set/query"
 db_size=`wc -l $1 | awk '{ print $1 }'`
 query_size=`wc -l $2 | awk '{ print $1 }'`
 
@@ -26,10 +22,10 @@ for ((i=0;i<$query_size;i++)) {
 
     # Get method result
     if [ "$method" == "0" ]; then # shingles
-        gramSize=${line[2]}
+        gramSize=${line[1]}
         mvn exec:java -Dexec.mainClass="Shingles.ShinglesTest" -Dexec.args="$1 query_set/query_$i $gramSize method_$i"
     else # kbanded
-        param_b=${line[2]}
+        param_b=${line[1]}
         mvn exec:java -Dexec.mainClass="KBanded.KbandedAlignment" -Dexec.args="$1 query_set/query_$i $param_b method_$i"
     fi
 }
