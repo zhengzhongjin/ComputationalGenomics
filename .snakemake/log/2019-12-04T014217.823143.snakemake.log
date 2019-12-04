@@ -1,0 +1,370 @@
+Building DAG of jobs...
+Using shell: /usr/local/bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	target
+	680	test
+	681
+
+[Wed Dec  4 01:42:18 2019]
+rule test:
+    input: test/shingles_14_18.params
+    output: test/shingles_14_18.result
+    jobid: 564
+    wildcards: param=shingles_14_18
+
+
+[Wed Dec  4 01:42:18 2019]
+rule test:
+    input: test/shingles_15_10.params
+    output: test/shingles_15_10.result
+    jobid: 575
+    wildcards: param=shingles_15_10
+
+
+[Wed Dec  4 01:42:19 2019]
+rule test:
+    input: test/kbanded_17_15.params
+    output: test/kbanded_17_15.result
+    jobid: 255
+    wildcards: param=kbanded_17_15
+
+
+[Wed Dec  4 01:42:19 2019]
+rule test:
+    input: test/shingles_12_18.params
+    output: test/shingles_12_18.result
+    jobid: 526
+    wildcards: param=shingles_12_18
+
+
+[Wed Dec  4 01:42:19 2019]
+rule test:
+    input: test/shingles_20_18.params
+    output: test/shingles_20_18.result
+    jobid: 678
+    wildcards: param=shingles_20_18
+
+
+[Wed Dec  4 01:42:19 2019]
+rule test:
+    input: test/kbanded_15_14.params
+    output: test/kbanded_15_14.result
+    jobid: 224
+    wildcards: param=kbanded_15_14
+
+
+[Wed Dec  4 01:42:19 2019]
+rule test:
+    input: test/shingles_14_15.params
+    output: test/shingles_14_15.result
+    jobid: 561
+    wildcards: param=shingles_14_15
+
+
+[Wed Dec  4 01:42:19 2019]
+rule test:
+    input: test/kbanded_18_15.params
+    output: test/kbanded_18_15.result
+    jobid: 270
+    wildcards: param=kbanded_18_15
+
+
+[Wed Dec  4 01:42:19 2019]
+rule test:
+    input: test/kbanded_14_11.params
+    output: test/kbanded_14_11.result
+    jobid: 206
+    wildcards: param=kbanded_14_11
+
+
+[Wed Dec  4 01:42:19 2019]
+rule test:
+    input: test/shingles_19_20.params
+    output: test/shingles_19_20.result
+    jobid: 661
+    wildcards: param=shingles_19_20
+
+
+[Wed Dec  4 01:42:19 2019]
+rule test:
+    input: test/kbanded_15_13.params
+    output: test/kbanded_15_13.result
+    jobid: 223
+    wildcards: param=kbanded_15_13
+
+
+[Wed Dec  4 01:42:20 2019]
+rule test:
+    input: test/shingles_12_10.params
+    output: test/shingles_12_10.result
+    jobid: 518
+    wildcards: param=shingles_12_10
+
+
+[Wed Dec  4 01:42:20 2019]
+rule test:
+    input: test/shingles_11_10.params
+    output: test/shingles_11_10.result
+    jobid: 499
+    wildcards: param=shingles_11_10
+
+
+[Wed Dec  4 01:42:20 2019]
+rule test:
+    input: test/kbanded_16_11.params
+    output: test/kbanded_16_11.result
+    jobid: 236
+    wildcards: param=kbanded_16_11
+
+
+[Wed Dec  4 01:42:20 2019]
+rule test:
+    input: test/kbanded_14_10.params
+    output: test/kbanded_14_10.result
+    jobid: 205
+    wildcards: param=kbanded_14_10
+
+
+[Wed Dec  4 01:42:20 2019]
+rule test:
+    input: test/shingles_11_16.params
+    output: test/shingles_11_16.result
+    jobid: 505
+    wildcards: param=shingles_11_16
+
+[Wed Dec  4 01:46:43 2019]
+Finished job 499.
+1 of 681 steps (0.15%) done
+
+[Wed Dec  4 01:46:43 2019]
+rule test:
+    input: test/shingles_12_15.params
+    output: test/shingles_12_15.result
+    jobid: 523
+    wildcards: param=shingles_12_15
+
+[Wed Dec  4 01:46:47 2019]
+Finished job 518.
+2 of 681 steps (0.29%) done
+
+[Wed Dec  4 01:46:47 2019]
+rule test:
+    input: test/shingles_13_11.params
+    output: test/shingles_13_11.result
+    jobid: 538
+    wildcards: param=shingles_13_11
+
+[Wed Dec  4 01:46:51 2019]
+Finished job 526.
+3 of 681 steps (0.44%) done
+
+[Wed Dec  4 01:46:51 2019]
+rule test:
+    input: test/shingles_11_18.params
+    output: test/shingles_11_18.result
+    jobid: 507
+    wildcards: param=shingles_11_18
+
+[Wed Dec  4 01:48:49 2019]
+Finished job 538.
+4 of 681 steps (0.59%) done
+
+[Wed Dec  4 01:48:49 2019]
+rule test:
+    input: test/kbanded_10_15.params
+    output: test/kbanded_10_15.result
+    jobid: 150
+    wildcards: param=kbanded_10_15
+
+[Wed Dec  4 02:06:48 2019]
+Finished job 205.
+5 of 681 steps (0.73%) done
+
+[Wed Dec  4 02:06:48 2019]
+rule test:
+    input: test/shingles_15_17.params
+    output: test/shingles_15_17.result
+    jobid: 582
+    wildcards: param=shingles_15_17
+
+[Wed Dec  4 02:08:14 2019]
+Finished job 582.
+6 of 681 steps (0.88%) done
+
+[Wed Dec  4 02:08:14 2019]
+rule test:
+    input: test/shingles_10_11.params
+    output: test/shingles_10_11.result
+    jobid: 481
+    wildcards: param=shingles_10_11
+
+[Wed Dec  4 02:08:47 2019]
+Finished job 236.
+7 of 681 steps (1%) done
+
+[Wed Dec  4 02:08:47 2019]
+rule test:
+    input: test/kbanded_12_11.params
+    output: test/kbanded_12_11.result
+    jobid: 176
+    wildcards: param=kbanded_12_11
+
+[Wed Dec  4 02:09:07 2019]
+Finished job 206.
+8 of 681 steps (1%) done
+
+[Wed Dec  4 02:09:07 2019]
+rule test:
+    input: test/kbanded_17_10.params
+    output: test/kbanded_17_10.result
+    jobid: 250
+    wildcards: param=kbanded_17_10
+
+[Wed Dec  4 02:10:09 2019]
+Finished job 481.
+9 of 681 steps (1%) done
+
+[Wed Dec  4 02:10:09 2019]
+rule test:
+    input: test/kbanded_20_10.params
+    output: test/kbanded_20_10.result
+    jobid: 295
+    wildcards: param=kbanded_20_10
+
+Terminating processes on user request, this might take some time.
+[Wed Dec  4 02:11:49 2019]
+[Wed Dec  4 02:11:49 2019]
+[Wed Dec  4 02:11:49 2019]
+Error in rule test:
+[Wed Dec  4 02:11:49 2019]
+[Wed Dec  4 02:11:49 2019]
+Error in rule test:
+[Wed Dec  4 02:11:49 2019]
+[Wed Dec  4 02:11:49 2019]
+[Wed Dec  4 02:11:49 2019]
+[Wed Dec  4 02:11:49 2019]
+[Wed Dec  4 02:11:49 2019]
+Error in rule test:
+[Wed Dec  4 02:11:49 2019]
+[Wed Dec  4 02:11:49 2019]
+[Wed Dec  4 02:11:49 2019]
+    jobid: 561
+Error in rule test:
+[Wed Dec  4 02:11:49 2019]
+Error in rule test:
+[Wed Dec  4 02:11:49 2019]
+[Wed Dec  4 02:11:49 2019]
+    jobid: 575
+Error in rule test:
+Error in rule test:
+Error in rule test:
+Error in rule test:
+Error in rule test:
+    jobid: 224
+Error in rule test:
+Error in rule test:
+Error in rule test:
+    output: test/shingles_14_15.result
+    jobid: 176
+Error in rule test:
+    jobid: 250
+Error in rule test:
+Error in rule test:
+    output: test/shingles_15_10.result
+    jobid: 295
+    jobid: 223
+    jobid: 661
+    jobid: 505
+    jobid: 564
+    output: test/kbanded_15_14.result
+    jobid: 523
+    jobid: 270
+    jobid: 507
+    shell:
+        bash ./script.sh test/shingles_14_15.params test/shingles_14_15.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    output: test/kbanded_12_11.result
+    jobid: 150
+    output: test/kbanded_17_10.result
+    jobid: 255
+    jobid: 678
+    shell:
+        bash ./script.sh test/shingles_15_10.params test/shingles_15_10.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    output: test/kbanded_20_10.result
+    output: test/kbanded_15_13.result
+    output: test/shingles_19_20.result
+    output: test/shingles_11_16.result
+    output: test/shingles_14_18.result
+    shell:
+        bash ./script.sh test/kbanded_15_14.params test/kbanded_15_14.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    output: test/shingles_12_15.result
+    output: test/kbanded_18_15.result
+    output: test/shingles_11_18.result
+
+    shell:
+        bash ./script.sh test/kbanded_12_11.params test/kbanded_12_11.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    output: test/kbanded_10_15.result
+    shell:
+        bash ./script.sh test/kbanded_17_10.params test/kbanded_17_10.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    output: test/kbanded_17_15.result
+    output: test/shingles_20_18.result
+
+    shell:
+        bash ./script.sh test/kbanded_20_10.params test/kbanded_20_10.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        bash ./script.sh test/kbanded_15_13.params test/kbanded_15_13.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        bash ./script.sh test/shingles_19_20.params test/shingles_19_20.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        bash ./script.sh test/shingles_11_16.params test/shingles_11_16.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        bash ./script.sh test/shingles_14_18.params test/shingles_14_18.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+    shell:
+        bash ./script.sh test/shingles_12_15.params test/shingles_12_15.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        bash ./script.sh test/kbanded_18_15.params test/kbanded_18_15.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        bash ./script.sh test/shingles_11_18.params test/shingles_11_18.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+    shell:
+        bash ./script.sh test/kbanded_10_15.params test/kbanded_10_15.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+Removing output files of failed job test since they might be corrupted:
+test/shingles_14_15.result
+
+    shell:
+        bash ./script.sh test/kbanded_17_15.params test/kbanded_17_15.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        bash ./script.sh test/shingles_20_18.params test/shingles_20_18.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+
+
+
+
+
+
+
+
+
+Cancelling snakemake on user request.
+Removing output files of failed job test since they might be corrupted:
+test/shingles_15_10.result

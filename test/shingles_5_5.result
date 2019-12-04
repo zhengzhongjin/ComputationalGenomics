@@ -1,0 +1,49 @@
+../test/shingles_5_5.params
+0 5 39791
+Connecting to 127.0.0.1 on port 39791
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39791
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39791
+Server not found, please wait
+data shingles size 971
+Connecting to 127.0.0.1 on port 39791
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39791
+Server not found, please wait
+Waiting for client on port 39791...
+Connecting to 127.0.0.1 on port 39791
+Just connected to /127.0.0.1:39791
+Just connected to /127.0.0.1:51030
+sen{t t"o tseyrvepr e{"t"yp:e"0:0,,"l"imlit"i:2m5,"ioftfse"t"::0,2"m5sg":,""}"
+o.f/dfemos.eexet -r" 0 :-p0 0 ,-f" 5omsnglyQ"uer:y."txt"
+}
+./demo.exe -r 1 -p 0 -f 5onlyShingles.txt
+1: 564
+2: 1079
+3: 97
+4: 131
+5: 201
+6: 218
+7: 1254
+8: 440
+9: 891
+10: 1129
+11: 289
+12: 640
+13: 935
+14: 1026
+15: 12
+16: 1119
+17: 139
+18: 142
+19: 1192
+20: 175
+21: 214
+22: 1250
+23: 1318
+24: 328
+25: 1371
+PSI preprocessing duration: 14 s
+time Diff 0.396 s
+PSI researcher duration : 14 s

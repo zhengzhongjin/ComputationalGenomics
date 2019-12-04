@@ -1,0 +1,104 @@
+../test/shingles_10_17.params
+0 10 40025
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+data shingles size 15247
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40025
+Server not found, please wait
+Waiting for client on port 40025...
+Connecting to 127.0.0.1 on port 40025
+Just connected to /127.0.0.1:40025
+Just connected to /127.0.0.1:46662
+sent {to "setrvyer p{"etyp"e"::0,0"l,imi"t"l:50i,"moffisett"":0,:"m5sg"0:""},
+".o/dfemof.esxete -"r 0: -0p 0, -"f 1m7osnlygQue"ry:.tx"t
+"}
+./demo.exe -r 1 -p 0 -f 17onlyShingles.txt
+1: 119
+2: 19
+3: 131
+4: 22
+5: 251
+6: 945
+7: 1400
+8: 1372
+9: 1098
+10: 671
+11: 77
+12: 5
+13: 6
+14: 449
+15: 276
+16: 142
+17: 1250
+18: 12
+19: 1119
+20: 1318
+21: 370
+22: 705
+23: 740
+24: 1428
+25: 94
+26: 187
+27: 398
+28: 139
+29: 1281
+30: 462
+31: 313
+32: 366
+33: 473
+34: 1371
+35: 539
+36: 1173
+37: 328
+38: 1483
+39: 1488
+40: 513
+41: 1419
+42: 582
+43: 596
+44: 1010
+45: 1192
+46: 173
+47: 493
+48: 571
+49: 640
+50: 667
+time Diff 0.485 s
+PSI preprocessing duration: 48 s
+PSI researcher duration : 48 s

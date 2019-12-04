@@ -142,14 +142,14 @@ public class DataOwnerPSI extends Thread {
 //                        output = output.replace("Computation finished. Found 2921 intersecting elements:", "");
                         String[] intersections = output.split("\n");
                         int matches = Integer.parseInt(intersections[0]);
-                        if (matches == 0) {
-                            System.out.println("No match found, sorry.");
-                        } else {
+                        //if (matches == 0) {
+                        //    System.out.println("No match found, sorry.");
+                        //} else {
 
                             scores = runPSIProtocol(Arrays.copyOfRange(intersections, 1, matches + 1));
 
                             sendResult(out, jsonObject, scores);
-                        }
+                        //}
                         break;
                 }
                 in.close();

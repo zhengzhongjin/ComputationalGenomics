@@ -1,0 +1,54 @@
+../test/shingles_2_8.params
+0 2 39671
+Connecting to 127.0.0.1 on port 39671
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39671
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39671
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39671
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39671
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39671
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39671
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39671
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39671
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39671
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39671
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39671
+Server not found, please wait
+data shingles size 7114
+Connecting to 127.0.0.1 on port 39671
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39671
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39671
+Server not found, please wait
+Waiting for client on port 39671...
+Connecting to 127.0.0.1 on port 39671
+Just connected to /127.0.0.1:39671
+Just connected to /127.0.0.1:45134
+sent to serv{er {""typet":0,"ylimitp":10,e"off"s:e0t":0,,"ms"g":l""}im
+i./dtemo."exe -:r 0 1-p 00 -f 8on,lyQue"ry.txot
+ffset":0,"msg":""}
+./demo.exe -r 1 -p 0 -f 8onlyShingles.txt
+PSI preprocessing duration: 34 s
+1: 119
+2: 131
+3: 19
+4: 22
+5: 251
+6: 945
+7: 671
+8: 77
+9: 1372
+10: 6
+time Diff 0.561 s
+PSI researcher duration : 34 s

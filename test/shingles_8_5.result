@@ -1,0 +1,66 @@
+../test/shingles_8_5.params
+0 8 39917
+Connecting to 127.0.0.1 on port 39917
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39917
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39917
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39917
+Server not found, please wait
+data shingles size 971
+Connecting to 127.0.0.1 on port 39917
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39917
+Server not found, please wait
+Waiting for client on port 39917...
+Connecting to 127.0.0.1 on port 39917
+Just connected to /127.0.0.1:39917
+Just connected to /127.0.0.1:38462
+sent to{ serve"r {"ttypye":p0,"elim"it"::400,"off,set":"0,"lmsgi":"m"}it":
+4./demo.e0xe -r, 0 "-p o0 -ff 5fosnletyQ"uer:y.tx0t
+,"msg":""}
+./demo.exe -r 1 -p 0 -f 5onlyShingles.txt
+1: 564
+2: 1079
+3: 97
+4: 131
+5: 201
+6: 218
+7: 1254
+8: 440
+9: 891
+10: 1129
+11: 289
+12: 640
+13: 935
+14: 1026
+15: 12
+16: 1119
+17: 139
+18: 142
+19: 1192
+20: 175
+21: 214
+22: 1250
+23: 1318
+24: 328
+25: 1371
+26: 366
+27: 370
+28: 447
+29: 1483
+30: 1488
+31: 473
+32: 513
+33: 539
+34: 582
+35: 596
+36: 705
+37: 765
+38: 857
+39: 1010
+40: 76
+time Diff 0.327 s
+PSI preprocessing duration: 16 s
+PSI researcher duration : 16 s

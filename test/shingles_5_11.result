@@ -1,0 +1,73 @@
+../test/shingles_5_11.params
+0 5 39803
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+data shingles size 10351
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39803
+Server not found, please wait
+Waiting for client on port 39803...
+Connecting to 127.0.0.1 on port 39803
+Just connected to /127.0.0.1:39803
+Just connected to /127.0.0.1:46982
+sent to serv{er {""typte"y:0p,"eli"mi:t":025,,"o"lfifsetm":i0,t"m"sg:"2:"5"},"
+of./dfesmoe.exte -"r 0: -p0 0 -,f"m 1s1onglyQuery.txt
+":""}
+./demo.exe -r 1 -p 0 -f 11onlyShingles.txt
+PSI preprocessing duration: 43 s
+1: 19
+2: 119
+3: 131
+4: 22
+5: 251
+6: 945
+7: 1400
+8: 671
+9: 1372
+10: 1098
+11: 6
+12: 77
+13: 449
+14: 276
+15: 5
+16: 740
+17: 1428
+18: 142
+19: 1250
+20: 94
+21: 187
+22: 398
+23: 462
+24: 139
+25: 1173
+time Diff 0.865 s
+PSI researcher duration : 43 s

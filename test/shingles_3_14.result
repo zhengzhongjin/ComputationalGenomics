@@ -1,0 +1,49 @@
+../test/shingles_3_14.params
+0 3 39725
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+data shingles size 12852
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39725
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39725
+Just connected to /127.0.0.1:39725
+sent to server {"type":0,"limit":15,"offset":0,"msg":""}
+./demo.exe -r 0 -p 0 -f 14onlyQuery.txt
+Waiting for client on port 39725...
+Just connected to /127.0.0.1:40694
+{"type":0,"limit":15,"offset":0,"msg":""}
+./demo.exe -r 1 -p 0 -f 14onlyShingles.txt
+
+time Diff 0.578 s
+PSI preprocessing duration: 40 s
+PSI researcher duration : 40 s

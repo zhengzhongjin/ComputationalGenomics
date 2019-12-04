@@ -1,0 +1,48 @@
+../test/shingles_5_14.params
+0 5 39809
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+data shingles size 12852
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39809
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39809
+Just connected to /127.0.0.1:39809
+sent to server {"type":0,"limit":25,"offset":0,"msg":""}
+./demo.exe -r 0 -p 0 -f 14onlyQuery.txt
+Waiting for client on port 39809...
+Just connected to /127.0.0.1:42198
+{"type":0,"limit":25,"offset":0,"msg":""}
+./demo.exe -r 1 -p 0 -f 14onlyShingles.txt
+
+time Diff 1.871 s
+PSI researcher duration : 47 s

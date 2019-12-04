@@ -97,7 +97,7 @@ public class ResearcherPSI {
 
         Map<String, List<Integer>> shingleMap = getQueryShingles(gramSize, args[0]);
         if (!shingleMap.isEmpty()) {
-           
+            int failCnt = 0;
 			while(true){
 				try {
 					Date startWithInit = new Date();
@@ -121,6 +121,10 @@ public class ResearcherPSI {
 				} catch (IOException e) {
 					System.out.println("Server not found, please wait");
 					Thread.sleep(2000);
+                    failCnt++;
+                    if (failCnt > 100) {
+                        break;
+                    }
 				}
 			}
         }

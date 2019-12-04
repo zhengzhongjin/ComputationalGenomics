@@ -1,0 +1,65 @@
+../test/kbanded_7_9.params
+1 7 19814
+wrote db_processed.txt
+Connecting to 127.0.0.1 on port 19814
+Just connected to /1J27u.s0t. 0c.o1:n1n9e8c1t4e
+d to /127.0.0.1:41676
+wrote SequenceSizeClient.txt
+********************
+Started GC as GEN
+Started GC as EVA
+0: res from GC 73
+1: res from GC 81
+2: res from GC 68
+3: res from GC 79
+4: res from GC 71
+5: res from GC 80
+6: res from GC 76
+7: res from GC 62
+8: res from GC 59
+9: res from GC 84
+10: res from GC 192
+11: res from GC 80
+12: res from GC 77
+13: res from GC 79
+14: res from GC 83
+15: res from GC 193
+16: res from GC 194
+17: res from GC 193
+18: res from GC 80
+19: res from GC 82
+20: res from GC 82
+21: res from GC 195
+22: res from GC 81
+23: res from GC 85
+24: res from GC 77
+25: res from GC 81
+26: res from GC 85
+27: res from GC 86
+28: res from GC 81
+29: res from GC 80
+30: res from GC 82
+31: res from GC 85
+32: res from GC 82
+33: res from GC 81
+34: res from GC 86
+35: res from GC 86
+36: res from GC 76
+37: res from GC 82
+38: res from GC 80
+39: res from GC 85
+40: res from GC 82
+41: res from GC 192
+42: res from GC 77
+43: res from GC 84
+44: res from GC 193
+45: res from GC 80
+46: res from GC 82
+47: res from GC 82
+48: res from GC 83
+E49: rnes dfroem dGC 19
+4
+Ended
+Result in Results_KBandedEditDistance.txt
+kBanded researcher duration : 1007 s
+kbanded preprocessing duration: 1007 s
