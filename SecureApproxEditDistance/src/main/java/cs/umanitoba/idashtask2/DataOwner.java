@@ -33,6 +33,7 @@ public class DataOwner {
      * args[1] : bandWith
      */
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, FileNotFoundException {
+        System.out.println("********************");
         final int port = Integer.parseInt(args[0]);
         final int bandWidth = Integer.parseInt(args[1]);
 

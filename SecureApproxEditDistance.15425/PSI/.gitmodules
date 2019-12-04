@@ -1,3 +1,0 @@
-[submodule "src/externals/Miracl"]
-	path = src/externals/Miracl
-	url = git://github.com/CertiVox/Miracl.git

@@ -1,0 +1,45 @@
+Building DAG of jobs...
+Using shell: /usr/local/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	target
+	680	test
+	681
+
+[Tue Dec  3 23:26:56 2019]
+rule test:
+    input: test/shingles_18_19.params
+    output: test/shingles_18_19.result
+    jobid: 641
+    wildcards: param=shingles_18_19
+
+
+[Tue Dec  3 23:26:56 2019]
+rule test:
+    input: test/shingles_17_14.params
+    output: test/shingles_17_14.result
+    jobid: 617
+    wildcards: param=shingles_17_14
+
+Terminating processes on user request, this might take some time.
+[Tue Dec  3 23:29:38 2019]
+Error in rule test:
+[Tue Dec  3 23:29:38 2019]
+    jobid: 641
+Error in rule test:
+    output: test/shingles_18_19.result
+    jobid: 617
+    shell:
+        bash ./script.sh test/shingles_18_19.params test/shingles_18_19.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    output: test/shingles_17_14.result
+
+    shell:
+        bash ./script.sh test/shingles_17_14.params test/shingles_17_14.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Cancelling snakemake on user request.
+Removing output files of failed job test since they might be corrupted:
+test/shingles_18_19.result
