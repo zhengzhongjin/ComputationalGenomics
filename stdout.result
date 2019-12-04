@@ -1,0 +1,2 @@
+./script.sh: line 9: ./run_server.sh: No such file or directory
+./script.sh: line 9: ./run_researcher.sh: No such file or directory

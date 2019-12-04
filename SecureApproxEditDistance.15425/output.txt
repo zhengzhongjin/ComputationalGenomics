@@ -1,0 +1,2004 @@
+querylength 3460, calculating top-40 results
+1:1849 cost 5845
+tmp Value = 5845
+2:1800 cost 5847
+tmp Value = 5847
+3:1245 cost 5848
+tmp Value = 5848
+4:1442 cost 5849
+tmp Value = 5849
+4:1659 cost 5849
+tmp Value = 5849
+5:1952 cost 5850
+tmp Value = 5850
+5:1957 cost 5850
+tmp Value = 5850
+6:1162 cost 5851
+tmp Value = 5851
+7:1016 cost 5852
+tmp Value = 5852
+7:1269 cost 5852
+tmp Value = 5852
+7:1474 cost 5852
+tmp Value = 5852
+8:1141 cost 5853
+tmp Value = 5853
+8:1354 cost 5853
+tmp Value = 5853
+8:1469 cost 5853
+tmp Value = 5853
+8:1602 cost 5853
+tmp Value = 5853
+8:1708 cost 5853
+tmp Value = 5853
+8:1834 cost 5853
+tmp Value = 5853
+8:1869 cost 5853
+tmp Value = 5853
+9:1116 cost 5854
+tmp Value = 5854
+9:1130 cost 5854
+tmp Value = 5854
+9:1483 cost 5854
+tmp Value = 5854
+9:1502 cost 5854
+tmp Value = 5854
+9:1706 cost 5854
+tmp Value = 5854
+9:1861 cost 5854
+tmp Value = 5854
+9:1903 cost 5854
+tmp Value = 5854
+9:1963 cost 5854
+tmp Value = 5854
+9:1990 cost 5854
+tmp Value = 5854
+10:1069 cost 5855
+tmp Value = 5855
+10:1164 cost 5855
+tmp Value = 5855
+10:1584 cost 5855
+tmp Value = 5855
+10:1612 cost 5855
+tmp Value = 5855
+11:1011 cost 5856
+tmp Value = 5856
+11:1201 cost 5856
+tmp Value = 5856
+11:1252 cost 5856
+tmp Value = 5856
+11:1290 cost 5856
+tmp Value = 5856
+11:1332 cost 5856
+tmp Value = 5856
+11:1356 cost 5856
+tmp Value = 5856
+11:1375 cost 5856
+tmp Value = 5856
+11:1505 cost 5856
+tmp Value = 5856
+11:1583 cost 5856
+tmp Value = 5856
+11:1701 cost 5856
+tmp Value = 5856
+11:1736 cost 5856
+tmp Value = 5856
+11:1741 cost 5856
+tmp Value = 5856
+11:1825 cost 5856
+tmp Value = 5856
+11:1841 cost 5856
+tmp Value = 5856
+11:1886 cost 5856
+tmp Value = 5856
+12:1092 cost 5857
+tmp Value = 5857
+12:1183 cost 5857
+tmp Value = 5857
+12:1250 cost 5857
+tmp Value = 5857
+12:1291 cost 5857
+tmp Value = 5857
+12:1335 cost 5857
+tmp Value = 5857
+12:1340 cost 5857
+tmp Value = 5857
+12:1368 cost 5857
+tmp Value = 5857
+12:1426 cost 5857
+tmp Value = 5857
+12:1439 cost 5857
+tmp Value = 5857
+12:1562 cost 5857
+tmp Value = 5857
+12:1569 cost 5857
+tmp Value = 5857
+12:1598 cost 5857
+tmp Value = 5857
+12:1646 cost 5857
+tmp Value = 5857
+12:1648 cost 5857
+tmp Value = 5857
+12:1711 cost 5857
+tmp Value = 5857
+12:1771 cost 5857
+tmp Value = 5857
+12:1785 cost 5857
+tmp Value = 5857
+12:1799 cost 5857
+tmp Value = 5857
+12:1855 cost 5857
+tmp Value = 5857
+12:1874 cost 5857
+tmp Value = 5857
+12:1875 cost 5857
+tmp Value = 5857
+12:1930 cost 5857
+tmp Value = 5857
+12:1950 cost 5857
+tmp Value = 5857
+12:1958 cost 5857
+tmp Value = 5857
+12:1991 cost 5857
+tmp Value = 5857
+13:1039 cost 5858
+tmp Value = 5858
+13:1064 cost 5858
+tmp Value = 5858
+13:1099 cost 5858
+tmp Value = 5858
+13:1105 cost 5858
+tmp Value = 5858
+13:1114 cost 5858
+tmp Value = 5858
+13:1127 cost 5858
+tmp Value = 5858
+13:1156 cost 5858
+tmp Value = 5858
+13:1225 cost 5858
+tmp Value = 5858
+13:1268 cost 5858
+tmp Value = 5858
+13:1298 cost 5858
+tmp Value = 5858
+13:1344 cost 5858
+tmp Value = 5858
+13:1351 cost 5858
+tmp Value = 5858
+13:1369 cost 5858
+tmp Value = 5858
+13:1383 cost 5858
+tmp Value = 5858
+13:1431 cost 5858
+tmp Value = 5858
+13:1454 cost 5858
+tmp Value = 5858
+13:1458 cost 5858
+tmp Value = 5858
+13:1532 cost 5858
+tmp Value = 5858
+13:1605 cost 5858
+tmp Value = 5858
+13:1675 cost 5858
+tmp Value = 5858
+13:1699 cost 5858
+tmp Value = 5858
+13:1744 cost 5858
+tmp Value = 5858
+13:1773 cost 5858
+tmp Value = 5858
+13:1784 cost 5858
+tmp Value = 5858
+13:1789 cost 5858
+tmp Value = 5858
+13:1852 cost 5858
+tmp Value = 5858
+13:1889 cost 5858
+tmp Value = 5858
+13:1920 cost 5858
+tmp Value = 5858
+13:1989 cost 5858
+tmp Value = 5858
+14:1033 cost 5859
+tmp Value = 5859
+14:1045 cost 5859
+tmp Value = 5859
+14:1058 cost 5859
+tmp Value = 5859
+14:1093 cost 5859
+tmp Value = 5859
+14:1121 cost 5859
+tmp Value = 5859
+14:1153 cost 5859
+tmp Value = 5859
+14:1159 cost 5859
+tmp Value = 5859
+14:1168 cost 5859
+tmp Value = 5859
+14:1179 cost 5859
+tmp Value = 5859
+14:1219 cost 5859
+tmp Value = 5859
+14:1257 cost 5859
+tmp Value = 5859
+14:1285 cost 5859
+tmp Value = 5859
+14:1309 cost 5859
+tmp Value = 5859
+14:1318 cost 5859
+tmp Value = 5859
+14:1345 cost 5859
+tmp Value = 5859
+14:1386 cost 5859
+tmp Value = 5859
+14:1440 cost 5859
+tmp Value = 5859
+14:1513 cost 5859
+tmp Value = 5859
+14:1536 cost 5859
+tmp Value = 5859
+14:1547 cost 5859
+tmp Value = 5859
+14:1566 cost 5859
+tmp Value = 5859
+14:1597 cost 5859
+tmp Value = 5859
+14:1630 cost 5859
+tmp Value = 5859
+14:1631 cost 5859
+tmp Value = 5859
+14:1686 cost 5859
+tmp Value = 5859
+14:1713 cost 5859
+tmp Value = 5859
+14:1714 cost 5859
+tmp Value = 5859
+14:1818 cost 5859
+tmp Value = 5859
+14:1839 cost 5859
+tmp Value = 5859
+14:1845 cost 5859
+tmp Value = 5859
+14:1857 cost 5859
+tmp Value = 5859
+14:1897 cost 5859
+tmp Value = 5859
+14:1908 cost 5859
+tmp Value = 5859
+14:1982 cost 5859
+tmp Value = 5859
+15:1029 cost 5860
+tmp Value = 5860
+15:1037 cost 5860
+tmp Value = 5860
+15:1052 cost 5860
+tmp Value = 5860
+15:1066 cost 5860
+tmp Value = 5860
+15:1071 cost 5860
+tmp Value = 5860
+15:1077 cost 5860
+tmp Value = 5860
+15:1089 cost 5860
+tmp Value = 5860
+15:1129 cost 5860
+tmp Value = 5860
+15:1195 cost 5860
+tmp Value = 5860
+15:1200 cost 5860
+tmp Value = 5860
+15:1214 cost 5860
+tmp Value = 5860
+15:1292 cost 5860
+tmp Value = 5860
+15:1305 cost 5860
+tmp Value = 5860
+15:1322 cost 5860
+tmp Value = 5860
+15:1323 cost 5860
+tmp Value = 5860
+15:1330 cost 5860
+tmp Value = 5860
+15:1339 cost 5860
+tmp Value = 5860
+15:1349 cost 5860
+tmp Value = 5860
+15:1353 cost 5860
+tmp Value = 5860
+15:1377 cost 5860
+tmp Value = 5860
+15:1382 cost 5860
+tmp Value = 5860
+15:1388 cost 5860
+tmp Value = 5860
+15:1391 cost 5860
+tmp Value = 5860
+15:1392 cost 5860
+tmp Value = 5860
+15:1424 cost 5860
+tmp Value = 5860
+15:1427 cost 5860
+tmp Value = 5860
+15:1515 cost 5860
+tmp Value = 5860
+15:1522 cost 5860
+tmp Value = 5860
+15:1550 cost 5860
+tmp Value = 5860
+15:1580 cost 5860
+tmp Value = 5860
+15:1587 cost 5860
+tmp Value = 5860
+15:1595 cost 5860
+tmp Value = 5860
+15:1627 cost 5860
+tmp Value = 5860
+15:1669 cost 5860
+tmp Value = 5860
+15:1792 cost 5860
+tmp Value = 5860
+15:1815 cost 5860
+tmp Value = 5860
+15:1819 cost 5860
+tmp Value = 5860
+15:1822 cost 5860
+tmp Value = 5860
+15:1843 cost 5860
+tmp Value = 5860
+15:1858 cost 5860
+tmp Value = 5860
+15:1911 cost 5860
+tmp Value = 5860
+15:1912 cost 5860
+tmp Value = 5860
+15:1917 cost 5860
+tmp Value = 5860
+15:1934 cost 5860
+tmp Value = 5860
+15:1972 cost 5860
+tmp Value = 5860
+15:1973 cost 5860
+tmp Value = 5860
+15:1986 cost 5860
+tmp Value = 5860
+16:1010 cost 5861
+tmp Value = 5861
+16:1013 cost 5861
+tmp Value = 5861
+16:1025 cost 5861
+tmp Value = 5861
+16:1047 cost 5861
+tmp Value = 5861
+16:1065 cost 5861
+tmp Value = 5861
+16:1073 cost 5861
+tmp Value = 5861
+16:1109 cost 5861
+tmp Value = 5861
+16:1132 cost 5861
+tmp Value = 5861
+16:1148 cost 5861
+tmp Value = 5861
+16:1155 cost 5861
+tmp Value = 5861
+16:1174 cost 5861
+tmp Value = 5861
+16:1184 cost 5861
+tmp Value = 5861
+16:1189 cost 5861
+tmp Value = 5861
+16:1205 cost 5861
+tmp Value = 5861
+16:1227 cost 5861
+tmp Value = 5861
+16:1253 cost 5861
+tmp Value = 5861
+16:1256 cost 5861
+tmp Value = 5861
+16:1259 cost 5861
+tmp Value = 5861
+16:1289 cost 5861
+tmp Value = 5861
+16:1299 cost 5861
+tmp Value = 5861
+16:1328 cost 5861
+tmp Value = 5861
+16:1331 cost 5861
+tmp Value = 5861
+16:1371 cost 5861
+tmp Value = 5861
+16:1390 cost 5861
+tmp Value = 5861
+16:1401 cost 5861
+tmp Value = 5861
+16:1405 cost 5861
+tmp Value = 5861
+16:1430 cost 5861
+tmp Value = 5861
+16:1448 cost 5861
+tmp Value = 5861
+16:1460 cost 5861
+tmp Value = 5861
+16:1466 cost 5861
+tmp Value = 5861
+16:1468 cost 5861
+tmp Value = 5861
+16:1472 cost 5861
+tmp Value = 5861
+16:1494 cost 5861
+tmp Value = 5861
+16:1501 cost 5861
+tmp Value = 5861
+16:1524 cost 5861
+tmp Value = 5861
+16:1542 cost 5861
+tmp Value = 5861
+16:1572 cost 5861
+tmp Value = 5861
+16:1589 cost 5861
+tmp Value = 5861
+16:1607 cost 5861
+tmp Value = 5861
+16:1623 cost 5861
+tmp Value = 5861
+16:1633 cost 5861
+tmp Value = 5861
+16:1656 cost 5861
+tmp Value = 5861
+16:1658 cost 5861
+tmp Value = 5861
+16:1668 cost 5861
+tmp Value = 5861
+16:1715 cost 5861
+tmp Value = 5861
+16:1720 cost 5861
+tmp Value = 5861
+16:1780 cost 5861
+tmp Value = 5861
+16:1786 cost 5861
+tmp Value = 5861
+16:1788 cost 5861
+tmp Value = 5861
+16:1803 cost 5861
+tmp Value = 5861
+16:1810 cost 5861
+tmp Value = 5861
+16:1816 cost 5861
+tmp Value = 5861
+16:1835 cost 5861
+tmp Value = 5861
+16:1838 cost 5861
+tmp Value = 5861
+16:1842 cost 5861
+tmp Value = 5861
+16:1931 cost 5861
+tmp Value = 5861
+16:1978 cost 5861
+tmp Value = 5861
+16:1979 cost 5861
+tmp Value = 5861
+16:2000 cost 5861
+tmp Value = 5861
+17:1008 cost 5862
+tmp Value = 5862
+17:1018 cost 5862
+tmp Value = 5862
+17:1038 cost 5862
+tmp Value = 5862
+17:1048 cost 5862
+tmp Value = 5862
+17:1056 cost 5862
+tmp Value = 5862
+17:1057 cost 5862
+tmp Value = 5862
+17:1088 cost 5862
+tmp Value = 5862
+17:1125 cost 5862
+tmp Value = 5862
+17:1137 cost 5862
+tmp Value = 5862
+17:1185 cost 5862
+tmp Value = 5862
+17:1213 cost 5862
+tmp Value = 5862
+17:1247 cost 5862
+tmp Value = 5862
+17:1251 cost 5862
+tmp Value = 5862
+17:1258 cost 5862
+tmp Value = 5862
+17:1278 cost 5862
+tmp Value = 5862
+17:1281 cost 5862
+tmp Value = 5862
+17:1315 cost 5862
+tmp Value = 5862
+17:1325 cost 5862
+tmp Value = 5862
+17:1336 cost 5862
+tmp Value = 5862
+17:1376 cost 5862
+tmp Value = 5862
+17:1385 cost 5862
+tmp Value = 5862
+17:1393 cost 5862
+tmp Value = 5862
+17:1447 cost 5862
+tmp Value = 5862
+17:1452 cost 5862
+tmp Value = 5862
+17:1462 cost 5862
+tmp Value = 5862
+17:1463 cost 5862
+tmp Value = 5862
+17:1467 cost 5862
+tmp Value = 5862
+17:1497 cost 5862
+tmp Value = 5862
+17:1507 cost 5862
+tmp Value = 5862
+17:1510 cost 5862
+tmp Value = 5862
+17:1556 cost 5862
+tmp Value = 5862
+17:1574 cost 5862
+tmp Value = 5862
+17:1577 cost 5862
+tmp Value = 5862
+17:1614 cost 5862
+tmp Value = 5862
+17:1625 cost 5862
+tmp Value = 5862
+17:1641 cost 5862
+tmp Value = 5862
+17:1643 cost 5862
+tmp Value = 5862
+17:1645 cost 5862
+tmp Value = 5862
+17:1679 cost 5862
+tmp Value = 5862
+17:1681 cost 5862
+tmp Value = 5862
+17:1690 cost 5862
+tmp Value = 5862
+17:1729 cost 5862
+tmp Value = 5862
+17:1730 cost 5862
+tmp Value = 5862
+17:1737 cost 5862
+tmp Value = 5862
+17:1743 cost 5862
+tmp Value = 5862
+17:1745 cost 5862
+tmp Value = 5862
+17:1748 cost 5862
+tmp Value = 5862
+17:1766 cost 5862
+tmp Value = 5862
+17:1821 cost 5862
+tmp Value = 5862
+17:1823 cost 5862
+tmp Value = 5862
+17:1865 cost 5862
+tmp Value = 5862
+17:1870 cost 5862
+tmp Value = 5862
+17:1892 cost 5862
+tmp Value = 5862
+17:1894 cost 5862
+tmp Value = 5862
+17:1902 cost 5862
+tmp Value = 5862
+17:1906 cost 5862
+tmp Value = 5862
+17:1922 cost 5862
+tmp Value = 5862
+17:1935 cost 5862
+tmp Value = 5862
+17:1936 cost 5862
+tmp Value = 5862
+17:1970 cost 5862
+tmp Value = 5862
+17:1974 cost 5862
+tmp Value = 5862
+17:1994 cost 5862
+tmp Value = 5862
+18:1009 cost 5863
+tmp Value = 5863
+18:1014 cost 5863
+tmp Value = 5863
+18:1021 cost 5863
+tmp Value = 5863
+18:1023 cost 5863
+tmp Value = 5863
+18:1028 cost 5863
+tmp Value = 5863
+18:1036 cost 5863
+tmp Value = 5863
+18:1044 cost 5863
+tmp Value = 5863
+18:1067 cost 5863
+tmp Value = 5863
+18:1074 cost 5863
+tmp Value = 5863
+18:1083 cost 5863
+tmp Value = 5863
+18:1087 cost 5863
+tmp Value = 5863
+18:1103 cost 5863
+tmp Value = 5863
+18:1154 cost 5863
+tmp Value = 5863
+18:1169 cost 5863
+tmp Value = 5863
+18:1180 cost 5863
+tmp Value = 5863
+18:1203 cost 5863
+tmp Value = 5863
+18:1223 cost 5863
+tmp Value = 5863
+18:1237 cost 5863
+tmp Value = 5863
+18:1248 cost 5863
+tmp Value = 5863
+18:1275 cost 5863
+tmp Value = 5863
+18:1293 cost 5863
+tmp Value = 5863
+18:1296 cost 5863
+tmp Value = 5863
+18:1343 cost 5863
+tmp Value = 5863
+18:1352 cost 5863
+tmp Value = 5863
+18:1367 cost 5863
+tmp Value = 5863
+18:1397 cost 5863
+tmp Value = 5863
+18:1406 cost 5863
+tmp Value = 5863
+18:1411 cost 5863
+tmp Value = 5863
+18:1415 cost 5863
+tmp Value = 5863
+18:1441 cost 5863
+tmp Value = 5863
+18:1488 cost 5863
+tmp Value = 5863
+18:1498 cost 5863
+tmp Value = 5863
+18:1520 cost 5863
+tmp Value = 5863
+18:1541 cost 5863
+tmp Value = 5863
+18:1548 cost 5863
+tmp Value = 5863
+18:1554 cost 5863
+tmp Value = 5863
+18:1561 cost 5863
+tmp Value = 5863
+18:1570 cost 5863
+tmp Value = 5863
+18:1624 cost 5863
+tmp Value = 5863
+18:1629 cost 5863
+tmp Value = 5863
+18:1661 cost 5863
+tmp Value = 5863
+18:1665 cost 5863
+tmp Value = 5863
+18:1674 cost 5863
+tmp Value = 5863
+18:1695 cost 5863
+tmp Value = 5863
+18:1735 cost 5863
+tmp Value = 5863
+18:1752 cost 5863
+tmp Value = 5863
+18:1793 cost 5863
+tmp Value = 5863
+18:1812 cost 5863
+tmp Value = 5863
+18:1826 cost 5863
+tmp Value = 5863
+18:1827 cost 5863
+tmp Value = 5863
+18:1864 cost 5863
+tmp Value = 5863
+18:1885 cost 5863
+tmp Value = 5863
+18:1899 cost 5863
+tmp Value = 5863
+18:1907 cost 5863
+tmp Value = 5863
+18:1910 cost 5863
+tmp Value = 5863
+18:1916 cost 5863
+tmp Value = 5863
+18:1944 cost 5863
+tmp Value = 5863
+18:1955 cost 5863
+tmp Value = 5863
+18:1983 cost 5863
+tmp Value = 5863
+18:1992 cost 5863
+tmp Value = 5863
+19:1050 cost 5864
+tmp Value = 5864
+19:1063 cost 5864
+tmp Value = 5864
+19:1078 cost 5864
+tmp Value = 5864
+19:1080 cost 5864
+tmp Value = 5864
+19:1085 cost 5864
+tmp Value = 5864
+19:1086 cost 5864
+tmp Value = 5864
+19:1110 cost 5864
+tmp Value = 5864
+19:1136 cost 5864
+tmp Value = 5864
+19:1144 cost 5864
+tmp Value = 5864
+19:1172 cost 5864
+tmp Value = 5864
+19:1177 cost 5864
+tmp Value = 5864
+19:1181 cost 5864
+tmp Value = 5864
+19:1188 cost 5864
+tmp Value = 5864
+19:1198 cost 5864
+tmp Value = 5864
+19:1220 cost 5864
+tmp Value = 5864
+19:1233 cost 5864
+tmp Value = 5864
+19:1235 cost 5864
+tmp Value = 5864
+19:1239 cost 5864
+tmp Value = 5864
+19:1243 cost 5864
+tmp Value = 5864
+19:1263 cost 5864
+tmp Value = 5864
+19:1270 cost 5864
+tmp Value = 5864
+19:1277 cost 5864
+tmp Value = 5864
+19:1282 cost 5864
+tmp Value = 5864
+19:1286 cost 5864
+tmp Value = 5864
+19:1300 cost 5864
+tmp Value = 5864
+19:1302 cost 5864
+tmp Value = 5864
+19:1313 cost 5864
+tmp Value = 5864
+19:1329 cost 5864
+tmp Value = 5864
+19:1421 cost 5864
+tmp Value = 5864
+19:1423 cost 5864
+tmp Value = 5864
+19:1432 cost 5864
+tmp Value = 5864
+19:1471 cost 5864
+tmp Value = 5864
+19:1476 cost 5864
+tmp Value = 5864
+19:1477 cost 5864
+tmp Value = 5864
+19:1484 cost 5864
+tmp Value = 5864
+19:1487 cost 5864
+tmp Value = 5864
+19:1500 cost 5864
+tmp Value = 5864
+19:1546 cost 5864
+tmp Value = 5864
+19:1559 cost 5864
+tmp Value = 5864
+19:1565 cost 5864
+tmp Value = 5864
+19:1596 cost 5864
+tmp Value = 5864
+19:1622 cost 5864
+tmp Value = 5864
+19:1626 cost 5864
+tmp Value = 5864
+19:1667 cost 5864
+tmp Value = 5864
+19:1673 cost 5864
+tmp Value = 5864
+19:1683 cost 5864
+tmp Value = 5864
+19:1684 cost 5864
+tmp Value = 5864
+19:1688 cost 5864
+tmp Value = 5864
+19:1692 cost 5864
+tmp Value = 5864
+19:1718 cost 5864
+tmp Value = 5864
+19:1740 cost 5864
+tmp Value = 5864
+19:1759 cost 5864
+tmp Value = 5864
+19:1794 cost 5864
+tmp Value = 5864
+19:1802 cost 5864
+tmp Value = 5864
+19:1814 cost 5864
+tmp Value = 5864
+19:1829 cost 5864
+tmp Value = 5864
+19:1840 cost 5864
+tmp Value = 5864
+19:1846 cost 5864
+tmp Value = 5864
+19:1862 cost 5864
+tmp Value = 5864
+19:1878 cost 5864
+tmp Value = 5864
+19:1883 cost 5864
+tmp Value = 5864
+19:1895 cost 5864
+tmp Value = 5864
+19:1904 cost 5864
+tmp Value = 5864
+19:1939 cost 5864
+tmp Value = 5864
+19:1941 cost 5864
+tmp Value = 5864
+19:1942 cost 5864
+tmp Value = 5864
+19:1949 cost 5864
+tmp Value = 5864
+19:1951 cost 5864
+tmp Value = 5864
+19:1964 cost 5864
+tmp Value = 5864
+19:1971 cost 5864
+tmp Value = 5864
+19:1976 cost 5864
+tmp Value = 5864
+19:1996 cost 5864
+tmp Value = 5864
+20:1005 cost 5865
+tmp Value = 5865
+20:1017 cost 5865
+tmp Value = 5865
+20:1020 cost 5865
+tmp Value = 5865
+20:1035 cost 5865
+tmp Value = 5865
+20:1060 cost 5865
+tmp Value = 5865
+20:1068 cost 5865
+tmp Value = 5865
+20:1075 cost 5865
+tmp Value = 5865
+20:1084 cost 5865
+tmp Value = 5865
+20:1094 cost 5865
+tmp Value = 5865
+20:1098 cost 5865
+tmp Value = 5865
+20:1100 cost 5865
+tmp Value = 5865
+20:1102 cost 5865
+tmp Value = 5865
+20:1104 cost 5865
+tmp Value = 5865
+20:1106 cost 5865
+tmp Value = 5865
+20:1112 cost 5865
+tmp Value = 5865
+20:1122 cost 5865
+tmp Value = 5865
+20:1126 cost 5865
+tmp Value = 5865
+20:1135 cost 5865
+tmp Value = 5865
+20:1143 cost 5865
+tmp Value = 5865
+20:1160 cost 5865
+tmp Value = 5865
+20:1167 cost 5865
+tmp Value = 5865
+20:1176 cost 5865
+tmp Value = 5865
+20:1191 cost 5865
+tmp Value = 5865
+20:1206 cost 5865
+tmp Value = 5865
+20:1207 cost 5865
+tmp Value = 5865
+20:1254 cost 5865
+tmp Value = 5865
+20:1262 cost 5865
+tmp Value = 5865
+20:1288 cost 5865
+tmp Value = 5865
+20:1303 cost 5865
+tmp Value = 5865
+20:1310 cost 5865
+tmp Value = 5865
+20:1314 cost 5865
+tmp Value = 5865
+20:1320 cost 5865
+tmp Value = 5865
+20:1372 cost 5865
+tmp Value = 5865
+20:1384 cost 5865
+tmp Value = 5865
+20:1395 cost 5865
+tmp Value = 5865
+20:1398 cost 5865
+tmp Value = 5865
+20:1403 cost 5865
+tmp Value = 5865
+20:1413 cost 5865
+tmp Value = 5865
+20:1417 cost 5865
+tmp Value = 5865
+20:1419 cost 5865
+tmp Value = 5865
+20:1425 cost 5865
+tmp Value = 5865
+20:1428 cost 5865
+tmp Value = 5865
+20:1450 cost 5865
+tmp Value = 5865
+20:1461 cost 5865
+tmp Value = 5865
+20:1495 cost 5865
+tmp Value = 5865
+20:1508 cost 5865
+tmp Value = 5865
+20:1519 cost 5865
+tmp Value = 5865
+20:1521 cost 5865
+tmp Value = 5865
+20:1533 cost 5865
+tmp Value = 5865
+20:1537 cost 5865
+tmp Value = 5865
+20:1552 cost 5865
+tmp Value = 5865
+20:1558 cost 5865
+tmp Value = 5865
+20:1575 cost 5865
+tmp Value = 5865
+20:1585 cost 5865
+tmp Value = 5865
+20:1592 cost 5865
+tmp Value = 5865
+20:1610 cost 5865
+tmp Value = 5865
+20:1632 cost 5865
+tmp Value = 5865
+20:1638 cost 5865
+tmp Value = 5865
+20:1639 cost 5865
+tmp Value = 5865
+20:1642 cost 5865
+tmp Value = 5865
+20:1650 cost 5865
+tmp Value = 5865
+20:1651 cost 5865
+tmp Value = 5865
+20:1654 cost 5865
+tmp Value = 5865
+20:1664 cost 5865
+tmp Value = 5865
+20:1687 cost 5865
+tmp Value = 5865
+20:1698 cost 5865
+tmp Value = 5865
+20:1704 cost 5865
+tmp Value = 5865
+20:1719 cost 5865
+tmp Value = 5865
+20:1746 cost 5865
+tmp Value = 5865
+20:1751 cost 5865
+tmp Value = 5865
+20:1755 cost 5865
+tmp Value = 5865
+20:1760 cost 5865
+tmp Value = 5865
+20:1761 cost 5865
+tmp Value = 5865
+20:1778 cost 5865
+tmp Value = 5865
+20:1779 cost 5865
+tmp Value = 5865
+20:1804 cost 5865
+tmp Value = 5865
+20:1808 cost 5865
+tmp Value = 5865
+20:1828 cost 5865
+tmp Value = 5865
+20:1836 cost 5865
+tmp Value = 5865
+20:1877 cost 5865
+tmp Value = 5865
+20:1896 cost 5865
+tmp Value = 5865
+20:1947 cost 5865
+tmp Value = 5865
+20:1966 cost 5865
+tmp Value = 5865
+20:1999 cost 5865
+tmp Value = 5865
+21:1026 cost 5866
+tmp Value = 5866
+21:1040 cost 5866
+tmp Value = 5866
+21:1055 cost 5866
+tmp Value = 5866
+21:1059 cost 5866
+tmp Value = 5866
+21:1072 cost 5866
+tmp Value = 5866
+21:1091 cost 5866
+tmp Value = 5866
+21:1146 cost 5866
+tmp Value = 5866
+21:1163 cost 5866
+tmp Value = 5866
+21:1170 cost 5866
+tmp Value = 5866
+21:1186 cost 5866
+tmp Value = 5866
+21:1194 cost 5866
+tmp Value = 5866
+21:1208 cost 5866
+tmp Value = 5866
+21:1210 cost 5866
+tmp Value = 5866
+21:1212 cost 5866
+tmp Value = 5866
+21:1231 cost 5866
+tmp Value = 5866
+21:1265 cost 5866
+tmp Value = 5866
+21:1301 cost 5866
+tmp Value = 5866
+21:1308 cost 5866
+tmp Value = 5866
+21:1312 cost 5866
+tmp Value = 5866
+21:1326 cost 5866
+tmp Value = 5866
+21:1333 cost 5866
+tmp Value = 5866
+21:1346 cost 5866
+tmp Value = 5866
+21:1355 cost 5866
+tmp Value = 5866
+21:1362 cost 5866
+tmp Value = 5866
+21:1394 cost 5866
+tmp Value = 5866
+21:1404 cost 5866
+tmp Value = 5866
+21:1433 cost 5866
+tmp Value = 5866
+21:1449 cost 5866
+tmp Value = 5866
+21:1457 cost 5866
+tmp Value = 5866
+21:1464 cost 5866
+tmp Value = 5866
+21:1479 cost 5866
+tmp Value = 5866
+21:1503 cost 5866
+tmp Value = 5866
+21:1571 cost 5866
+tmp Value = 5866
+21:1576 cost 5866
+tmp Value = 5866
+21:1579 cost 5866
+tmp Value = 5866
+21:1586 cost 5866
+tmp Value = 5866
+21:1609 cost 5866
+tmp Value = 5866
+21:1620 cost 5866
+tmp Value = 5866
+21:1663 cost 5866
+tmp Value = 5866
+21:1678 cost 5866
+tmp Value = 5866
+21:1709 cost 5866
+tmp Value = 5866
+21:1712 cost 5866
+tmp Value = 5866
+21:1753 cost 5866
+tmp Value = 5866
+21:1758 cost 5866
+tmp Value = 5866
+21:1769 cost 5866
+tmp Value = 5866
+21:1772 cost 5866
+tmp Value = 5866
+21:1797 cost 5866
+tmp Value = 5866
+21:1806 cost 5866
+tmp Value = 5866
+21:1820 cost 5866
+tmp Value = 5866
+21:1832 cost 5866
+tmp Value = 5866
+21:1848 cost 5866
+tmp Value = 5866
+21:1853 cost 5866
+tmp Value = 5866
+21:1860 cost 5866
+tmp Value = 5866
+21:1871 cost 5866
+tmp Value = 5866
+21:1879 cost 5866
+tmp Value = 5866
+21:1900 cost 5866
+tmp Value = 5866
+21:1915 cost 5866
+tmp Value = 5866
+21:1960 cost 5866
+tmp Value = 5866
+21:1980 cost 5866
+tmp Value = 5866
+21:1981 cost 5866
+tmp Value = 5866
+21:1984 cost 5866
+tmp Value = 5866
+21:1988 cost 5866
+tmp Value = 5866
+21:1998 cost 5866
+tmp Value = 5866
+22:1002 cost 5867
+tmp Value = 5867
+22:1004 cost 5867
+tmp Value = 5867
+22:1015 cost 5867
+tmp Value = 5867
+22:1024 cost 5867
+tmp Value = 5867
+22:1031 cost 5867
+tmp Value = 5867
+22:1053 cost 5867
+tmp Value = 5867
+22:1133 cost 5867
+tmp Value = 5867
+22:1139 cost 5867
+tmp Value = 5867
+22:1142 cost 5867
+tmp Value = 5867
+22:1204 cost 5867
+tmp Value = 5867
+22:1221 cost 5867
+tmp Value = 5867
+22:1222 cost 5867
+tmp Value = 5867
+22:1230 cost 5867
+tmp Value = 5867
+22:1238 cost 5867
+tmp Value = 5867
+22:1242 cost 5867
+tmp Value = 5867
+22:1294 cost 5867
+tmp Value = 5867
+22:1358 cost 5867
+tmp Value = 5867
+22:1402 cost 5867
+tmp Value = 5867
+22:1414 cost 5867
+tmp Value = 5867
+22:1420 cost 5867
+tmp Value = 5867
+22:1422 cost 5867
+tmp Value = 5867
+22:1437 cost 5867
+tmp Value = 5867
+22:1445 cost 5867
+tmp Value = 5867
+22:1453 cost 5867
+tmp Value = 5867
+22:1465 cost 5867
+tmp Value = 5867
+22:1470 cost 5867
+tmp Value = 5867
+22:1475 cost 5867
+tmp Value = 5867
+22:1478 cost 5867
+tmp Value = 5867
+22:1509 cost 5867
+tmp Value = 5867
+22:1518 cost 5867
+tmp Value = 5867
+22:1529 cost 5867
+tmp Value = 5867
+22:1531 cost 5867
+tmp Value = 5867
+22:1564 cost 5867
+tmp Value = 5867
+22:1567 cost 5867
+tmp Value = 5867
+22:1568 cost 5867
+tmp Value = 5867
+22:1573 cost 5867
+tmp Value = 5867
+22:1594 cost 5867
+tmp Value = 5867
+22:1603 cost 5867
+tmp Value = 5867
+22:1617 cost 5867
+tmp Value = 5867
+22:1680 cost 5867
+tmp Value = 5867
+22:1691 cost 5867
+tmp Value = 5867
+22:1696 cost 5867
+tmp Value = 5867
+22:1705 cost 5867
+tmp Value = 5867
+22:1723 cost 5867
+tmp Value = 5867
+22:1726 cost 5867
+tmp Value = 5867
+22:1757 cost 5867
+tmp Value = 5867
+22:1764 cost 5867
+tmp Value = 5867
+22:1775 cost 5867
+tmp Value = 5867
+22:1791 cost 5867
+tmp Value = 5867
+22:1795 cost 5867
+tmp Value = 5867
+22:1798 cost 5867
+tmp Value = 5867
+22:1847 cost 5867
+tmp Value = 5867
+22:1914 cost 5867
+tmp Value = 5867
+22:1923 cost 5867
+tmp Value = 5867
+22:1967 cost 5867
+tmp Value = 5867
+23:1019 cost 5868
+tmp Value = 5868
+23:1049 cost 5868
+tmp Value = 5868
+23:1081 cost 5868
+tmp Value = 5868
+23:1082 cost 5868
+tmp Value = 5868
+23:1095 cost 5868
+tmp Value = 5868
+23:1097 cost 5868
+tmp Value = 5868
+23:1131 cost 5868
+tmp Value = 5868
+23:1134 cost 5868
+tmp Value = 5868
+23:1138 cost 5868
+tmp Value = 5868
+23:1147 cost 5868
+tmp Value = 5868
+23:1150 cost 5868
+tmp Value = 5868
+23:1161 cost 5868
+tmp Value = 5868
+23:1197 cost 5868
+tmp Value = 5868
+23:1199 cost 5868
+tmp Value = 5868
+23:1224 cost 5868
+tmp Value = 5868
+23:1228 cost 5868
+tmp Value = 5868
+23:1241 cost 5868
+tmp Value = 5868
+23:1255 cost 5868
+tmp Value = 5868
+23:1279 cost 5868
+tmp Value = 5868
+23:1284 cost 5868
+tmp Value = 5868
+23:1311 cost 5868
+tmp Value = 5868
+23:1324 cost 5868
+tmp Value = 5868
+23:1334 cost 5868
+tmp Value = 5868
+23:1342 cost 5868
+tmp Value = 5868
+23:1379 cost 5868
+tmp Value = 5868
+23:1381 cost 5868
+tmp Value = 5868
+23:1399 cost 5868
+tmp Value = 5868
+23:1407 cost 5868
+tmp Value = 5868
+23:1410 cost 5868
+tmp Value = 5868
+23:1418 cost 5868
+tmp Value = 5868
+23:1434 cost 5868
+tmp Value = 5868
+23:1444 cost 5868
+tmp Value = 5868
+23:1456 cost 5868
+tmp Value = 5868
+23:1485 cost 5868
+tmp Value = 5868
+23:1526 cost 5868
+tmp Value = 5868
+23:1540 cost 5868
+tmp Value = 5868
+23:1578 cost 5868
+tmp Value = 5868
+23:1604 cost 5868
+tmp Value = 5868
+23:1615 cost 5868
+tmp Value = 5868
+23:1618 cost 5868
+tmp Value = 5868
+23:1672 cost 5868
+tmp Value = 5868
+23:1677 cost 5868
+tmp Value = 5868
+23:1724 cost 5868
+tmp Value = 5868
+23:1739 cost 5868
+tmp Value = 5868
+23:1749 cost 5868
+tmp Value = 5868
+23:1768 cost 5868
+tmp Value = 5868
+23:1770 cost 5868
+tmp Value = 5868
+23:1776 cost 5868
+tmp Value = 5868
+23:1783 cost 5868
+tmp Value = 5868
+23:1801 cost 5868
+tmp Value = 5868
+23:1824 cost 5868
+tmp Value = 5868
+23:1833 cost 5868
+tmp Value = 5868
+23:1859 cost 5868
+tmp Value = 5868
+23:1872 cost 5868
+tmp Value = 5868
+23:1881 cost 5868
+tmp Value = 5868
+23:1888 cost 5868
+tmp Value = 5868
+23:1919 cost 5868
+tmp Value = 5868
+23:1932 cost 5868
+tmp Value = 5868
+23:1961 cost 5868
+tmp Value = 5868
+24:1001 cost 5869
+tmp Value = 5869
+24:1012 cost 5869
+tmp Value = 5869
+24:1022 cost 5869
+tmp Value = 5869
+24:1027 cost 5869
+tmp Value = 5869
+24:1062 cost 5869
+tmp Value = 5869
+24:1096 cost 5869
+tmp Value = 5869
+24:1115 cost 5869
+tmp Value = 5869
+24:1145 cost 5869
+tmp Value = 5869
+24:1158 cost 5869
+tmp Value = 5869
+24:1192 cost 5869
+tmp Value = 5869
+24:1202 cost 5869
+tmp Value = 5869
+24:1211 cost 5869
+tmp Value = 5869
+24:1232 cost 5869
+tmp Value = 5869
+24:1236 cost 5869
+tmp Value = 5869
+24:1246 cost 5869
+tmp Value = 5869
+24:1260 cost 5869
+tmp Value = 5869
+24:1264 cost 5869
+tmp Value = 5869
+24:1267 cost 5869
+tmp Value = 5869
+24:1272 cost 5869
+tmp Value = 5869
+24:1287 cost 5869
+tmp Value = 5869
+24:1295 cost 5869
+tmp Value = 5869
+24:1316 cost 5869
+tmp Value = 5869
+24:1337 cost 5869
+tmp Value = 5869
+24:1347 cost 5869
+tmp Value = 5869
+24:1348 cost 5869
+tmp Value = 5869
+24:1370 cost 5869
+tmp Value = 5869
+24:1387 cost 5869
+tmp Value = 5869
+24:1389 cost 5869
+tmp Value = 5869
+24:1429 cost 5869
+tmp Value = 5869
+24:1443 cost 5869
+tmp Value = 5869
+24:1482 cost 5869
+tmp Value = 5869
+24:1486 cost 5869
+tmp Value = 5869
+24:1489 cost 5869
+tmp Value = 5869
+24:1490 cost 5869
+tmp Value = 5869
+24:1491 cost 5869
+tmp Value = 5869
+24:1506 cost 5869
+tmp Value = 5869
+24:1514 cost 5869
+tmp Value = 5869
+24:1553 cost 5869
+tmp Value = 5869
+24:1563 cost 5869
+tmp Value = 5869
+24:1590 cost 5869
+tmp Value = 5869
+24:1591 cost 5869
+tmp Value = 5869
+24:1608 cost 5869
+tmp Value = 5869
+24:1613 cost 5869
+tmp Value = 5869
+24:1710 cost 5869
+tmp Value = 5869
+24:1754 cost 5869
+tmp Value = 5869
+24:1763 cost 5869
+tmp Value = 5869
+24:1767 cost 5869
+tmp Value = 5869
+24:1790 cost 5869
+tmp Value = 5869
+24:1796 cost 5869
+tmp Value = 5869
+24:1817 cost 5869
+tmp Value = 5869
+24:1831 cost 5869
+tmp Value = 5869
+24:1856 cost 5869
+tmp Value = 5869
+24:1880 cost 5869
+tmp Value = 5869
+24:1891 cost 5869
+tmp Value = 5869
+24:1926 cost 5869
+tmp Value = 5869
+24:1927 cost 5869
+tmp Value = 5869
+24:1945 cost 5869
+tmp Value = 5869
+24:1975 cost 5869
+tmp Value = 5869
+24:1993 cost 5869
+tmp Value = 5869
+25:1006 cost 5870
+tmp Value = 5870
+25:1007 cost 5870
+tmp Value = 5870
+25:1034 cost 5870
+tmp Value = 5870
+25:1076 cost 5870
+tmp Value = 5870
+25:1111 cost 5870
+tmp Value = 5870
+25:1117 cost 5870
+tmp Value = 5870
+25:1120 cost 5870
+tmp Value = 5870
+25:1123 cost 5870
+tmp Value = 5870
+25:1128 cost 5870
+tmp Value = 5870
+25:1140 cost 5870
+tmp Value = 5870
+25:1151 cost 5870
+tmp Value = 5870
+25:1173 cost 5870
+tmp Value = 5870
+25:1190 cost 5870
+tmp Value = 5870
+25:1196 cost 5870
+tmp Value = 5870
+25:1234 cost 5870
+tmp Value = 5870
+25:1240 cost 5870
+tmp Value = 5870
+25:1244 cost 5870
+tmp Value = 5870
+25:1261 cost 5870
+tmp Value = 5870
+25:1306 cost 5870
+tmp Value = 5870
+25:1317 cost 5870
+tmp Value = 5870
+25:1319 cost 5870
+tmp Value = 5870
+25:1327 cost 5870
+tmp Value = 5870
+25:1357 cost 5870
+tmp Value = 5870
+25:1364 cost 5870
+tmp Value = 5870
+25:1409 cost 5870
+tmp Value = 5870
+25:1416 cost 5870
+tmp Value = 5870
+25:1435 cost 5870
+tmp Value = 5870
+25:1481 cost 5870
+tmp Value = 5870
+25:1516 cost 5870
+tmp Value = 5870
+25:1543 cost 5870
+tmp Value = 5870
+25:1551 cost 5870
+tmp Value = 5870
+25:1557 cost 5870
+tmp Value = 5870
+25:1611 cost 5870
+tmp Value = 5870
+25:1628 cost 5870
+tmp Value = 5870
+25:1640 cost 5870
+tmp Value = 5870
+25:1676 cost 5870
+tmp Value = 5870
+25:1694 cost 5870
+tmp Value = 5870
+25:1697 cost 5870
+tmp Value = 5870
+25:1725 cost 5870
+tmp Value = 5870
+25:1777 cost 5870
+tmp Value = 5870
+25:1805 cost 5870
+tmp Value = 5870
+25:1813 cost 5870
+tmp Value = 5870
+25:1850 cost 5870
+tmp Value = 5870
+25:1866 cost 5870
+tmp Value = 5870
+25:1905 cost 5870
+tmp Value = 5870
+25:1924 cost 5870
+tmp Value = 5870
+25:1929 cost 5870
+tmp Value = 5870
+25:1937 cost 5870
+tmp Value = 5870
+25:1946 cost 5870
+tmp Value = 5870
+25:1965 cost 5870
+tmp Value = 5870
+25:1985 cost 5870
+tmp Value = 5870
+25:1987 cost 5870
+tmp Value = 5870
+26:1030 cost 5871
+tmp Value = 5871
+26:1032 cost 5871
+tmp Value = 5871
+26:1041 cost 5871
+tmp Value = 5871
+26:1051 cost 5871
+tmp Value = 5871
+26:1061 cost 5871
+tmp Value = 5871
+26:1108 cost 5871
+tmp Value = 5871
+26:1113 cost 5871
+tmp Value = 5871
+26:1149 cost 5871
+tmp Value = 5871
+26:1217 cost 5871
+tmp Value = 5871
+26:1218 cost 5871
+tmp Value = 5871
+26:1266 cost 5871
+tmp Value = 5871
+26:1280 cost 5871
+tmp Value = 5871
+26:1297 cost 5871
+tmp Value = 5871
+26:1307 cost 5871
+tmp Value = 5871
+26:1350 cost 5871
+tmp Value = 5871
+26:1363 cost 5871
+tmp Value = 5871
+26:1366 cost 5871
+tmp Value = 5871
+26:1459 cost 5871
+tmp Value = 5871
+26:1504 cost 5871
+tmp Value = 5871
+26:1523 cost 5871
+tmp Value = 5871
+26:1528 cost 5871
+tmp Value = 5871
+26:1538 cost 5871
+tmp Value = 5871
+26:1539 cost 5871
+tmp Value = 5871
+26:1581 cost 5871
+tmp Value = 5871
+26:1593 cost 5871
+tmp Value = 5871
+26:1599 cost 5871
+tmp Value = 5871
+26:1636 cost 5871
+tmp Value = 5871
+26:1652 cost 5871
+tmp Value = 5871
+26:1653 cost 5871
+tmp Value = 5871
+26:1670 cost 5871
+tmp Value = 5871
+26:1671 cost 5871
+tmp Value = 5871
+26:1700 cost 5871
+tmp Value = 5871
+26:1721 cost 5871
+tmp Value = 5871
+26:1722 cost 5871
+tmp Value = 5871
+26:1734 cost 5871
+tmp Value = 5871
+26:1747 cost 5871
+tmp Value = 5871
+26:1765 cost 5871
+tmp Value = 5871
+26:1774 cost 5871
+tmp Value = 5871
+26:1787 cost 5871
+tmp Value = 5871
+26:1844 cost 5871
+tmp Value = 5871
+26:1867 cost 5871
+tmp Value = 5871
+26:1868 cost 5871
+tmp Value = 5871
+26:1882 cost 5871
+tmp Value = 5871
+26:1884 cost 5871
+tmp Value = 5871
+26:1887 cost 5871
+tmp Value = 5871
+26:1918 cost 5871
+tmp Value = 5871
+26:1921 cost 5871
+tmp Value = 5871
+26:1928 cost 5871
+tmp Value = 5871
+26:1938 cost 5871
+tmp Value = 5871
+26:1948 cost 5871
+tmp Value = 5871
+26:1953 cost 5871
+tmp Value = 5871
+27:1046 cost 5872
+tmp Value = 5872
+27:1070 cost 5872
+tmp Value = 5872
+27:1107 cost 5872
+tmp Value = 5872
+27:1152 cost 5872
+tmp Value = 5872
+27:1157 cost 5872
+tmp Value = 5872
+27:1166 cost 5872
+tmp Value = 5872
+27:1193 cost 5872
+tmp Value = 5872
+27:1276 cost 5872
+tmp Value = 5872
+27:1283 cost 5872
+tmp Value = 5872
+27:1359 cost 5872
+tmp Value = 5872
+27:1480 cost 5872
+tmp Value = 5872
+27:1512 cost 5872
+tmp Value = 5872
+27:1534 cost 5872
+tmp Value = 5872
+27:1600 cost 5872
+tmp Value = 5872
+27:1619 cost 5872
+tmp Value = 5872
+27:1621 cost 5872
+tmp Value = 5872
+27:1644 cost 5872
+tmp Value = 5872
+27:1647 cost 5872
+tmp Value = 5872
+27:1660 cost 5872
+tmp Value = 5872
+27:1666 cost 5872
+tmp Value = 5872
+27:1682 cost 5872
+tmp Value = 5872
+27:1693 cost 5872
+tmp Value = 5872
+27:1703 cost 5872
+tmp Value = 5872
+27:1717 cost 5872
+tmp Value = 5872
+27:1727 cost 5872
+tmp Value = 5872
+27:1732 cost 5872
+tmp Value = 5872
+27:1782 cost 5872
+tmp Value = 5872
+27:1837 cost 5872
+tmp Value = 5872
+27:1851 cost 5872
+tmp Value = 5872
+27:1863 cost 5872
+tmp Value = 5872
+27:1876 cost 5872
+tmp Value = 5872
+27:1943 cost 5872
+tmp Value = 5872
+28:1101 cost 5873
+tmp Value = 5873
+28:1118 cost 5873
+tmp Value = 5873
+28:1124 cost 5873
+tmp Value = 5873
+28:1175 cost 5873
+tmp Value = 5873
+28:1178 cost 5873
+tmp Value = 5873
+28:1182 cost 5873
+tmp Value = 5873
+28:1187 cost 5873
+tmp Value = 5873
+28:1273 cost 5873
+tmp Value = 5873
+28:1321 cost 5873
+tmp Value = 5873
+28:1396 cost 5873
+tmp Value = 5873
+28:1400 cost 5873
+tmp Value = 5873
+28:1408 cost 5873
+tmp Value = 5873
+28:1499 cost 5873
+tmp Value = 5873
+28:1530 cost 5873
+tmp Value = 5873
+28:1588 cost 5873
+tmp Value = 5873
+28:1616 cost 5873
+tmp Value = 5873
+28:1637 cost 5873
+tmp Value = 5873
+28:1662 cost 5873
+tmp Value = 5873
+28:1685 cost 5873
+tmp Value = 5873
+28:1707 cost 5873
+tmp Value = 5873
+28:1728 cost 5873
+tmp Value = 5873
+28:1738 cost 5873
+tmp Value = 5873
+28:1750 cost 5873
+tmp Value = 5873
+28:1809 cost 5873
+tmp Value = 5873
+28:1854 cost 5873
+tmp Value = 5873
+28:1873 cost 5873
+tmp Value = 5873
+28:1890 cost 5873
+tmp Value = 5873
+28:1933 cost 5873
+tmp Value = 5873
+28:1940 cost 5873
+tmp Value = 5873
+29:1003 cost 5874
+tmp Value = 5874
+29:1042 cost 5874
+tmp Value = 5874
+29:1079 cost 5874
+tmp Value = 5874
+29:1165 cost 5874
+tmp Value = 5874
+29:1274 cost 5874
+tmp Value = 5874
+29:1338 cost 5874
+tmp Value = 5874
+29:1361 cost 5874
+tmp Value = 5874
+29:1380 cost 5874
+tmp Value = 5874
+29:1451 cost 5874
+tmp Value = 5874
+29:1492 cost 5874
+tmp Value = 5874
+29:1496 cost 5874
+tmp Value = 5874
+29:1517 cost 5874
+tmp Value = 5874
+29:1544 cost 5874
+tmp Value = 5874
+29:1635 cost 5874
+tmp Value = 5874
+29:1716 cost 5874
+tmp Value = 5874
+29:1731 cost 5874
+tmp Value = 5874
+29:1756 cost 5874
+tmp Value = 5874
+29:1762 cost 5874
+tmp Value = 5874
+29:1830 cost 5874
+tmp Value = 5874
+29:1893 cost 5874
+tmp Value = 5874
+29:1898 cost 5874
+tmp Value = 5874
+29:1901 cost 5874
+tmp Value = 5874
+29:1913 cost 5874
+tmp Value = 5874
+29:1959 cost 5874
+tmp Value = 5874
+30:1043 cost 5875
+tmp Value = 5875
+30:1226 cost 5875
+tmp Value = 5875
+30:1304 cost 5875
+tmp Value = 5875
+30:1341 cost 5875
+tmp Value = 5875
+30:1373 cost 5875
+tmp Value = 5875
+30:1374 cost 5875
+tmp Value = 5875
+30:1378 cost 5875
+tmp Value = 5875
+30:1436 cost 5875
+tmp Value = 5875
+30:1438 cost 5875
+tmp Value = 5875
+30:1455 cost 5875
+tmp Value = 5875
+30:1473 cost 5875
+tmp Value = 5875
+30:1493 cost 5875
+tmp Value = 5875
+30:1511 cost 5875
+tmp Value = 5875
+30:1525 cost 5875
+tmp Value = 5875
+30:1535 cost 5875
+tmp Value = 5875
+30:1545 cost 5875
+tmp Value = 5875
+30:1549 cost 5875
+tmp Value = 5875
+30:1555 cost 5875
+tmp Value = 5875
+30:1560 cost 5875
+tmp Value = 5875
+30:1606 cost 5875
+tmp Value = 5875
+30:1649 cost 5875
+tmp Value = 5875
+30:1657 cost 5875
+tmp Value = 5875
+30:1702 cost 5875
+tmp Value = 5875
+30:1733 cost 5875
+tmp Value = 5875
+30:1781 cost 5875
+tmp Value = 5875
+30:1811 cost 5875
+tmp Value = 5875
+30:1909 cost 5875
+tmp Value = 5875
+30:1956 cost 5875
+tmp Value = 5875
+30:1969 cost 5875
+tmp Value = 5875
+30:1995 cost 5875
+tmp Value = 5875
+30:2001 cost 5875
+tmp Value = 5875
+31:1054 cost 5876
+tmp Value = 5876
+31:1249 cost 5876
+tmp Value = 5876
+31:1412 cost 5876
+tmp Value = 5876
+31:1446 cost 5876
+tmp Value = 5876
+31:1582 cost 5876
+tmp Value = 5876
+31:1807 cost 5876
+tmp Value = 5876
+31:1954 cost 5876
+tmp Value = 5876
+31:1977 cost 5876
+tmp Value = 5876
+32:1090 cost 5877
+tmp Value = 5877
+32:1119 cost 5877
+tmp Value = 5877
+32:1209 cost 5877
+tmp Value = 5877
+32:1360 cost 5877
+tmp Value = 5877
+32:1365 cost 5877
+tmp Value = 5877
+32:1527 cost 5877
+tmp Value = 5877
+32:1601 cost 5877
+tmp Value = 5877
+32:1634 cost 5877
+tmp Value = 5877
+32:1655 cost 5877
+tmp Value = 5877
+32:1962 cost 5877
+tmp Value = 5877
+32:1997 cost 5877
+tmp Value = 5877
+33:1215 cost 5878
+tmp Value = 5878
+33:1216 cost 5878
+tmp Value = 5878
+33:1742 cost 5878
+tmp Value = 5878
+33:1968 cost 5878
+tmp Value = 5878
+34:1689 cost 5880
+tmp Value = 5880
+35:1229 cost 5881
+tmp Value = 5881
+35:1271 cost 5881
+tmp Value = 5881
+36:1171 cost 5883
+tmp Value = 5883
+36:1925 cost 5883
+tmp Value = 5883
+original_results has the real edit distance results.

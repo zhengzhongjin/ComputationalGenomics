@@ -1,0 +1,1 @@
+bash ./script.sh test/kbanded_14_11.params test/kbanded_14_11.result
