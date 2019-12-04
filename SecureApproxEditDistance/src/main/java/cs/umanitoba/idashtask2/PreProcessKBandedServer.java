@@ -83,7 +83,7 @@ public class PreProcessKBandedServer {
 
             //int port = config.getInt("Port");
             int port = Integer.parseInt(args[1]);
-            Thread t = new PreProcessServer(port + 1, lowest, data.size());
+            Thread t = new PreProcessServer(port, lowest, data.size());
             t.run();
             
         } catch (FileNotFoundException ex) {

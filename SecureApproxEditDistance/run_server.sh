@@ -23,7 +23,7 @@ else
     param_b=${line[2]}
 	SECONDS=0
 	mvn exec:java -q -Dexec.mainClass="cs.umanitoba.idashtask2.PreProcessKBandedServer" -Dexec.args="$1 $port"
-	mvn exec:java -Dexec.mainClass="cs.umanitoba.idashtask2.DataOwner $port $param_b" 
+	mvn exec:java -q -Dexec.mainClass="cs.umanitoba.idashtask2.DataOwner" -Dexec.args="$port $param_b" 
 	#& sleep 1 & 	mvn exec:java -Dexec.mainClass="cs.umanitoba.idashtask2.Researcher" -Dexec.args="$2"
 	duration=$SECONDS
 	echo "kbanded preprocessing duration: $duration s"

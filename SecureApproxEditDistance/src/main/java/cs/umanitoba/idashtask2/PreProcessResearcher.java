@@ -29,7 +29,7 @@ public class PreProcessResearcher {
 
         System.out.println("Connecting to " + serverName + " on port " + port);
         Socket client = new Socket();
-        client.connect(new InetSocketAddress(serverName, port), 5 * 1000);
+        client.connect(new InetSocketAddress(serverName, port), 10 * 1000);
         System.out.println("Just connected to " + client.getRemoteSocketAddress());
         InputStream inFromServer = client.getInputStream();
         DataInputStream in = new DataInputStream(inFromServer);

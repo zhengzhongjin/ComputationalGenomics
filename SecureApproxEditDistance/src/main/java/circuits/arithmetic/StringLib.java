@@ -129,7 +129,7 @@ public class StringLib<T> extends CircuitLib<T> {
 //            }
 
         }
-        //int kband = 20 * 8;
+        kband = kband * 8;
         int i = 8, j = 8;
 //        System.out.println("last cost "+toDecimal(Arrays.copyOfRange(costs, costs.length-16, costs.length)));
         for (i = (j > kband ? j - kband : 8); i <= x.length; i += 8) {
