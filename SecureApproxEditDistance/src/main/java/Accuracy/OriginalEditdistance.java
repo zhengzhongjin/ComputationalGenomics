@@ -29,6 +29,9 @@ public class OriginalEditdistance {
 
     /**
      * @param args the command line arguments
+     * args[0] : db file
+     * args[1] : query file
+     * args[2] : top-k value
      */
     public static void main(String[] args) throws FileNotFoundException, IOException {
         File fl = new File(args[0]);
