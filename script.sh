@@ -1,11 +1,13 @@
-# $1 - configure file
+# $1 - parameter file
 # $2 - result
 
 #rm -rf SecureApproxEditDistance
-#cp -r fresh SecureApproxEditDistance
 
-#cp $1 SecureApproxEditDistance/Config.conf
-cd SecureApproxEditDistance 
-(./run_server.sh db1.fa 2 & ./run_researcher.sh query.fa 2 127.0.0.1 10) >& stdout.result
+rnd=$RANDOM
+cp -r SecureApproxEditDistance SecureApproxEditDistance.$rnd
+
+cd SecureApproxEditDistance.$rnd
+(./run_server.sh db1.fa & ./run_researcher.sh query.fa ../$1 127.0.0.1) >& stdout.result
 cd ..
-cp SecureApproxEditDistance/stdout.result $2
+cp SecureApproxEditDistance.$rnd/stdout.result $2
+rm -rf SecureApproxEditDistance.$rnd
