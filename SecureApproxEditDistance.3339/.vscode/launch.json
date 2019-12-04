@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SpaceTest",
+            "request": "launch",
+            "mainClass": "Shingles.SpaceTest",
+            "projectName": "idashtask2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Merge",
+            "request": "launch",
+            "mainClass": "util.Merge",
+            "projectName": "idashtask2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Split",
+            "request": "launch",
+            "mainClass": "util.Split",
+            "projectName": "idashtask2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShinglesTest",
+            "request": "launch",
+            "mainClass": "Shingles.ShinglesTest",
+            "projectName": "idashtask2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OriginalEditdistance",
+            "request": "launch",
+            "mainClass": "Accuracy.OriginalEditdistance",
+            "projectName": "idashtask2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ErrorCalcStat",
+            "request": "launch",
+            "mainClass": "Accuracy.ErrorCalcStat",
+            "projectName": "idashtask2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KbandedAlignment",
+            "request": "launch",
+            "mainClass": "KBanded.KbandedAlignment",
+            "projectName": "idashtask2"
+        }
+    ]
+}

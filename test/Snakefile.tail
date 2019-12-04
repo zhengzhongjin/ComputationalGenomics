@@ -1,0 +1,8 @@
+rule test:
+    input:
+        "test/{param}.params"
+    output:
+        "test/{param}.result"
+
+    shell:
+        "bash ./script.sh {input} {output}"

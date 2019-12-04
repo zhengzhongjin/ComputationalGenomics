@@ -1,0 +1,60 @@
+../test/shingles_2_14.params
+0 2 39683
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+data shingles size 12852
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39683
+Server not found, please wait
+Waiting for client on port 39683...
+Connecting to 127.0.0.1 on port 39683
+Just connected to /127.0.0.1:39683
+Just connected to /127.0.0.1:42894
+sent t{o se"rvetr {y"typpe"e:0,""li:mit0":1,0,""offlseimt"i:0,t"ms"g"::""}1
+0./d,emo".exoe -fr 0f -ps 0 e-f t14o"nly:Que0ry.,txt"
+msg":""}
+./demo.exe -r 1 -p 0 -f 14onlyShingles.txt
+1: 19
+2: 119
+3: 131
+4: 22
+5: 251
+6: 945
+7: 1400
+8: 671
+9: 1372
+10: 1098
+time Diff 0.486 s
+PSI preprocessing duration: 41 s
+PSI researcher duration : 41 s

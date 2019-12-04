@@ -1,0 +1,82 @@
+../test/shingles_6_20.params
+0 6 39863
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+data shingles size 17595
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39863
+Server not found, please wait
+Waiting for client on port 39863...
+Connecting to 127.0.0.1 on port 39863
+Just connected to /127.0.0.1:39863
+Just connected to /127.0.0.1:37830
+se{nt" ttoy speerv"e:r 0{,"t"ylimipet"":0:,"3l0imit,":3"0,o"offffssete"t:0",":ms0g,":"""m}s
+g":"./"d}em
+o.exe -r 0 -p 0 -f 20onlyQuery.txt
+./demo.exe -r 1 -p 0 -f 20onlyShingles.txt
+1: 119
+2: 131
+3: 19
+4: 22
+5: 251
+6: 945
+7: 1400
+8: 1098
+9: 1372
+10: 671
+11: 5
+12: 77
+13: 6
+14: 449
+15: 142
+16: 1250
+17: 139
+18: 1281
+19: 276
+20: 12
+21: 1119
+22: 1318
+23: 370
+24: 705
+25: 313
+26: 366
+27: 513
+28: 473
+29: 94
+30: 187
+time Diff 0.533 s
+PSI preprocessing duration: 43 s
+PSI researcher duration : 43 s

@@ -1,0 +1,95 @@
+../test/shingles_9_17.params
+0 9 39983
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+data shingles size 15247
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39983
+Just connected to /127.0.0.1:39983
+sent to server {"type":0,"limit":45,"offset":0,"msg":""}
+./demo.exe -r 0 -p 0 -f 17onlyQuery.txt
+Waiting for client on port 39983...
+Just connected to /127.0.0.1:56604
+{"type":0,"limit":45,"offset":0,"msg":""}
+./demo.exe -r 1 -p 0 -f 17onlyShingles.txt
+1: 119
+2: 19
+3: 131
+4: 22
+5: 251
+6: 945
+7: 1400
+8: 1372
+9: 1098
+10: 671
+11: 77
+12: 5
+13: 6
+14: 449
+15: 276
+16: 142
+17: 1250
+18: 12
+19: 1119
+20: 1318
+21: 370
+22: 705
+23: 740
+24: 1428
+25: 94
+26: 187
+27: 398
+28: 139
+29: 1281
+30: 462
+31: 313
+32: 366
+33: 473
+34: 1371
+35: 539
+36: 1173
+37: 328
+38: 1483
+39: 1488
+40: 513
+41: 1419
+42: 582
+43: 596
+44: 1010
+45: 1192
+time Diff 0.599 s
+PSI preprocessing duration: 48 s
+PSI researcher duration : 48 s

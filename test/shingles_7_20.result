@@ -1,0 +1,51 @@
+../test/shingles_7_20.params
+0 7 39905
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+data shingles size 17595
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39905
+Just connected to /127.0.0.1:39905
+sent to server {"type":0,"limit":35,"offset":0,"msg":""}
+./demo.exe -r 0 -p 0 -f 20onlyQuery.txt
+Waiting for client on port 39905...
+Just connected to /127.0.0.1:44318
+{"type":0,"limit":35,"offset":0,"msg":""}
+./demo.exe -r 1 -p 0 -f 20onlyShingles.txt
+
+PSI preprocessing duration: 47 s
+time Diff 1.669 s
+PSI researcher duration : 48 s
