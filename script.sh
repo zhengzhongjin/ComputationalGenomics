@@ -1,3 +1,4 @@
+#!/bin/bash
 # $1 - parameter file
 # $2 - result
 

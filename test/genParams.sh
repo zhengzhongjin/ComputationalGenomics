@@ -25,5 +25,5 @@ for ((k=1;k<=20;k++)) {
     }
 }
 
-cp Snakefile.head ../Snakefile
-cat Snakefile.tail >> ../Snakefile
+#cp Snakefile.head ../Snakefile
+#cat Snakefile.tail >> ../Snakefile
