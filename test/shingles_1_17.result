@@ -1,0 +1,55 @@
+../test/shingles_1_17.params
+0 1 39647
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+data shingles size 15247
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39647
+Just connected to /127.0.0.1:39647
+sent to server {"type":0,"limit":5,"offset":0,"msg":""}
+./demo.exe -r 0 -p 0 -f 17onlyQuery.txt
+Waiting for client on port 39647...
+Just connected to /127.0.0.1:48542
+{"type":0,"limit":5,"offset":0,"msg":""}
+./demo.exe -r 1 -p 0 -f 17onlyShingles.txt
+1: 119
+2: 19
+3: 131
+4: 22
+5: 251
+time Diff 1.079 s
+PSI preprocessing duration: 43 s
+PSI researcher duration : 43 s

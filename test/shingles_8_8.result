@@ -1,0 +1,80 @@
+../test/shingles_8_8.params
+0 8 39923
+Connecting to 127.0.0.1 on port 39923
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39923
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39923
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39923
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39923
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39923
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39923
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39923
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39923
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39923
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39923
+Server not found, please wait
+data shingles size 7114
+Connecting to 127.0.0.1 on port 39923
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39923
+Server not found, please wait
+Waiting for client on port 39923...
+Connecting to 127.0.0.1 on port 39923
+Just connected to /127.0.J0.1:u39s923t
+ connected to /127.0.0.1:38830
+sent to server {"typ{e":0","ltimiyt":p40,e"of"f:se0t",:0","mlsimig"t:"""}:
+4./0demo.,exe" o-r f0 -fp s0 e-tf 8"onl:yQu0ery.t,xt
+"msg":""}
+./demo.exe -r 1 -p 0 -f 8onlyShingles.txt
+PSI preprocessing duration: 30 s
+1: 119
+2: 131
+3: 19
+4: 22
+5: 251
+6: 945
+7: 671
+8: 77
+9: 1372
+10: 6
+11: 276
+12: 1098
+13: 1400
+14: 449
+15: 5
+16: 1428
+17: 740
+18: 139
+19: 1173
+20: 1281
+21: 564
+22: 640
+23: 1010
+24: 1079
+25: 97
+26: 596
+27: 94
+28: 187
+29: 398
+30: 513
+31: 218
+32: 1254
+33: 1082
+34: 201
+35: 1112
+36: 142
+37: 1250
+38: 462
+39: 836
+40: 493
+time Diff 0.483 s
+PSI researcher duration : 30 s

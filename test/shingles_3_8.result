@@ -1,0 +1,57 @@
+../test/shingles_3_8.params
+0 3 39713
+Connecting to 127.0.0.1 on port 39713
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39713
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39713
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39713
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39713
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39713
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39713
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39713
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39713
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39713
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39713
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39713
+Server not found, please wait
+data shingles size 7114
+Connecting to 127.0.0.1 on port 39713
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39713
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39713
+Just connected to /127.0.0.1:39713
+sent to server {"type":0,"limit":15,"offset":0,"msg":""}
+./demo.exe -r 0 -p 0 -f 8onlyQuery.txt
+Waiting for client on port 39713...
+Just connected to /127.0.0.1:58788
+{"type":0,"limit":15,"offset":0,"msg":""}
+./demo.exe -r 1 -p 0 -f 8onlyShingles.txt
+1: 119
+2: 131
+3: 19
+4: 22
+5: 251
+6: 945
+7: 671
+8: 77
+9: 1372
+10: 6
+11: 276
+12: 1098
+13: 1400
+14: 449
+15: 5
+time Diff 1.306 s
+PSI preprocessing duration: 33 s
+PSI researcher duration : 33 s

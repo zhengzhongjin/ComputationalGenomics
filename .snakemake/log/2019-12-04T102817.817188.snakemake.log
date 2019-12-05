@@ -1,0 +1,371 @@
+Building DAG of jobs...
+Using shell: /usr/local/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	target
+	120	test
+	121
+
+[Wed Dec  4 10:28:18 2019]
+rule test:
+    input: test/kbanded_10_4.params
+    output: test/kbanded_10_4.result
+    jobid: 47
+    wildcards: param=kbanded_10_4
+
+
+[Wed Dec  4 10:28:18 2019]
+rule test:
+    input: test/kbanded_3_13.params
+    output: test/kbanded_3_13.result
+    jobid: 15
+    wildcards: param=kbanded_3_13
+
+
+[Wed Dec  4 10:28:18 2019]
+rule test:
+    input: test/kbanded_10_13.params
+    output: test/kbanded_10_13.result
+    jobid: 50
+    wildcards: param=kbanded_10_13
+
+
+[Wed Dec  4 10:28:18 2019]
+rule test:
+    input: test/kbanded_10_10.params
+    output: test/kbanded_10_10.result
+    jobid: 49
+    wildcards: param=kbanded_10_10
+
+
+[Wed Dec  4 10:28:18 2019]
+rule test:
+    input: test/shingles_10_20.params
+    output: test/shingles_10_20.result
+    jobid: 120
+    wildcards: param=shingles_10_20
+
+
+[Wed Dec  4 10:28:18 2019]
+rule test:
+    input: test/shingles_10_14.params
+    output: test/shingles_10_14.result
+    jobid: 118
+    wildcards: param=shingles_10_14
+
+
+[Wed Dec  4 10:28:18 2019]
+rule test:
+    input: test/shingles_10_11.params
+    output: test/shingles_10_11.result
+    jobid: 117
+    wildcards: param=shingles_10_11
+
+
+[Wed Dec  4 10:28:18 2019]
+rule test:
+    input: test/shingles_10_17.params
+    output: test/shingles_10_17.result
+    jobid: 119
+    wildcards: param=shingles_10_17
+
+[Wed Dec  4 10:30:42 2019]
+Finished job 117.
+1 of 121 steps (0.83%) done
+
+[Wed Dec  4 10:30:42 2019]
+rule test:
+    input: test/kbanded_2_13.params
+    output: test/kbanded_2_13.result
+    jobid: 10
+    wildcards: param=kbanded_2_13
+
+[Wed Dec  4 10:30:44 2019]
+Finished job 118.
+2 of 121 steps (2%) done
+
+[Wed Dec  4 10:30:44 2019]
+rule test:
+    input: test/kbanded_4_10.params
+    output: test/kbanded_4_10.result
+    jobid: 19
+    wildcards: param=kbanded_4_10
+
+[Wed Dec  4 10:30:46 2019]
+Finished job 119.
+3 of 121 steps (2%) done
+
+[Wed Dec  4 10:30:46 2019]
+rule test:
+    input: test/shingles_2_14.params
+    output: test/shingles_2_14.result
+    jobid: 62
+    wildcards: param=shingles_2_14
+
+[Wed Dec  4 10:30:49 2019]
+Finished job 120.
+4 of 121 steps (3%) done
+
+[Wed Dec  4 10:30:49 2019]
+rule test:
+    input: test/shingles_10_2.params
+    output: test/shingles_10_2.result
+    jobid: 114
+    wildcards: param=shingles_10_2
+
+[Wed Dec  4 10:32:20 2019]
+Finished job 114.
+5 of 121 steps (4%) done
+
+[Wed Dec  4 10:32:20 2019]
+rule test:
+    input: test/kbanded_10_1.params
+    output: test/kbanded_10_1.result
+    jobid: 46
+    wildcards: param=kbanded_10_1
+
+[Wed Dec  4 10:32:58 2019]
+Finished job 62.
+6 of 121 steps (5%) done
+
+[Wed Dec  4 10:32:58 2019]
+rule test:
+    input: test/kbanded_3_10.params
+    output: test/kbanded_3_10.result
+    jobid: 14
+    wildcards: param=kbanded_3_10
+
+[Wed Dec  4 10:36:49 2019]
+Finished job 46.
+7 of 121 steps (6%) done
+
+[Wed Dec  4 10:36:49 2019]
+rule test:
+    input: test/shingles_4_11.params
+    output: test/shingles_4_11.result
+    jobid: 75
+    wildcards: param=shingles_4_11
+
+[Wed Dec  4 10:38:27 2019]
+Finished job 75.
+8 of 121 steps (7%) done
+
+[Wed Dec  4 10:38:27 2019]
+rule test:
+    input: test/shingles_1_20.params
+    output: test/shingles_1_20.result
+    jobid: 57
+    wildcards: param=shingles_1_20
+
+[Wed Dec  4 10:39:09 2019]
+Finished job 47.
+9 of 121 steps (7%) done
+
+[Wed Dec  4 10:39:09 2019]
+rule test:
+    input: test/shingles_3_11.params
+    output: test/shingles_3_11.result
+    jobid: 68
+    wildcards: param=shingles_3_11
+
+[Wed Dec  4 10:40:00 2019]
+Finished job 57.
+10 of 121 steps (8%) done
+
+[Wed Dec  4 10:40:00 2019]
+rule test:
+    input: test/shingles_3_17.params
+    output: test/shingles_3_17.result
+    jobid: 70
+    wildcards: param=shingles_3_17
+
+[Wed Dec  4 10:40:48 2019]
+Finished job 68.
+11 of 121 steps (9%) done
+
+[Wed Dec  4 10:40:48 2019]
+rule test:
+    input: test/kbanded_7_13.params
+    output: test/kbanded_7_13.result
+    jobid: 35
+    wildcards: param=kbanded_7_13
+
+[Wed Dec  4 10:41:49 2019]
+Finished job 70.
+12 of 121 steps (10%) done
+
+[Wed Dec  4 10:41:49 2019]
+rule test:
+    input: test/shingles_6_20.params
+    output: test/shingles_6_20.result
+    jobid: 92
+    wildcards: param=shingles_6_20
+
+[Wed Dec  4 10:43:18 2019]
+Finished job 92.
+13 of 121 steps (11%) done
+
+[Wed Dec  4 10:43:18 2019]
+rule test:
+    input: test/shingles_8_14.params
+    output: test/shingles_8_14.result
+    jobid: 104
+    wildcards: param=shingles_8_14
+
+[Wed Dec  4 10:44:47 2019]
+Finished job 104.
+14 of 121 steps (12%) done
+
+[Wed Dec  4 10:44:47 2019]
+rule test:
+    input: test/shingles_6_17.params
+    output: test/shingles_6_17.result
+    jobid: 91
+    wildcards: param=shingles_6_17
+
+[Wed Dec  4 10:46:23 2019]
+Finished job 91.
+15 of 121 steps (12%) done
+
+[Wed Dec  4 10:46:23 2019]
+rule test:
+    input: test/shingles_2_17.params
+    output: test/shingles_2_17.result
+    jobid: 63
+    wildcards: param=shingles_2_17
+
+[Wed Dec  4 10:47:56 2019]
+Finished job 63.
+16 of 121 steps (13%) done
+
+[Wed Dec  4 10:47:56 2019]
+rule test:
+    input: test/shingles_8_11.params
+    output: test/shingles_8_11.result
+    jobid: 103
+    wildcards: param=shingles_8_11
+
+[Wed Dec  4 10:49:41 2019]
+Finished job 103.
+17 of 121 steps (14%) done
+
+[Wed Dec  4 10:49:41 2019]
+rule test:
+    input: test/shingles_4_20.params
+    output: test/shingles_4_20.result
+    jobid: 78
+    wildcards: param=shingles_4_20
+
+[Wed Dec  4 10:50:41 2019]
+Finished job 49.
+18 of 121 steps (15%) done
+
+[Wed Dec  4 10:50:41 2019]
+rule test:
+    input: test/shingles_4_14.params
+    output: test/shingles_4_14.result
+    jobid: 76
+    wildcards: param=shingles_4_14
+
+[Wed Dec  4 10:51:31 2019]
+Finished job 78.
+19 of 121 steps (16%) done
+
+[Wed Dec  4 10:51:31 2019]
+rule test:
+    input: test/shingles_9_20.params
+    output: test/shingles_9_20.result
+    jobid: 113
+    wildcards: param=shingles_9_20
+
+[Wed Dec  4 10:52:26 2019]
+Finished job 76.
+20 of 121 steps (17%) done
+
+[Wed Dec  4 10:52:26 2019]
+rule test:
+    input: test/kbanded_7_10.params
+    output: test/kbanded_7_10.result
+    jobid: 34
+    wildcards: param=kbanded_7_10
+
+[Wed Dec  4 10:52:29 2019]
+Finished job 19.
+21 of 121 steps (17%) done
+
+[Wed Dec  4 10:52:29 2019]
+rule test:
+    input: test/kbanded_6_10.params
+    output: test/kbanded_6_10.result
+    jobid: 29
+    wildcards: param=kbanded_6_10
+
+[Wed Dec  4 10:53:11 2019]
+Finished job 113.
+22 of 121 steps (18%) done
+
+[Wed Dec  4 10:53:11 2019]
+rule test:
+    input: test/shingles_7_11.params
+    output: test/shingles_7_11.result
+    jobid: 96
+    wildcards: param=shingles_7_11
+
+[Wed Dec  4 10:54:12 2019]
+Finished job 14.
+23 of 121 steps (19%) done
+
+[Wed Dec  4 10:54:12 2019]
+rule test:
+    input: test/kbanded_8_13.params
+    output: test/kbanded_8_13.result
+    jobid: 40
+    wildcards: param=kbanded_8_13
+
+[Wed Dec  4 10:55:03 2019]
+Finished job 96.
+24 of 121 steps (20%) done
+
+[Wed Dec  4 10:55:03 2019]
+rule test:
+    input: test/shingles_6_14.params
+    output: test/shingles_6_14.result
+    jobid: 90
+    wildcards: param=shingles_6_14
+
+[Wed Dec  4 10:55:28 2019]
+Error in rule test:
+    jobid: 15
+    output: test/kbanded_3_13.result
+    shell:
+        bash ./script.sh test/kbanded_3_13.params test/kbanded_3_13.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job test since they might be corrupted:
+test/kbanded_3_13.result
+[Wed Dec  4 10:55:49 2019]
+Finished job 50.
+25 of 121 steps (21%) done
+[Wed Dec  4 10:57:05 2019]
+Finished job 90.
+26 of 121 steps (21%) done
+[Wed Dec  4 10:57:54 2019]
+Finished job 10.
+27 of 121 steps (22%) done
+[Wed Dec  4 11:05:52 2019]
+Finished job 35.
+28 of 121 steps (23%) done
+[Wed Dec  4 11:11:31 2019]
+Finished job 29.
+29 of 121 steps (24%) done
+[Wed Dec  4 11:11:39 2019]
+Finished job 34.
+30 of 121 steps (25%) done
+[Wed Dec  4 11:17:24 2019]
+Finished job 40.
+31 of 121 steps (26%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /users/zzjin/course_project/ComputationalGenomics/.snakemake/log/2019-12-04T102817.817188.snakemake.log

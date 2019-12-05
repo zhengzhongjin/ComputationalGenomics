@@ -1,0 +1,70 @@
+../test/shingles_10_2.params
+0 10 39995
+Connecting to 127.0.0.1 on port 39995
+Server not found, please wait
+data shingles size 16
+Connecting to 127.0.0.1 on port 39995
+Server not found, please wait
+Connecting to 127.0.0.1 on port 39995
+Server not found, please wait
+Waiting for client on port 39995...
+Connecting to 127.0.0.1 on port 39995
+Just connected to /127.0.0.1:39995
+Just connected to /127.0.0.1:33596
+{"type":0,"limit":50,"offset":0,"msg":""}
+sent to server {"type":0,"limit":50,"offset":0,"msg":""}
+./demo.exe -r 0 -p 0 -f 2onlyQuery.txt
+./demo.exe -r 1 -p 0 -f 2onlyShingles.txt
+1: 1024
+2: 1026
+3: 1028
+4: 5
+5: 6
+6: 1030
+7: 1031
+8: 8
+9: 1035
+10: 12
+11: 15
+12: 1040
+13: 19
+14: 1043
+15: 20
+16: 22
+17: 1048
+18: 27
+19: 1053
+20: 30
+21: 1055
+22: 32
+23: 1057
+24: 35
+25: 37
+26: 1062
+27: 42
+28: 43
+29: 1067
+30: 1068
+31: 46
+32: 1072
+33: 51
+34: 1076
+35: 1079
+36: 57
+37: 58
+38: 1082
+39: 61
+40: 1085
+41: 62
+42: 65
+43: 1089
+44: 1090
+45: 1093
+46: 72
+47: 1098
+48: 76
+49: 77
+50: 1101
+time Diff 0.469 s
+PSI preprocessing duration: 11 s
+PSI researcher duration : 11 s

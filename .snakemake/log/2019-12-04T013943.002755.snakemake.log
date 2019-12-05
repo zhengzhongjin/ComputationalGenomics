@@ -1,0 +1,38 @@
+Building DAG of jobs...
+Using shell: /usr/local/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	target
+	680	test
+	681
+
+[Wed Dec  4 01:39:44 2019]
+rule test:
+    input: test/shingles_13_17.params
+    output: test/shingles_13_17.result
+    jobid: 544
+    wildcards: param=shingles_13_17
+
+[Wed Dec  4 01:41:10 2019]
+Finished job 544.
+1 of 681 steps (0.15%) done
+
+[Wed Dec  4 01:41:10 2019]
+rule test:
+    input: test/kbanded_20_14.params
+    output: test/kbanded_20_14.result
+    jobid: 299
+    wildcards: param=kbanded_20_14
+
+Terminating processes on user request, this might take some time.
+[Wed Dec  4 01:41:14 2019]
+Error in rule test:
+    jobid: 299
+    output: test/kbanded_20_14.result
+    shell:
+        bash ./script.sh test/kbanded_20_14.params test/kbanded_20_14.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: /users/zzjin/course_project/ComputationalGenomics/.snakemake/log/2019-12-04T013943.002755.snakemake.log

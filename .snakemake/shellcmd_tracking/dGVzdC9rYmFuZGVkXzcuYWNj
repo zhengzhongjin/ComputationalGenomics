@@ -1,0 +1,1 @@
+./accuracy_wrapper.sh test/kbanded_7.acc.params test/kbanded_7.acc
