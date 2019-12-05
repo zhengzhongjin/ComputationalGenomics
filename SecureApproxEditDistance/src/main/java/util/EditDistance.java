@@ -5,8 +5,6 @@
  */
 package util;
 
-import java.util.Date;
-
 /**
  *
  * @author azizmma
