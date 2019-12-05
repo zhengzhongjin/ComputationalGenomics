@@ -13,9 +13,14 @@ query_size=`wc -l $2 | awk '{ print $1 }'`
 db_size=$(($db_size/2))
 query_size=$(($query_size/2))
 
-#echo $db_size, $query_size
+rm -rf query_set
+mkdir query_set
+
+echo $db_size, $query_size
+mvn exec:java -Dexec.mainClass="util.Split" -Dexec.args="$2 query_set/query"
 
 for ((i=0;i<$query_size;i++)) {
+    echo $i
     # Get original result
     mvn exec:java -Dexec.mainClass="Accuracy.OriginalEditdistance" -Dexec.args="$1 query_set/query_$i 100"
     mv original_results original_results_$i

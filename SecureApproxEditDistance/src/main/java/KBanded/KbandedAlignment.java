@@ -49,7 +49,7 @@ public class KbandedAlignment {
                         index = Integer.parseInt(next.replace(">", ""));
                     } else {
                         data.put(index, next);
-                        distanceMap.put(index, EditDistance.getKbandEditDistance(nextQ, next, kbandSize));
+                        distanceMap.put(index, EditDistance.getKbandEditDistanceOld(nextQ, next, kbandSize));
                         if (index > 3000) {
                             break;
                         }
