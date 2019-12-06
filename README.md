@@ -3,6 +3,9 @@
 
 [*] Install CD-HIT
 
+***
+This project spins up a local server on the machine to simulate SPQ from client (doctor) to server (database/hospital)
+***
 
 ## Compile
 
@@ -106,3 +109,7 @@ In the cdhit-master folder, use the makefile command to make the executables and
 ./cd-hit-est -i db.fa -o db_cluster.fa -T 12 -M 1024
 
 ./cd-hit-est -i db1.fa -o db1_cluster.fa -T 12 -M 1024 -c 0.875 -n 6
+
+***
+Further, our testing results can be found in the test/ folder of which the `genParams.sh` script will run testing.
+
