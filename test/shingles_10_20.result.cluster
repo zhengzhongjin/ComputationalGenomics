@@ -1,0 +1,50 @@
+../test/shingles_10_20.params
+query.fa.1 ../test/shingles_10_20.params 127.0.0.1 ../db_cluster/db_cluster
+0 10 40031
+Connecting to 127.0.0.1 on port 40031
+Server not found, please wait
+data shingles size 5303
+Connecting to 127.0.0.1 on port 40031
+Server not found, please wait
+Waiting for client on port 40031...
+Connecting to 127.0.0.1 on port 40031
+Just connected to /12J7.u0s.t0 .c1o:n4n0e0c3t1
+ed to /127.0.0.1:44980
+sent to s{"typee":r0v,e"rl i{m"itty"p:e5"0:0,,""loifmfist"e:t5"0:,"0,o"mfsfgs"e:t""":}0
+,"msg":""}
+./demo.exe -r 0 -p 0 -f 20onlyQuery.txt
+./demo.exe -r 1 -p 0 -f 20onlyShingles.txt
+1: 97
+2: 35
+3: 118
+time Diff 0.378 s
+  File "./MapClusterToLabel_db.py", line 6
+    print Map[int(sys.argv[1])]
+            ^
+SyntaxError: invalid syntax
+cluster lab = 
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli) on project idashtask2: An exception occured while executing the Java class. ../db_cluster/db_cluster_ (No such file or directory) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Connecting to 127.0.0.1 on port 40031
+Server not found, please wait
+Connecting to 127.0.0.1 on port 40031
+Server not found, please wait
+File not found, Please run PreProcessPSI
+Waiting for client on port 40031...
+Connecting to 127.0.0.1 on port 40031
+JJuusstt  ccoonnnnecteecdt etdo  /t1o2 7/1.207..00..0.11::4405003014
+
+sent {to" tsype":0,e"rlveir {m"tiype":0,"limit":50,"offset":0,"msg"t:"""}
+:50,".o/ffdseemt"o:.e0x,e -"rm 0s g-"p: "0 "-}f 2
+0onlyQuery.txt
+./demo.exe -r 1 -p 0 -f 20onlyShingles.txt
+1: 97
+2: 35
+3: 118
+time Diff 0.428 s
+PSI researcher duration : 16 s

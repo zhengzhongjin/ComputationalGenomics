@@ -1,0 +1,27 @@
+Building DAG of jobs...
+Using shell: /usr/local/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	target
+	4	test
+	5
+
+[Wed Dec  4 17:20:30 2019]
+rule test:
+    input: test/shingles_9_17.params
+    output: test/shingles_9_17.result
+    jobid: 112
+    wildcards: param=shingles_9_17
+
+Terminating processes on user request, this might take some time.
+[Wed Dec  4 17:20:31 2019]
+Error in rule test:
+    jobid: 112
+    output: test/shingles_9_17.result
+    shell:
+        bash ./script.sh test/shingles_9_17.params test/shingles_9_17.result
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: /users/zzjin/course_project/ComputationalGenomics/.snakemake/log/2019-12-04T172029.802769.snakemake.log

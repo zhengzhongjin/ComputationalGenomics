@@ -1,0 +1,28 @@
+Building DAG of jobs...
+Using shell: /usr/local/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	12	cluster
+	1	target
+	13
+
+[Fri Dec  6 00:49:39 2019]
+rule cluster:
+    input: test/shingles_10_14.params
+    output: test/shingles_10_14.result.cluster
+    jobid: 10
+    wildcards: param=shingles_10_14
+
+[Fri Dec  6 00:49:39 2019]
+Error in rule cluster:
+    jobid: 10
+    output: test/shingles_10_14.result.cluster
+    shell:
+        ./accuracy_cluster.sh test/shingles_10_14.params test/shingles_10_14.result.cluster
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /users/zzjin/course_project/ComputationalGenomics/.snakemake/log/2019-12-06T004939.167664.snakemake.log

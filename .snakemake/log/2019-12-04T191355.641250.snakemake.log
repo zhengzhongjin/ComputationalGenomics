@@ -1,0 +1,27 @@
+Building DAG of jobs...
+Using shell: /usr/local/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	12	accuracy
+	1	target
+	13
+
+[Wed Dec  4 19:13:55 2019]
+rule accuracy:
+    input: test/shingles_20.acc.params
+    output: test/shingles_20.acc
+    jobid: 12
+    wildcards: param=shingles_20
+
+Terminating processes on user request, this might take some time.
+[Wed Dec  4 19:14:04 2019]
+Error in rule accuracy:
+    jobid: 12
+    output: test/shingles_20.acc
+    shell:
+        ./accuracy_wrapper.sh test/shingles_20.acc.params test/shingles_20.acc
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: /users/zzjin/course_project/ComputationalGenomics/.snakemake/log/2019-12-04T191355.641250.snakemake.log

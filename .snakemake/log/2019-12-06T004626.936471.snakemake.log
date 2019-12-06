@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 26 of /users/zzjin/course_project/ComputationalGenomics/Snakefile:
+Missing input files for rule cluster:
+test/kbanded_10_1.acc.params

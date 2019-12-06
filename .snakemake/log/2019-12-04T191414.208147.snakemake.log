@@ -1,0 +1,151 @@
+Building DAG of jobs...
+Using shell: /usr/local/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	12	accuracy
+	1	target
+	13
+
+[Wed Dec  4 19:14:14 2019]
+rule accuracy:
+    input: test/shingles_20.acc.params
+    output: test/shingles_20.acc
+    jobid: 12
+    wildcards: param=shingles_20
+
+
+[Wed Dec  4 19:14:14 2019]
+rule accuracy:
+    input: test/shingles_11.acc.params
+    output: test/shingles_11.acc
+    jobid: 9
+    wildcards: param=shingles_11
+
+
+[Wed Dec  4 19:14:14 2019]
+rule accuracy:
+    input: test/shingles_17.acc.params
+    output: test/shingles_17.acc
+    jobid: 11
+    wildcards: param=shingles_17
+
+
+[Wed Dec  4 19:14:14 2019]
+rule accuracy:
+    input: test/shingles_14.acc.params
+    output: test/shingles_14.acc
+    jobid: 10
+    wildcards: param=shingles_14
+
+[Wed Dec  4 19:16:47 2019]
+Finished job 9.
+1 of 13 steps (8%) done
+
+[Wed Dec  4 19:16:47 2019]
+rule accuracy:
+    input: test/shingles_5.acc.params
+    output: test/shingles_5.acc
+    jobid: 7
+    wildcards: param=shingles_5
+
+[Wed Dec  4 19:16:47 2019]
+Finished job 10.
+2 of 13 steps (15%) done
+
+[Wed Dec  4 19:16:47 2019]
+rule accuracy:
+    input: test/kbanded_1.acc.params
+    output: test/kbanded_1.acc
+    jobid: 1
+    wildcards: param=kbanded_1
+
+[Wed Dec  4 19:16:48 2019]
+Finished job 11.
+3 of 13 steps (23%) done
+[Wed Dec  4 19:16:48 2019]
+Finished job 12.
+4 of 13 steps (31%) done
+
+[Wed Dec  4 19:16:48 2019]
+rule accuracy:
+    input: test/kbanded_5.acc.params
+    output: test/kbanded_5.acc
+    jobid: 3
+    wildcards: param=kbanded_5
+
+
+[Wed Dec  4 19:16:48 2019]
+rule accuracy:
+    input: test/shingles_2.acc.params
+    output: test/shingles_2.acc
+    jobid: 6
+    wildcards: param=shingles_2
+
+[Wed Dec  4 19:19:08 2019]
+Finished job 6.
+5 of 13 steps (38%) done
+
+[Wed Dec  4 19:19:08 2019]
+rule accuracy:
+    input: test/shingles_8.acc.params
+    output: test/shingles_8.acc
+    jobid: 8
+    wildcards: param=shingles_8
+
+[Wed Dec  4 19:19:10 2019]
+Finished job 7.
+6 of 13 steps (46%) done
+
+[Wed Dec  4 19:19:10 2019]
+rule accuracy:
+    input: test/kbanded_9.acc.params
+    output: test/kbanded_9.acc
+    jobid: 5
+    wildcards: param=kbanded_9
+
+[Wed Dec  4 19:19:10 2019]
+Finished job 1.
+7 of 13 steps (54%) done
+
+[Wed Dec  4 19:19:10 2019]
+rule accuracy:
+    input: test/kbanded_3.acc.params
+    output: test/kbanded_3.acc
+    jobid: 2
+    wildcards: param=kbanded_3
+
+[Wed Dec  4 19:19:10 2019]
+Finished job 3.
+8 of 13 steps (62%) done
+
+[Wed Dec  4 19:19:10 2019]
+rule accuracy:
+    input: test/kbanded_7.acc.params
+    output: test/kbanded_7.acc
+    jobid: 4
+    wildcards: param=kbanded_7
+
+[Wed Dec  4 19:21:34 2019]
+Finished job 5.
+9 of 13 steps (69%) done
+[Wed Dec  4 19:21:34 2019]
+Finished job 2.
+10 of 13 steps (77%) done
+[Wed Dec  4 19:21:34 2019]
+Finished job 4.
+11 of 13 steps (85%) done
+[Wed Dec  4 19:21:36 2019]
+Finished job 8.
+12 of 13 steps (92%) done
+
+[Wed Dec  4 19:21:36 2019]
+localrule target:
+    input: test/kbanded_1.acc, test/kbanded_3.acc, test/kbanded_5.acc, test/kbanded_7.acc, test/kbanded_9.acc, test/shingles_2.acc, test/shingles_5.acc, test/shingles_8.acc, test/shingles_11.acc, test/shingles_14.acc, test/shingles_17.acc, test/shingles_20.acc
+    jobid: 0
+
+[Wed Dec  4 19:21:36 2019]
+Finished job 0.
+13 of 13 steps (100%) done
+Complete log: /users/zzjin/course_project/ComputationalGenomics/.snakemake/log/2019-12-04T191414.208147.snakemake.log
