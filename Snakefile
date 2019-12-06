@@ -25,8 +25,8 @@ rule accuracy:
 
 rule cluster:
     input:
-        "test/{param}.acc.params"
+        "test/{param}.params"
     output:
         "test/{param}.result.cluster"
     shell:
-        "./accuracy_wrapper.sh {input} {output}"
+        "./script_cluster.sh {input} {output}"
