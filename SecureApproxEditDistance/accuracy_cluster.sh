@@ -3,11 +3,14 @@
 # $2 : query file
 # $3 : param file
 # $4 : output file
+# $5 : python mapping file
+# $6 : org db file
 
+echo "input = $1 $2 $3 $4 $5 $6"
 line=($(<"$3"))
 method=${line[0]}
 
-org_db="db.fa"
+org_db=$6
 
 db_size=`wc -l $org_db | awk '{ print $1 }'`
 query_size=`wc -l $2 | awk '{ print $1 }'`
@@ -34,8 +37,7 @@ for ((i=0;i<$query_size;i++)) {
     gramSize_2=${line[2]}
     top1=`head -1 layer_1_output`
     top1=${top1:2}
-    echo "**** top1 = $top1"
-    clusterLab=`./MapClusterToLabel_db.py $top1`
+    clusterLab=`$5 $top1`
     mvn exec:java -Dexec.mainClass="Shingles.ShinglesTest" -Dexec.args="$1_$clusterLab query_set/query_$i $gramSize_2 method_$i"
 }
 

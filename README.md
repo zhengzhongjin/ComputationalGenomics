@@ -60,32 +60,36 @@ The accuracy of our protocol is obtained by the following command.
 
   In the folder `ComputationalGenomics/SecureApproxEditDistance`, execute
   ```
-  ./accuracy_cluster.sh ../db_cluster/db_cluster query.fa test.params stdout
+  ./shingles_acc.sh ../db_cluster/db_cluster query.fa ./MapClusterToLabel_db.py db.fa db
   ```
+
+  The result is in `result_db_{2,4,...16}.txt`.
 
 * Shingle-based Protocol on 500-sequences database
   
-  Change the `.py` file on line 38 in `ComputationalGenomics/SecureApproxEditDistance/accuracy_cluster.sh` to `./MapClusterToLabel.py`.
-
   In the folder `ComputationalGenomics/SecureApproxEditDistance`, execute
   ```
-  ./accuracy_cluster.sh ../db1_cluster/db1_cluster query1.1 test.params stdout
+  ./shingles_acc.sh ../db1_cluster/db1_cluster query1.1 ./MapClusterToLabel.py db1.fa db1
   ```
+
+  The result is in `result_db1_{2,4,...16}.txt`.
 
 * Kbanded-based Protocol on 50-sequences database
 
   In the folder `ComputationalGenomics/SecureApproxEditDistance`, execute
   ```
-  ./accuracy_wrapper_kband.sh db_cluster/db_cluster query.fa test.params stdout
+  ./kbanded_acc.sh ../db_cluster/db_cluster query.fa ./MapClusterToLabel_db.py db.fa db
   ```
+    
+  The result is in `result_k_banded_db_{1,3,5,7,9}.txt`.
 
 * Kbanded-based Protocol on 500-sequences database
 
-    Change the `.py` file on line 37 in `ComputationalGenomics/SecureApproxEditDistance/accuracy_cluster_kband.sh` to `./MapClusterToLabel.py`.
-
-    In the folder `ComputationalGenomics/SecureApproxEditDistance`, execute
-    ```
-    ./accuracy_wrapper_kband.sh db1_cluster/db1_cluster query1.1 test.params stdout
-    ```
+  In the folder `ComputationalGenomics/SecureApproxEditDistance`, execute
+  ```
+  ./shingles_acc.sh ../db1_cluster/db1_cluster query1.1 ./MapClusterToLabel.py db1.fa db1
+  ```
+  
+  The result is in `result_k_banded_db1_{1,3,5,7,9}.txt`.
 
 The script will print the result to the standard output and the file `stdout` in the current folder.
