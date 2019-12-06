@@ -1,0 +1,52 @@
+query.fa.1 ../test/shingles_10_7.params 127.0.0.1 ../db_cluster/db_cluster
+../test/shingles_10_7.params
+0 10 40005
+Connecting to 127.0.0.1 on port 40005
+Server not found, please wait
+data shingles size 2757
+Connecting to 127.0.0.1 on port 40005
+Server not found, please wait
+Waiting for client on port 40005...
+Connecting to 127.0.0.1 on port 40005
+Just connected to /1J27u.s0t. 0c.o1n:n4e0c0t0e5d
+ to /127.0.0.1:56012
+sent to se{"rtyvpee"r :0,"lim{"typiet"":0:,"5li0mi,t"":o50f,"fofsfesett":0,"":m0,s"mgsg""::"""}"
+}
+./demo.exe -r 0 -p 0 -f 7onlyQuery.txt
+./demo.exe -r 1 -p 0 -f 7onlyShingles.txt
+1: 97
+2: 35
+3: 118
+time Diff 0.344 s
+top1 =  97
+  File "./MapClusterToLabel_db.py", line 6
+    print Map[int(sys.argv[1])]
+            ^
+SyntaxError: invalid syntax
+cluster lab = 
+Connecting to 127.0.0.1 on port 40005
+Server not found, please wait
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli) on project idashtask2: An exception occured while executing the Java class. ../db_cluster/db_cluster_ (No such file or directory) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Connecting to 127.0.0.1 on port 40005
+Server not found, please wait
+File not found, Please run PreProcessPSI
+Waiting for client on port 40005...
+Connecting to 127.0.0.1 on port 40005
+Just connected tJo u/s1t2 7c.o0n.n0e.c1t:e4d00 0t5o
+ /127.0.0.1:56022
+sent to{ s"etyprveer" :0,"li{m"tyipe":0,"ltimi"t"::550,0"o,ff"oseftf"s:e0t,""ms:g"0:",""ms}
+g".:/d"em"o.}ex
+e -r 0 -p 0 -f 7onlyQuery.txt
+./demo.exe -r 1 -p 0 -f 7onlyShingles.txt
+1: 97
+2: 35
+3: 118
+time Diff 0.399 s
+PSI researcher duration : 16 s
+PSI preprocessing duration: 8 s

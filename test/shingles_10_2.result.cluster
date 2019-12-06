@@ -1,0 +1,61 @@
+../test/shingles_10_2.params
+query.fa.1 ../test/shingles_10_2.params 127.0.0.1 ../db_cluster/db_cluster
+0 10 39995
+Connecting to 127.0.0.1 on port 39995
+Server not found, please wait
+data shingles size 16
+Connecting to 127.0.0.1 on port 39995
+Server not found, please wait
+Waiting for client on port 39995...
+Connecting to 127.0.0.1 on port 39995
+Just cJounstn ecctoennde cttoed  t/o1 /21727..00..0.1:399095.
+1:36852
+sent to se{rv"ertyp e{"":0,"litmiytp"e:"5:00,,""loifmfiset":t0",:"5ms0g,"":o"f"f}
+set":0,"msg":""}
+./demo.exe -r 0 -p 0 -f 2onlyQuery.txt
+./demo.exe -r 1 -p 0 -f 2onlyShingles.txt
+1: 97
+2: 35
+3: 118
+time Diff 0.379 s
+top1 =  97
+cluster lab = 1
+Connecting to 127.0.0.1 on port 39995
+Server not found, please wait
+data shingles size 16
+Connecting to 127.0.0.1 on port 39995
+Server not found, please wait
+Waiting for client on port 39995...
+Connecting to 127.0.0.1 on port 39995
+Just connected to /127.0.0.1:39995
+Just connected to /127.0.0.1:36876
+sent to ser{ver" t{"ype"t:yp0e",:"0l,i"mliitm"i:t5"0:5,0"o,f"fosffetse"t:"0:,"0ms,g"m":""}
+sg":""}
+./demo.exe -r 0 -p 0 -f 2onlyQuery.txt
+./demo.exe -r 1 -p 0 -f 2onlyShingles.txt
+1: 97
+2: 131
+3: 5
+4: 133
+5: 6
+6: 134
+7: 135
+8: 72
+9: 106
+10: 77
+11: 114
+12: 19
+13: 84
+14: 22
+15: 119
+16: 58
+17: 27
+18: 91
+19: 92
+20: 61
+21: 30
+22: 62
+23: 94
+time Diff 0.349 s
+PSI researcher duration : 18 s
+PSI preprocessing duration: 10 s

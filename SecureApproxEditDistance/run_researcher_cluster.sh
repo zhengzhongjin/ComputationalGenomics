@@ -20,6 +20,7 @@ if [ "$method" == "0" ]; then
 
     top1=`head -1 Results_PSI.txt`
     top1=${top1:2}
+    echo "top1 = $top1"
 	clusterLab=`./MapClusterToLabel_db.py $top1`
 
 	echo "cluster lab = $clusterLab"

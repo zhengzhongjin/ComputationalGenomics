@@ -8,20 +8,19 @@ Connecting to 127.0.0.1 on port 40031
 Server not found, please wait
 Waiting for client on port 40031...
 Connecting to 127.0.0.1 on port 40031
-Just connected to /12J7.u0s.t0 .c1o:n4n0e0c3t1
-ed to /127.0.0.1:44980
-sent to s{"typee":r0v,e"rl i{m"itty"p:e5"0:0,,""loifmfist"e:t5"0:,"0,o"mfsfgs"e:t""":}0
-,"msg":""}
+Just connected Jtous t/ 1c2o7n.n0e.c0t.e1d: 4t0o0 3/11
+27.0.0.1:50760
+se{nt to" stype":0,e"lirmvietr" :{5"0ty,p"eo"f:f0se,t""l:im0i,t""m:s5g0",":""}o
+ffset":0,"msg":""}
 ./demo.exe -r 0 -p 0 -f 20onlyQuery.txt
 ./demo.exe -r 1 -p 0 -f 20onlyShingles.txt
-1: 97
-2: 35
-3: 118
-time Diff 0.378 s
-  File "./MapClusterToLabel_db.py", line 6
-    print Map[int(sys.argv[1])]
-            ^
-SyntaxError: invalid syntax
+
+time Diff 0.424 s
+top1 =  results found
+Traceback (most recent call last):
+  File "./MapClusterToLabel_db.py", line 6, in <module>
+    x = int(sys.argv[1])
+ValueError: invalid literal for int() with base 10: 'results'
 cluster lab = 
 [ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli) on project idashtask2: An exception occured while executing the Java class. ../db_cluster/db_cluster_ (No such file or directory) -> [Help 1]
 [ERROR] 
@@ -37,14 +36,15 @@ Server not found, please wait
 File not found, Please run PreProcessPSI
 Waiting for client on port 40031...
 Connecting to 127.0.0.1 on port 40031
-JJuusstt  ccoonnnnecteecdt etdo  /t1o2 7/1.207..00..0.11::4405003014
-
-sent {to" tsype":0,e"rlveir {m"tiype":0,"limit":50,"offset":0,"msg"t:"""}
-:50,".o/ffdseemt"o:.e0x,e -"rm 0s g-"p: "0 "-}f 2
-0onlyQuery.txt
+Just connected tJo u/s1t2 7c.0.0o.1n:4n0e03c1t
+ed to /127.0.0.1:50782
+sent to {s"tyepe"rv:e0r," l{i"tmypie":0,t""l:im5i0t,"":5o0f,f"seto":f0f,s"emts"g:"0:,"""m}sg
+":""}
+./demo.exe -r 0 -p 0 -f 20onlyQuery.txt
 ./demo.exe -r 1 -p 0 -f 20onlyShingles.txt
 1: 97
 2: 35
 3: 118
-time Diff 0.428 s
-PSI researcher duration : 16 s
+time Diff 0.269 s
+PSI researcher duration : 18 s
+PSI preprocessing duration: 10 s

@@ -1,0 +1,154 @@
+Building DAG of jobs...
+Using shell: /usr/local/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	11	cluster
+	1	target
+	12
+
+[Fri Dec  6 00:57:57 2019]
+rule cluster:
+    input: test/kbanded_10_5.params
+    output: test/kbanded_10_5.result.cluster
+    jobid: 3
+    wildcards: param=kbanded_10_5
+
+
+[Fri Dec  6 00:57:58 2019]
+rule cluster:
+    input: test/shingles_10_17.params
+    output: test/shingles_10_17.result.cluster
+    jobid: 11
+    wildcards: param=shingles_10_17
+
+
+[Fri Dec  6 00:57:58 2019]
+rule cluster:
+    input: test/kbanded_10_7.params
+    output: test/kbanded_10_7.result.cluster
+    jobid: 4
+    wildcards: param=kbanded_10_7
+
+
+[Fri Dec  6 00:57:58 2019]
+rule cluster:
+    input: test/kbanded_10_3.params
+    output: test/kbanded_10_3.result.cluster
+    jobid: 2
+    wildcards: param=kbanded_10_3
+
+
+[Fri Dec  6 00:57:58 2019]
+rule cluster:
+    input: test/shingles_10_11.params
+    output: test/shingles_10_11.result.cluster
+    jobid: 9
+    wildcards: param=shingles_10_11
+
+
+[Fri Dec  6 00:57:58 2019]
+rule cluster:
+    input: test/shingles_10_5.params
+    output: test/shingles_10_5.result.cluster
+    jobid: 7
+    wildcards: param=shingles_10_5
+
+
+[Fri Dec  6 00:57:58 2019]
+rule cluster:
+    input: test/shingles_10_2.params
+    output: test/shingles_10_2.result.cluster
+    jobid: 6
+    wildcards: param=shingles_10_2
+
+
+[Fri Dec  6 00:57:58 2019]
+rule cluster:
+    input: test/shingles_10_14.params
+    output: test/shingles_10_14.result.cluster
+    jobid: 10
+    wildcards: param=shingles_10_14
+
+[Fri Dec  6 01:00:08 2019]
+Finished job 11.
+1 of 12 steps (8%) done
+
+[Fri Dec  6 01:00:08 2019]
+rule cluster:
+    input: test/kbanded_10_9.params
+    output: test/kbanded_10_9.result.cluster
+    jobid: 5
+    wildcards: param=kbanded_10_9
+
+[Fri Dec  6 01:00:09 2019]
+Finished job 9.
+2 of 12 steps (17%) done
+
+[Fri Dec  6 01:00:09 2019]
+rule cluster:
+    input: test/shingles_10_8.params
+    output: test/shingles_10_8.result.cluster
+    jobid: 8
+    wildcards: param=shingles_10_8
+
+[Fri Dec  6 01:00:10 2019]
+Finished job 7.
+3 of 12 steps (25%) done
+
+[Fri Dec  6 01:00:10 2019]
+rule cluster:
+    input: test/kbanded_10_1.params
+    output: test/kbanded_10_1.result.cluster
+    jobid: 1
+    wildcards: param=kbanded_10_1
+
+[Fri Dec  6 01:00:12 2019]
+Finished job 10.
+4 of 12 steps (33%) done
+[Fri Dec  6 01:01:49 2019]
+Finished job 8.
+5 of 12 steps (42%) done
+Terminating processes on user request, this might take some time.
+[Fri Dec  6 01:03:56 2019]
+[Fri Dec  6 01:03:56 2019]
+[Fri Dec  6 01:03:56 2019]
+[Fri Dec  6 01:03:56 2019]
+Error in rule cluster:
+Error in rule cluster:
+Error in rule cluster:
+[Fri Dec  6 01:03:56 2019]
+Error in rule cluster:
+    jobid: 1
+    jobid: 3
+    jobid: 2
+Error in rule cluster:
+    jobid: 4
+Cancelling snakemake on user request.
+    output: test/kbanded_10_1.result.cluster
+    output: test/kbanded_10_5.result.cluster
+    output: test/kbanded_10_3.result.cluster
+    jobid: 5
+    output: test/kbanded_10_7.result.cluster
+    shell:
+        ./script_cluster.sh test/kbanded_10_1.params test/kbanded_10_1.result.cluster
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        ./script_cluster.sh test/kbanded_10_5.params test/kbanded_10_5.result.cluster
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        ./script_cluster.sh test/kbanded_10_3.params test/kbanded_10_3.result.cluster
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    output: test/kbanded_10_9.result.cluster
+    shell:
+        ./script_cluster.sh test/kbanded_10_7.params test/kbanded_10_7.result.cluster
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+
+    shell:
+        ./script_cluster.sh test/kbanded_10_9.params test/kbanded_10_9.result.cluster
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+

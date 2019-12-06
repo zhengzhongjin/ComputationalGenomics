@@ -1,0 +1,60 @@
+../test/shingles_10_5.params
+query.fa.1 ../test/shingles_10_5.params 127.0.0.1 ../db_cluster/db_cluster
+0 10 40001
+Connecting to 127.0.0.1 on port 40001
+Server not found, please wait
+data shingles size 819
+Connecting to 127.0.0.1 on port 40001
+Server not found, please wait
+Waiting for client on port 40001...
+Connecting to 127.0.0.1 on port 40001
+Just connectedJ tuos t/ 1c2o7n.n0e.c0t.e1d: 4t0o0 0/11
+27.0.0.1:34056
+sent to{ s"etyrpev"e:r0 ,{""limit"t:5y0pe,"":o0,f"flsiemtit""::050,,""mosfgf"s:e"t""}:
+0,"msg":""}
+./demo.exe -r 0 -p 0 -f 5onlyQuery.txt
+./demo.exe -r 1 -p 0 -f 5onlyShingles.txt
+1: 97
+2: 35
+3: 118
+time Diff 0.42 s
+top1 =  97
+cluster lab = 1
+Connecting to 127.0.0.1 on port 40001
+Server not found, please wait
+data shingles size 850
+Connecting to 127.0.0.1 on port 40001
+Server not found, please wait
+Waiting for client on port 40001...
+Connecting to 127.0.0.1 on port 40001
+Just connectedJ tuos t/ 1c2o7n.n0e.c0t.e1d: 4t0o0 0/11
+27.0.0.1:34066
+sent {to" tsyeprvere {"":0,"ltimyipt"e:"5:00,,""liomfitf"se:t5"0:0,,""omfsfg":s"e"t":0},
+"msg":""}
+./demo.exe -r 0 -p 0 -f 5onlyQuery.txt
+./demo.exe -r 1 -p 0 -f 5onlyShingles.txt
+PSI researcher duration : 15 s
+1: 97
+2: 131
+3: 62
+4: 106
+5: 77
+6: 19
+7: 119
+8: 6
+9: 134
+10: 94
+11: 92
+12: 5
+13: 22
+14: 91
+15: 30
+16: 133
+17: 61
+18: 114
+19: 135
+20: 84
+21: 72
+22: 27
+23: 58
+time Diff 0.305 s

@@ -1,0 +1,130 @@
+Building DAG of jobs...
+Using shell: /usr/local/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	11	cluster
+	1	target
+	12
+
+[Fri Dec  6 01:52:01 2019]
+rule cluster:
+    input: test/shingles_10_2.params
+    output: test/shingles_10_2.result.cluster
+    jobid: 6
+    wildcards: param=shingles_10_2
+
+
+[Fri Dec  6 01:52:01 2019]
+rule cluster:
+    input: test/shingles_10_20.params
+    output: test/shingles_10_20.result.cluster
+    jobid: 12
+    wildcards: param=shingles_10_20
+
+
+[Fri Dec  6 01:52:01 2019]
+rule cluster:
+    input: test/shingles_10_17.params
+    output: test/shingles_10_17.result.cluster
+    jobid: 11
+    wildcards: param=shingles_10_17
+
+
+[Fri Dec  6 01:52:01 2019]
+rule cluster:
+    input: test/shingles_10_11.params
+    output: test/shingles_10_11.result.cluster
+    jobid: 9
+    wildcards: param=shingles_10_11
+
+[Fri Dec  6 01:53:41 2019]
+Finished job 6.
+1 of 12 steps (8%) done
+
+[Fri Dec  6 01:53:41 2019]
+rule cluster:
+    input: test/kbanded_10_9.params
+    output: test/kbanded_10_9.result.cluster
+    jobid: 5
+    wildcards: param=kbanded_10_9
+
+[Fri Dec  6 01:53:41 2019]
+Finished job 12.
+2 of 12 steps (17%) done
+
+[Fri Dec  6 01:53:41 2019]
+rule cluster:
+    input: test/kbanded_10_1.params
+    output: test/kbanded_10_1.result.cluster
+    jobid: 1
+    wildcards: param=kbanded_10_1
+
+[Fri Dec  6 01:56:36 2019]
+Finished job 1.
+3 of 12 steps (25%) done
+
+[Fri Dec  6 01:56:36 2019]
+rule cluster:
+    input: test/kbanded_10_3.params
+    output: test/kbanded_10_3.result.cluster
+    jobid: 2
+    wildcards: param=kbanded_10_3
+
+[Fri Dec  6 02:00:37 2019]
+Finished job 2.
+4 of 12 steps (33%) done
+
+[Fri Dec  6 02:00:37 2019]
+rule cluster:
+    input: test/shingles_10_8.params
+    output: test/shingles_10_8.result.cluster
+    jobid: 8
+    wildcards: param=shingles_10_8
+
+[Fri Dec  6 02:01:39 2019]
+Finished job 8.
+5 of 12 steps (42%) done
+
+[Fri Dec  6 02:01:39 2019]
+rule cluster:
+    input: test/kbanded_10_5.params
+    output: test/kbanded_10_5.result.cluster
+    jobid: 3
+    wildcards: param=kbanded_10_5
+
+[Fri Dec  6 02:02:46 2019]
+Finished job 5.
+6 of 12 steps (50%) done
+
+[Fri Dec  6 02:02:46 2019]
+rule cluster:
+    input: test/shingles_10_5.params
+    output: test/shingles_10_5.result.cluster
+    jobid: 7
+    wildcards: param=shingles_10_5
+
+[Fri Dec  6 02:03:46 2019]
+Finished job 7.
+7 of 12 steps (58%) done
+
+[Fri Dec  6 02:03:46 2019]
+rule cluster:
+    input: test/kbanded_10_7.params
+    output: test/kbanded_10_7.result.cluster
+    jobid: 4
+    wildcards: param=kbanded_10_7
+
+[Fri Dec  6 02:07:00 2019]
+Finished job 9.
+8 of 12 steps (67%) done
+[Fri Dec  6 02:07:00 2019]
+Finished job 11.
+9 of 12 steps (75%) done
+[Fri Dec  6 02:07:11 2019]
+Finished job 3.
+10 of 12 steps (83%) done
+[Fri Dec  6 02:10:46 2019]
+Finished job 4.
+11 of 12 steps (92%) done

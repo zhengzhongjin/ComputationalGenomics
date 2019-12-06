@@ -1,0 +1,54 @@
+../test/kbanded_10_1.params
+query.fa.1 ../test/kbanded_10_1.params 127.0.0.1 ../db_cluster/db_cluster
+1 10 19894
+wrote db_processed.txt
+Connecting to 127.0.0.1 on port 19894
+Just connectJedu stto  c/o1n2n7e.c0t.e0d. 1t:o1 9/819247
+.0.0.1:51032
+wrote SequenceSizeClient.txt
+****************
+********************
+Started GC as GEN
+Started GC as EVA
+Ended
+0: res from GC 3458
+Ended
+****************
+Result in Results_KBandedEditDistance.txt
+cluster lab = 1
+wrote db_processed.txt
+Connecting to 127.0.0.1 on port 19894
+Just connected to /127.0.0.1:J19u89s4t
+ connected to /127.0.0.1:51080
+wrote SequenceSizeClient.txt
+********************
+Started GC as GEN
+Started GC as EVA
+0: res from GC 3447
+1: res from GC 3447
+2: res from GC 3447
+3: res from GC 3447
+4: res from GC 3447
+5: res from GC 3447
+6: res from GC 3447
+7: res from GC 3447
+8: res from GC 3447
+9: res from GC 3447
+10: res from GC 3447
+11: res from GC 3447
+12: res from GC 3447
+13: res from GC 3447
+14: res from GC 3447
+15: res from GC 3447
+16: res from GC 3447
+17: res from GC 3447
+18: res from GC 3447
+19: res from GC 3447
+20: res from GC 3447
+21: res from GC 3447
+22: res from GC 3447
+EEndedn
+ded
+Result in Results_KBandedEditDistance.txt
+kBanded researcher duration : 106 s
+kbanded preprocessing duration: 106 s

@@ -1,0 +1,59 @@
+../test/shingles_5_5.params
+query.fa.1 ../test/shingles_5_5.params 127.0.0.1 ../db_cluster/db_cluster
+0 5 39791
+Connecting to 127.0.0.1 on port 39791
+Server not found, please wait
+data shingles size 819
+Connecting to 127.0.0.1 on port 39791
+Server not found, please wait
+Waiting for client on port 39791...
+Connecting to 127.0.0.1 on port 39791
+Just connected to /127J.0u.s0t. 1c:o3n9n7e91
+cted to /127.0.0.1:42746
+sent to se{rv"etry p{e"":0,"ltimyipte""::02,"5li,m"ito"f:f2s5,e"to"ff:0set,"":m0s,g"":m"s"g}":
+""}
+./demo.exe -r 0 -p 0 -f 5onlyQuery.txt
+./demo.exe -r 1 -p 0 -f 5onlyShingles.txt
+1: 97
+2: 35
+3: 118
+time Diff 0.263 s
+cluster lab = 1
+Connecting to 127.0.0.1 on port 39791
+Server not found, please wait
+data shingles size 850
+Connecting to 127.0.0.1 on port 39791
+Server not found, please wait
+Waiting for client on port 39791...
+Connecting to 127.0.0.1 on port 39791
+Just connJecutsetd  cto /o1n2n7e.c0t.e0d. 1t:o3 9/719217
+.0.0.1:42756
+sent to {se"tyrpveer" :{0","limitt"y:p2e5":0,,""loifmfits"e:t25",:"0o,ff"mssegt""::""0},
+"msg":""}
+./demo.exe -r 0 -p 0 -f 5onlyQuery.txt
+./demo.exe -r 1 -p 0 -f 5onlyShingles.txt
+PSI researcher duration : 15 s
+1: 97
+2: 131
+3: 62
+4: 106
+5: 77
+6: 19
+7: 119
+8: 6
+9: 134
+10: 94
+11: 92
+12: 5
+13: 22
+14: 91
+15: 30
+16: 133
+17: 61
+18: 114
+19: 135
+20: 84
+21: 72
+22: 27
+23: 58
+time Diff 0.285 s
