@@ -103,4 +103,5 @@ The script will print the result to the standard output and the file `stdout` in
 In the cdhit-master folder, use the makefile command to make the executables and execute the following commands on gradx cluster.
 
 ./cd-hit-est -i db.fa -o db_cluster.fa -T 12 -M 1024
+
 ./cd-hit-est -i db1.fa -o db1_cluster.fa -T 12 -M 1024 -c 0.875 -n 6
