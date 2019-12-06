@@ -1,6 +1,7 @@
 #!/bin/bash
-# $1= db.fa file containing the database
-# $2= params file
+# $1 : db.fa file containing the database
+# $2 : params file
+
 echo $2
 line=($(<"$2"))
 method=${line[0]}
