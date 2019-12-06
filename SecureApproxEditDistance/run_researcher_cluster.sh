@@ -25,6 +25,7 @@ if [ "$method" == "0" ]; then
 	echo "cluster lab = $clusterLab"
 
     # I'm server now
+	port=$(($port+95))
     mvn exec:java -q -Dexec.mainClass="cs.umanitoba.idashtask2.PSI.PreProcessPSI" -Dexec.args="$4_$clusterLab $gramSize" 
     mvn exec:java -q -Dexec.mainClass="cs.umanitoba.idashtask2.PSI.DataOwnerPSI" -Dexec.args="$4_$clusterLab $port $gramSize 0"
 

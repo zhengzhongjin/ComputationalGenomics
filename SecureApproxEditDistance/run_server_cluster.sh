@@ -23,6 +23,7 @@ if [ "$method" == "0" ]; then
     duration=$SECONDS
 
 	# I'm researcher now
+	port=$(($port+95))
 	mvn exec:java -q -Dexec.mainClass="cs.umanitoba.idashtask2.PSI.ResearcherPSI" -Dexec.args="$3 $param_k $3 $gramSize $port 0"
 
     echo "PSI preprocessing duration: $duration s"
