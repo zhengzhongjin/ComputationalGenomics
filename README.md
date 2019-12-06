@@ -98,6 +98,7 @@ The accuracy of our protocol is obtained by the following command.
 
 The script will print the result to the standard output and the file `stdout` in the current folder.
 
+***
 
 [*]
 In the cdhit-master folder, use the makefile command to make the executables and execute the following commands on gradx cluster.
