@@ -53,7 +53,4 @@ Two example files (82_original.txt and 82_approx1.txt) are given for accuracy ch
 
 
 
-![alt text][logo]
-
-[logo]: http://www.cs.umanitoba.ca/~bruce/umanlogotight.jpg "University of Manitoba Computer Science"
 	
