@@ -4,8 +4,8 @@
 # $3 : server/dataowner ip
 # $4 : db file prefix
 
-# ./run_researcher.sh query.fa ../test/kbanded_5_3.params 127.0.0.1 ../db_cluster/db_cluster
-# ./run_researcher.sh query.fa ../test/shingles_5_3.params 127.0.0.1 ../db_cluster/db_cluster
+# ./run_researcher_cluster.sh query.fa.1 ../test/kbanded_5_10.params 127.0.0.1 ../db_cluster/db_cluster
+# ./run_researcher_cluster.sh query.fa.1 ../test/shingles_5_10.params 127.0.0.1 ../db_cluster/db_cluster
 
 echo $1 $2 $3 $4
 line=($(<"$2"))
@@ -22,9 +22,11 @@ if [ "$method" == "0" ]; then
     top1=${top1:2}
 	clusterLab=`./MapClusterToLabel_db.py $top1`
 
+	echo "cluster lab = $clusterLab"
+
     # I'm server now
     mvn exec:java -q -Dexec.mainClass="cs.umanitoba.idashtask2.PSI.PreProcessPSI" -Dexec.args="$4_$clusterLab $gramSize" 
-    mvn exec:java -q  -Dexec.mainClass="cs.umanitoba.idashtask2.PSI.DataOwnerPSI" -Dexec.args="$4_$clusterLab $port $gramSize 0"
+    mvn exec:java -q -Dexec.mainClass="cs.umanitoba.idashtask2.PSI.DataOwnerPSI" -Dexec.args="$4_$clusterLab $port $gramSize 0"
 
 	duration=$SECONDS
 	echo "PSI researcher duration : $duration s"

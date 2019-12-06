@@ -3,8 +3,8 @@
 # $2 : params file
 # $3 : query file
 
-# ./run_server_cluster.sh ../db_cluster/db_cluster ../test/kbanded_5_3.params query.fa
-# ./run_server_cluster.sh ../db_cluster/db_cluster ../test/shingles_5_3.params query.fa
+# ./run_server_cluster.sh ../db_cluster/db_cluster ../test/kbanded_5_10.params query.fa.1
+# ./run_server_cluster.sh ../db_cluster/db_cluster ../test/shingles_5_10.params query.fa.1
 
 echo $2
 line=($(<"$2"))

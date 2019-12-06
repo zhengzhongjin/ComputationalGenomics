@@ -8,7 +8,7 @@ rnd=$RANDOM
 cp -r SecureApproxEditDistance SecureApproxEditDistance.$rnd
 
 cd SecureApproxEditDistance.$rnd
-(./run_server_cluster.sh db.fa ../$1 query.fa & ./run_researcher_cluster.sh db.fa ../$1 query.fa 127.0.0.1) >& stdout.result
+(./run_server_cluster.sh ../db_cluster/db_cluster ../$1 query.fa.1 & ./run_researcher_cluster.sh query.fa.1 ../$1 127.0.0.1 ../db_cluster/db_cluster) >& stdout.result
 cd ..
 cp SecureApproxEditDistance.$rnd/stdout.result $2
 rm -rf SecureApproxEditDistance.$rnd
