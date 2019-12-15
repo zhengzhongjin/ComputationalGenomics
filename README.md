@@ -1,4 +1,4 @@
-# Computational Genomics
+# Computational Genomics with Privacy, Preserving Similar Patient Query
 
 
 [*] Install CD-HIT
